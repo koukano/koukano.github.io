@@ -20,9 +20,9 @@ body {
 
   line-height: 1.8;
 
-  color: #334155;
+  color: #2f4353;
 
-  background-color: #f8fcff;
+  background-color: #f5fbff;
 }
 
 
@@ -33,7 +33,6 @@ body {
 .container {
   width: 90%;
   max-width: 1050px;
-
   margin: 0 auto;
 }
 
@@ -50,11 +49,11 @@ body {
   background:
     linear-gradient(
       135deg,
-      #eaf8ff,
-      #cfeeff
+      #79cbed,
+      #b7e6f8
     );
 
-  border-bottom: 1px solid #b9e3f8;
+  border-bottom: 1px solid #58b9e0;
 }
 
 .header h1 {
@@ -66,7 +65,7 @@ body {
 
   font-weight: 500;
 
-  color: #176b9c;
+  color: #ffffff;
 
   letter-spacing: 0.05em;
 }
@@ -77,7 +76,7 @@ body {
 
   font-size: 1.05rem;
 
-  color: #52758a;
+  color: #f3fbff;
 }
 
 
@@ -108,9 +107,9 @@ h2 {
 
   font-weight: 600;
 
-  color: #176b9c;
+  color: #1682b8;
 
-  border-bottom: 2px solid #c8eafb;
+  border-bottom: 2px solid #70c9ec;
 }
 
 
@@ -129,11 +128,11 @@ h2 {
 
   background-color: #ffffff;
 
-  border: 1px solid #d8eef9;
+  border: 1px solid #9dd9f0;
 
   border-radius: 14px;
 
-  box-shadow: 0 5px 18px rgba(52, 146, 194, 0.06);
+  box-shadow: 0 5px 18px rgba(44, 149, 195, 0.10);
 }
 
 .intro p {
@@ -164,11 +163,11 @@ h2 {
 
   background-color: #ffffff;
 
-  border: 1px solid #cdeaf8;
+  border: 1px solid #8fd2ed;
 
   border-radius: 14px;
 
-  box-shadow: 0 4px 15px rgba(52, 146, 194, 0.05);
+  box-shadow: 0 4px 15px rgba(44, 149, 195, 0.08);
 
   transition:
     transform 0.2s ease,
@@ -179,9 +178,9 @@ h2 {
 .card:hover {
   transform: translateY(-5px);
 
-  border-color: #8fd3f4;
+  border-color: #49b3de;
 
-  box-shadow: 0 10px 25px rgba(52, 146, 194, 0.12);
+  box-shadow: 0 10px 25px rgba(44, 149, 195, 0.16);
 }
 
 .card h3 {
@@ -190,13 +189,13 @@ h2 {
 
   font-size: 1.3rem;
 
-  color: #1675aa;
+  color: #1682b8;
 }
 
 .card p {
   margin-bottom: 0;
 
-  color: #5d7482;
+  color: #5a7180;
 }
 
 
@@ -209,7 +208,7 @@ h2 {
 
   background-color: #ffffff;
 
-  border: 1px solid #d8eef9;
+  border: 1px solid #9dd9f0;
 
   border-radius: 14px;
 }
@@ -217,7 +216,7 @@ h2 {
 .coming-soon {
   margin-bottom: 0;
 
-  color: #6e8795;
+  color: #6a8190;
 }
 
 
@@ -226,12 +225,14 @@ h2 {
 ------------------------------ */
 
 a {
-  color: #168ac4;
+  color: #1284bc;
 
   text-decoration: none;
 }
 
 a:hover {
+  color: #0d6f9d;
+
   text-decoration: underline;
 }
 
@@ -245,11 +246,11 @@ footer {
 
   text-align: center;
 
-  background-color: #e6f6fe;
+  background-color: #5bbbe2;
 
-  border-top: 1px solid #c7e9f8;
+  border-top: 1px solid #45a9d1;
 
-  color: #668292;
+  color: #ffffff;
 
   font-size: 0.9rem;
 }
