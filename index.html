@@ -6,68 +6,336 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Math Notes</title>
+  <title>Math Notes | 大学数学をわかりやすく</title>
+
+  <meta
+    name="description"
+    content="複素解析、特殊関数、微分方程式など、大学数学を定義・具体例・証明とともにわかりやすく解説する数学サイトです。"
+  >
 
   <link rel="stylesheet" href="css/style.css">
 </head>
 
+
 <body>
 
-  <header class="header">
-    <div class="container">
-      <h1>Math Notes</h1>
-      <p>大学・大学院で学んだ数学をまとめています。</p>
+
+  <!-- =========================
+       ナビゲーション
+  ========================== -->
+
+  <header class="site-header">
+
+    <div class="nav-container">
+
+      <a href="/" class="logo">
+        Math Notes
+      </a>
+
+      <nav class="nav">
+
+        <a href="#topics">Topics</a>
+
+        <a href="#articles">Articles</a>
+
+        <a href="#about">About</a>
+
+      </nav>
+
     </div>
+
   </header>
 
 
-  <main class="container">
 
-    <section class="intro">
-      <h2>このサイトについて</h2>
+  <!-- =========================
+       メインビジュアル
+  ========================== -->
 
-      <p>
-        複素解析、特殊関数、微分方程式などについて、
-        学んだ内容を整理しています。
+  <section class="hero">
+
+    <div class="hero-content">
+
+      <p class="hero-label">
+        UNIVERSITY MATHEMATICS
       </p>
 
-      <p>
-        定義だけでなく、具体例や証明、直感的な説明も
-        できるだけ掲載していく予定です。
+      <h1>
+        数学を、<br>
+        理解できる形で。
+      </h1>
+
+      <p class="hero-description">
+        複素解析・特殊関数・微分方程式を中心に、
+        大学・大学院で学んだ数学を、
+        定義から具体例まで整理しています。
       </p>
+
+      <a href="#articles" class="hero-button">
+        記事を読む
+      </a>
+
+    </div>
+
+  </section>
+
+
+
+  <main>
+
+
+    <!-- =========================
+         Topics
+    ========================== -->
+
+    <section
+      class="section"
+      id="topics"
+    >
+
+      <div class="section-heading">
+
+        <p class="section-label">
+          TOPICS
+        </p>
+
+        <h2>
+          分野から探す
+        </h2>
+
+        <p>
+          学びたい数学の分野を選んでください。
+        </p>
+
+      </div>
+
+
+      <div class="topic-grid">
+
+
+        <article class="topic-card">
+
+          <div class="topic-number">
+            01
+          </div>
+
+          <h3>
+            複素解析
+          </h3>
+
+          <p>
+            正則関数、複素積分、留数定理、
+            解析接続、リーマンの写像定理など。
+          </p>
+
+          <span class="card-link">
+            View articles →
+          </span>
+
+        </article>
+
+
+
+        <article class="topic-card">
+
+          <div class="topic-number">
+            02
+          </div>
+
+          <h3>
+            特殊関数
+          </h3>
+
+          <p>
+            ガンマ関数、ベータ関数、
+            超幾何関数、漸近展開など。
+          </p>
+
+          <span class="card-link">
+            View articles →
+          </span>
+
+        </article>
+
+
+
+        <article class="topic-card">
+
+          <div class="topic-number">
+            03
+          </div>
+
+          <h3>
+            微分方程式
+          </h3>
+
+          <p>
+            線形常微分方程式、Frobenius法、
+            特異点、特性指数など。
+          </p>
+
+          <span class="card-link">
+            View articles →
+          </span>
+
+        </article>
+
+
+      </div>
+
     </section>
 
 
-    <section class="categories">
 
-      <h2>Topics</h2>
+    <!-- =========================
+         Articles
+    ========================== -->
 
-      <div class="card-container">
+    <section
+      class="articles-section"
+      id="articles"
+    >
 
-        <div class="card">
-          <h3>複素解析</h3>
-          <p>
-            正則関数、留数定理、解析接続、
-            リーマンの写像定理など。
-          </p>
+      <div class="section-heading">
+
+        <p class="section-label">
+          ARTICLES
+        </p>
+
+        <h2>
+          新しい記事
+        </h2>
+
+        <p>
+          数学の記事を順次追加していきます。
+        </p>
+
+      </div>
+
+
+      <div class="article-list">
+
+
+        <div class="article-item">
+
+          <div>
+
+            <span class="article-category">
+              特殊関数
+            </span>
+
+            <h3>
+              ガンマ関数とは？
+            </h3>
+
+            <p>
+              階乗との関係から基本的な性質まで解説します。
+            </p>
+
+          </div>
+
+          <span class="article-arrow">
+            →
+          </span>
+
         </div>
 
 
-        <div class="card">
-          <h3>特殊関数</h3>
-          <p>
-            ガンマ関数、ベータ関数、
-            超幾何関数など。
-          </p>
+
+        <div class="article-item">
+
+          <div>
+
+            <span class="article-category">
+              複素解析
+            </span>
+
+            <h3>
+              リーマンの写像定理
+            </h3>
+
+            <p>
+              定理の意味と直感的なイメージを整理します。
+            </p>
+
+          </div>
+
+          <span class="article-arrow">
+            →
+          </span>
+
         </div>
 
 
-        <div class="card">
-          <h3>微分方程式</h3>
-          <p>
-            線形常微分方程式、
-            Frobenius法、特異点など。
+
+        <div class="article-item">
+
+          <div>
+
+            <span class="article-category">
+              微分方程式
+            </span>
+
+            <h3>
+              Frobenius法
+            </h3>
+
+            <p>
+              確定特異点のまわりで解を求める方法を解説します。
+            </p>
+
+          </div>
+
+          <span class="article-arrow">
+            →
+          </span>
+
+        </div>
+
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         About
+    ========================== -->
+
+    <section
+      class="about-section"
+      id="about"
+    >
+
+      <div class="about-inner">
+
+        <div>
+
+          <p class="section-label">
+            ABOUT
           </p>
+
+          <h2>
+            Math Notesについて
+          </h2>
+
+        </div>
+
+
+        <div class="about-text">
+
+          <p>
+            Math Notesは、大学・大学院で学んだ数学を
+            自分自身の理解とともに整理するためのサイトです。
+          </p>
+
+          <p>
+            数式や定義だけではなく、
+            「なぜそうなるのか」「何を意味しているのか」
+            という部分もできるだけ丁寧に説明します。
+          </p>
+
         </div>
 
       </div>
@@ -75,22 +343,27 @@
     </section>
 
 
-    <section class="articles">
-
-      <h2>Articles</h2>
-
-      <p class="coming-soon">
-        記事はこれから追加していきます。
-      </p>
-
-    </section>
-
   </main>
 
 
+
+  <!-- =========================
+       フッター
+  ========================== -->
+
   <footer>
 
-    <p>© Math Notes</p>
+    <div class="footer-inner">
+
+      <strong>
+        Math Notes
+      </strong>
+
+      <p>
+        © 2026 Math Notes
+      </p>
+
+    </div>
 
   </footer>
 
