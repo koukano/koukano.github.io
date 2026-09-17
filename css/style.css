@@ -45,9 +45,9 @@ a {
 
   z-index: 100;
 
-  background-color: rgba(255, 255, 255, 0.96);
+  background-color: rgba(255, 255, 255, 0.97);
 
-  border-bottom: 1px solid #dceff7;
+  border-bottom: 1px solid #d5dfec;
 }
 
 .header-inner {
@@ -76,7 +76,7 @@ a {
 
   font-weight: 600;
 
-  color: #0877a5;
+  color: #173b6c;
 }
 
 .nav {
@@ -96,7 +96,7 @@ a {
 }
 
 .nav a:hover {
-  color: #159aca;
+  color: #1d4f91;
 }
 
 
@@ -108,8 +108,8 @@ a {
   background:
     linear-gradient(
       135deg,
-      #e4f6fc 0%,
-      #cceef9 100%
+      #dbe8f7 0%,
+      #b8d2ed 100%
     );
 }
 
@@ -132,7 +132,7 @@ a {
 
   letter-spacing: 0.18em;
 
-  color: #1495c4;
+  color: #2563a6;
 }
 
 .hero h1 {
@@ -155,7 +155,7 @@ a {
 
   font-weight: 500;
 
-  color: #075985;
+  color: #173b6c;
 }
 
 .hero-text {
@@ -165,7 +165,7 @@ a {
 
   font-size: 1.05rem;
 
-  color: #4b6473;
+  color: #41566f;
 }
 
 .primary-button {
@@ -175,7 +175,7 @@ a {
 
   border-radius: 8px;
 
-  background-color: #1495c4;
+  background-color: #1d4f91;
 
   color: #ffffff;
 
@@ -189,7 +189,7 @@ a {
 }
 
 .primary-button:hover {
-  background-color: #087eac;
+  background-color: #173b6c;
 
   transform: translateY(-2px);
 }
@@ -224,7 +224,7 @@ a {
 
   letter-spacing: 0.16em;
 
-  color: #1495c4;
+  color: #2563a6;
 }
 
 .section-header h2,
@@ -235,7 +235,7 @@ a {
 
   line-height: 1.4;
 
-  color: #0f4f6b;
+  color: #173b6c;
 }
 
 .section-header > p:last-child {
@@ -269,7 +269,7 @@ a {
 
   background-color: #ffffff;
 
-  border: 1px solid #d5edf6;
+  border: 1px solid #d3deeb;
 
   border-radius: 12px;
 
@@ -282,11 +282,11 @@ a {
 .topic-card:hover {
   transform: translateY(-4px);
 
-  border-color: #81cfe9;
+  border-color: #7aa7d8;
 
   box-shadow:
     0 12px 30px
-    rgba(22, 150, 195, 0.1);
+    rgba(29, 79, 145, 0.12);
 }
 
 .topic-number {
@@ -296,7 +296,7 @@ a {
 
   font-weight: 700;
 
-  color: #6bc4e2;
+  color: #6b9ccf;
 }
 
 .topic-card h3 {
@@ -304,7 +304,7 @@ a {
 
   font-size: 1.35rem;
 
-  color: #075985;
+  color: #173b6c;
 }
 
 .topic-card p {
@@ -322,7 +322,7 @@ a {
 
   font-weight: 600;
 
-  color: #1495c4;
+  color: #1d4f91;
 }
 
 
@@ -333,7 +333,7 @@ a {
 .articles-section {
   padding: 95px 0;
 
-  background-color: #f4fbfe;
+  background-color: #f4f7fb;
 }
 
 .articles-inner {
@@ -349,7 +349,7 @@ a {
 
   background-color: #ffffff;
 
-  border: 1px solid #d5edf6;
+  border: 1px solid #d3deeb;
 
   border-radius: 12px;
 }
@@ -365,7 +365,7 @@ a {
 
   gap: 30px;
 
-  border-bottom: 1px solid #e5f2f7;
+  border-bottom: 1px solid #e2e8f0;
 
   transition: background-color 0.2s;
 }
@@ -375,7 +375,7 @@ a {
 }
 
 .article-item:hover {
-  background-color: #f6fcff;
+  background-color: #f6f9fd;
 }
 
 .article-category {
@@ -383,7 +383,7 @@ a {
 
   font-weight: 700;
 
-  color: #159aca;
+  color: #2563a6;
 }
 
 .article-item h3 {
@@ -391,7 +391,7 @@ a {
 
   font-size: 1.2rem;
 
-  color: #164e63;
+  color: #173b6c;
 }
 
 .article-item p {
@@ -407,7 +407,7 @@ a {
 
   font-size: 1.4rem;
 
-  color: #159aca;
+  color: #1d4f91;
 }
 
 
@@ -436,7 +436,7 @@ a {
 ============================== */
 
 footer {
-  background-color: #075985;
+  background-color: #173b6c;
 
   color: #ffffff;
 }
@@ -475,7 +475,7 @@ footer {
 
   font-size: 0.82rem;
 
-  color: #bce5f4;
+  color: #c6d8ec;
 }
 
 
