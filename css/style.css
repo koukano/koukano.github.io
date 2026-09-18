@@ -546,3 +546,8 @@ footer {
   }
 
 }
+
+.article-link {
+  color: inherit;
+  text-decoration: none;
+}
