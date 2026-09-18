@@ -478,7 +478,202 @@ footer {
   color: #c6d8ec;
 }
 
+/* ==============================
+   数学記事ページ
+============================== */
 
+.article-page {
+  padding: 70px 0 100px;
+
+  background-color: #f4f7fb;
+}
+
+.article-container {
+  width: 90%;
+
+  max-width: 880px;
+
+  margin: 0 auto;
+
+  padding: 55px 65px;
+
+  background-color: #ffffff;
+
+  border: 1px solid #d3deeb;
+
+  border-radius: 14px;
+
+  box-shadow:
+    0 8px 30px
+    rgba(23, 59, 108, 0.06);
+}
+
+
+/* 記事タイトル */
+
+.article-header {
+  margin-bottom: 50px;
+
+  padding-bottom: 30px;
+
+  border-bottom: 1px solid #dbe4ee;
+}
+
+.article-label {
+  margin: 0 0 10px;
+
+  font-size: 0.75rem;
+
+  font-weight: 700;
+
+  letter-spacing: 0.16em;
+
+  color: #2563a6;
+}
+
+.article-header h1 {
+  margin: 0;
+
+  font-family:
+    Georgia,
+    "Times New Roman",
+    "Yu Mincho",
+    serif;
+
+  font-size: 2.4rem;
+
+  line-height: 1.45;
+
+  color: #173b6c;
+}
+
+
+/* 記事本文 */
+
+.article-body {
+  font-size: 1rem;
+
+  line-height: 2;
+
+  color: #334155;
+}
+
+.article-body p {
+  margin: 0 0 24px;
+}
+
+
+/* 大見出し */
+
+.article-body h2 {
+  margin: 65px 0 25px;
+
+  padding: 8px 0 8px 16px;
+
+  border-left: 4px solid #2563a6;
+
+  font-size: 1.65rem;
+
+  line-height: 1.5;
+
+  color: #173b6c;
+}
+
+
+/* 小見出し */
+
+.article-body h3 {
+  margin: 45px 0 18px;
+
+  font-size: 1.3rem;
+
+  color: #1d4f91;
+}
+
+
+/* 箇条書き */
+
+.article-body ul,
+.article-body ol {
+  margin: 20px 0 28px;
+
+  padding-left: 28px;
+}
+
+.article-body li {
+  margin-bottom: 8px;
+}
+
+
+/* 本文内のリンク */
+
+.article-body a {
+  color: #1d4f91;
+
+  text-decoration: underline;
+
+  text-underline-offset: 3px;
+}
+
+
+/* 強調 */
+
+.article-body strong {
+  color: #173b6c;
+}
+
+
+/* 引用・補足 */
+
+.article-body blockquote {
+  margin: 30px 0;
+
+  padding: 18px 22px;
+
+  background-color: #f4f7fb;
+
+  border-left: 4px solid #7aa7d8;
+
+  color: #536b78;
+}
+
+
+/* 数式 */
+
+.article-body mjx-container[display="true"] {
+  margin: 30px 0 !important;
+
+  padding: 10px 0;
+
+  overflow-x: auto;
+
+  overflow-y: hidden;
+}
+
+
+/* 記事一覧へ戻る */
+
+.article-back {
+  margin-top: 70px;
+
+  padding-top: 30px;
+
+  border-top: 1px solid #dbe4ee;
+}
+
+.article-back a {
+  font-size: 0.9rem;
+
+  font-weight: 600;
+
+  color: #1d4f91;
+}
+
+.article-back a:hover {
+  text-decoration: underline;
+
+  text-underline-offset: 4px;
+}
 /* ==============================
    スマートフォン
 ============================== */
