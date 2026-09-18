@@ -6,52 +6,129 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>{{ page.title }} | 数学ノート</title>
+  <title>{{ page.title }} | Math Notes</title>
+
+  <meta
+    name="description"
+    content="{{ page.title }}について解説する数学記事です。"
+  >
 
   <link rel="stylesheet" href="/css/style.css">
+
 
   <!-- MathJax -->
   <script>
     window.MathJax = {
       tex: {
-        inlineMath: [['$', '$'], ['\\(', '\\)']],
-        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+        inlineMath: [
+          ['$', '$'],
+          ['\\(', '\\)']
+        ]
       }
     };
   </script>
 
   <script
-    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
-    async>
+    id="MathJax-script"
+    defer
+    src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
   </script>
 
 </head>
 
+
 <body>
 
-  <header>
-    <h1>
-      <a href="/">数学ノート</a>
-    </h1>
+  <!-- ヘッダー -->
+
+  <header class="site-header">
+
+    <div class="header-inner">
+
+      <a class="logo" href="/">
+        Math Notes
+      </a>
+
+      <nav class="nav">
+
+        <a href="/#topics">
+          Topics
+        </a>
+
+        <a href="/#articles">
+          Articles
+        </a>
+
+        <a href="/#about">
+          About
+        </a>
+
+      </nav>
+
+    </div>
+
   </header>
 
 
-  <main class="article-container">
 
-    <article>
+  <!-- 記事 -->
 
-      <h1>{{ page.title }}</h1>
+  <main class="article-page">
 
-      {{ content }}
+    <article class="article-container">
+
+      <div class="article-header">
+
+        <p class="article-label">
+          MATHEMATICS ARTICLE
+        </p>
+
+        <h1>
+          {{ page.title }}
+        </h1>
+
+      </div>
+
+
+      <div class="article-body">
+
+        {{ content }}
+
+      </div>
+
+
+      <div class="article-back">
+
+        <a href="/#articles">
+          ← 記事一覧に戻る
+        </a>
+
+      </div>
 
     </article>
 
   </main>
 
 
+
+  <!-- フッター -->
+
   <footer>
-    <p>© 2026 Math Notes</p>
+
+    <div class="footer-inner">
+
+      <p class="footer-logo">
+        Math Notes
+      </p>
+
+      <p class="copyright">
+        © 2026 Math Notes
+      </p>
+
+    </div>
+
   </footer>
+
 
 </body>
 
