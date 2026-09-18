@@ -945,3 +945,86 @@ footer {
   }
 
 }
+
+/* ==============================
+   定義・定理・補題の枠
+============================== */
+
+.math-box {
+  margin: 28px 0;
+
+  padding: 22px 24px;
+
+  background-color: #f8fbff;
+
+  border: 1px solid #cfe0f2;
+
+  border-left: 6px solid #2563a6;
+
+  border-radius: 10px;
+}
+
+.math-box-title {
+  margin: 0 0 14px;
+
+  font-size: 1rem;
+
+  font-weight: 700;
+
+  color: #173b6c;
+}
+
+.math-box p:last-child,
+.math-box ul:last-child,
+.math-box ol:last-child {
+  margin-bottom: 0;
+}
+
+
+/* 種類ごとの色分け */
+
+.definition-box {
+  background-color: #f8fbff;
+
+  border-left-color: #2563a6;
+}
+
+.theorem-box {
+  background-color: #f6fbf8;
+
+  border-left-color: #2f855a;
+}
+
+.lemma-box {
+  background-color: #fffaf3;
+
+  border-left-color: #d69e2e;
+}
+
+.proposition-box {
+  background-color: #faf7ff;
+
+  border-left-color: #6b46c1;
+}
+
+
+/* 枠の中の数式 */
+
+.math-box mjx-container[display="true"] {
+  margin: 12px 0 !important;
+
+  padding: 0;
+}
+
+
+/* スマホ対応 */
+
+@media (max-width: 750px) {
+  .math-box {
+    padding: 18px 16px;
+  }
+
+  .math-box-title {
+    font-size: 0.96rem;
+  }
+}
