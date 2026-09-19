@@ -4,16 +4,22 @@
 <head>
   <meta charset="UTF-8">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Math Notes | 大学数学をわかりやすく</title>
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
 
   <meta
     name="description"
-    content="複素解析、直交多項式、特殊関数、微分方程式を中心に、大学数学を定義・具体例・証明とともに整理する数学サイトです。"
+    content="複素解析・特殊関数・微分方程式を中心に、大学・大学院で学んだ数学を整理するサイトです。"
   >
 
-  <link rel="stylesheet" href="css/style.css">
+  <title>Math Notes</title>
+
+  <link
+    rel="stylesheet"
+    href="css/style.css"
+  >
 </head>
 
 
@@ -27,17 +33,27 @@
 
     <div class="header-inner">
 
-      <a class="logo" href="/">
+      <a
+        href="index.html"
+        class="logo"
+      >
         Math Notes
       </a>
 
+
       <nav class="nav">
 
-        <a href="#topics">Topics</a>
+        <a href="#topics">
+          分野
+        </a>
 
-        <a href="#articles">Articles</a>
+        <a href="#articles">
+          記事
+        </a>
 
-        <a href="#about">About</a>
+        <a href="#about">
+          About
+        </a>
 
       </nav>
 
@@ -46,218 +62,207 @@
   </header>
 
 
-  <main>
+
+  <!-- ==============================
+       Hero
+  ============================== -->
+
+  <section class="hero">
+
+    <div class="hero-inner">
+
+      <p class="hero-label">
+        MATHEMATICS NOTES
+      </p>
+
+      <h1>
+        数学を、<br>
+        理解できる形で。
+      </h1>
+
+      <p class="hero-text">
+        複素解析・特殊関数・微分方程式を中心に、
+        大学・大学院で学んだ数学を整理しています。
+        定義だけでなく、具体例や直感も大切にしています。
+      </p>
+
+      <a
+        href="#topics"
+        class="primary-button"
+      >
+        分野から探す
+      </a>
+
+    </div>
+
+  </section>
 
 
-    <!-- ==============================
-         メインビジュアル
-    ============================== -->
 
-    <section class="hero">
+  <!-- ==============================
+       分野
+  ============================== -->
 
-      <div class="hero-inner">
-
-        <p class="hero-label">
-          UNIVERSITY MATHEMATICS
-        </p>
-
-        <h1>
-          数学を、<br>
-          理解できる形で。
-        </h1>
-
-        <p class="hero-text">
-          複素解析・直交多項式・特殊関数・微分方程式を中心に、大学・大学院で学んだ数学を整理しています。定義だけでなく、具体例や直感も大切にしています。
-        </p>
-
-        <a
-          class="primary-button"
-          href="#articles"
-        >
-          記事を見る
-        </a>
-
-      </div>
-
-    </section>
-
-
-
-    <!-- ==============================
-         Topics
-    ============================== -->
-
-    <section
-      class="content-section"
-      id="topics"
-    >
-
-      <div class="section-header">
-
-        <p class="section-label">
-          TOPICS
-        </p>
-
-        <h2>
-          分野から探す
-        </h2>
-
-        <p>
-          学びたい分野から記事を探せます。
-        </p>
-
-      </div>
-
-<section id="articles" class="articles-section">
-
-  <div class="articles-inner">
+  <section
+    id="topics"
+    class="content-section"
+  >
 
     <div class="section-header">
 
-      <p class="section-label">ARTICLES</p>
+      <p class="section-label">
+        TOPICS
+      </p>
 
-      <h2 id="article-section-title">
-        記事一覧
+      <h2>
+        分野
       </h2>
 
       <p>
-        学んだ数学の内容を分野ごとにまとめています。
+        学んだ内容を分野ごとに整理しています。
       </p>
 
     </div>
 
 
-    <div class="article-list">
+
+    <div class="topic-grid">
 
 
       <!-- 特殊関数 -->
 
       <a
-        href="articles/riemann-mapping-orthogonal-polynomials.html"
-        class="article-link article-filter-item"
-        data-category="special"
+        href="categories/special-functions.html"
+        class="topic-card"
       >
 
-        <div class="article-item">
+        <span class="topic-number">
+          01
+        </span>
 
-          <div>
+        <h3>
+          特殊関数
+        </h3>
 
-            <span class="article-category">
-              特殊関数
-            </span>
+        <p>
+          ガンマ関数、超幾何関数、直交多項式など、
+          解析学に現れる特殊関数についてまとめます。
+        </p>
 
-            <h3>
-              リーマンの写像定理と直交多項式
-            </h3>
+        <span class="topic-link">
+          記事を見る →
+        </span>
 
-            <p>
-              直交多項式と再生核を用いて
-              リーマンの写像関数を表現します。
-            </p>
+      </a>
 
-          </div>
 
-          <span class="article-arrow">
-            →
-          </span>
 
-        </div>
+      <!-- 微分方程式 -->
+
+      <a
+        href="categories/differential-equations.html"
+        class="topic-card"
+      >
+
+        <span class="topic-number">
+          02
+        </span>
+
+        <h3>
+          微分方程式
+        </h3>
+
+        <p>
+          常微分方程式、特異点、Frobenius法などについて
+          まとめます。
+        </p>
+
+        <span class="topic-link">
+          記事を見る →
+        </span>
+
+      </a>
+
+
+
+      <!-- 複素解析 -->
+
+      <a
+        href="categories/complex-analysis.html"
+        class="topic-card"
+      >
+
+        <span class="topic-number">
+          03
+        </span>
+
+        <h3>
+          複素解析
+        </h3>
+
+        <p>
+          正則関数、複素積分、解析接続、留数定理、
+          リーマンの写像定理などについてまとめます。
+        </p>
+
+        <span class="topic-link">
+          記事を見る →
+        </span>
 
       </a>
 
 
     </div>
 
-
-    <button
-      id="show-all-articles"
-      class="show-all-button"
-      type="button"
-    >
-      すべての記事を表示
-    </button>
-
-  </div>
-
-</section>
-
-    </section>
+  </section>
 
 
 
-    <!-- ==============================
-         Articles
-    ============================== -->
+  <!-- ==============================
+       記事
+  ============================== -->
 
-    <section
-      class="articles-section"
-      id="articles"
-    >
+  <section
+    id="articles"
+    class="articles-section"
+  >
 
-      <div class="articles-inner">
+    <div class="articles-inner">
 
-        <div class="section-header">
+      <div class="section-header">
 
-          <p class="section-label">
-            ARTICLES
-          </p>
+        <p class="section-label">
+          ARTICLES
+        </p>
 
-          <h2>
-            新しい記事
-          </h2>
+        <h2>
+          記事
+        </h2>
 
-          <p>
-            最近追加した数学の記事です。
-          </p>
+        <p>
+          数学について学んだ内容を記事としてまとめています。
+        </p>
 
-        </div>
-
-
-        <div class="article-list">
+      </div>
 
 
-          <!-- 直交多項式とは何か -->
 
-          <a
-            class="article-item article-link"
-            href="/articles/orthogonal-polynomials-introduction.html"
-          >
+      <div class="article-list">
 
-            <div class="article-content">
+
+        <!-- リーマンの写像定理と直交多項式 -->
+
+        <a
+          href="articles/riemann-mapping-orthogonal-polynomials.html"
+          class="article-link"
+        >
+
+          <div class="article-item">
+
+            <div>
 
               <span class="article-category">
-                直交多項式
-              </span>
-
-              <h3>
-                直交多項式とは何か
-              </h3>
-
-              <p>
-                内積、ノルム、直交性から正規直交多項式の定義までを解説します。
-              </p>
-
-            </div>
-
-            <span class="article-arrow">
-              →
-            </span>
-
-          </a>
-
-
-
-          <!-- リーマンの写像定理と直交多項式 -->
-
-          <a
-            class="article-item article-link"
-            href="/articles/riemann-mapping-orthogonal-polynomials.html"
-          >
-
-            <div class="article-content">
-
-              <span class="article-category">
-                複素解析・直交多項式
+                特殊関数
               </span>
 
               <h3>
@@ -265,7 +270,8 @@
               </h3>
 
               <p>
-                複素領域の正規直交多項式と再生核を用いて、リーマン写像関数を表す方法を解説します。
+                直交多項式と再生核を用いた
+                リーマンの写像関数の表現について扱います。
               </p>
 
             </div>
@@ -274,143 +280,62 @@
               →
             </span>
 
-          </a>
+          </div>
 
+        </a>
 
-
-          <!-- 3項間漸化式 -->
-
-          <article class="article-item">
-
-            <div class="article-content">
-
-              <span class="article-category">
-                直交多項式
-              </span>
-
-              <h3>
-                正規直交多項式の3項間漸化式
-              </h3>
-
-              <p>
-                正規直交多項式が満たす重要な3項間漸化式について解説する予定です。
-              </p>
-
-            </div>
-
-            <span class="article-arrow">
-              準備中
-            </span>
-
-          </article>
-
-
-
-          <!-- クリストッフェル・ダルブーの公式 -->
-
-          <article class="article-item">
-
-            <div class="article-content">
-
-              <span class="article-category">
-                直交多項式
-              </span>
-
-              <h3>
-                クリストッフェル・ダルブーの公式
-              </h3>
-
-              <p>
-                正規直交多項式から作られる核と、クリストッフェル・ダルブーの公式を解説する予定です。
-              </p>
-
-            </div>
-
-            <span class="article-arrow">
-              準備中
-            </span>
-
-          </article>
-
-
-
-          <!-- 直交多項式の零点 -->
-
-          <article class="article-item">
-
-            <div class="article-content">
-
-              <span class="article-category">
-                直交多項式
-              </span>
-
-              <h3>
-                直交多項式の零点
-              </h3>
-
-              <p>
-                直交多項式の零点の位置や、隣り合う次数の零点が交互に現れる性質を解説する予定です。
-              </p>
-
-            </div>
-
-            <span class="article-arrow">
-              準備中
-            </span>
-
-          </article>
-
-
-        </div>
 
       </div>
 
-    </section>
+    </div>
+
+  </section>
 
 
 
-    <!-- ==============================
-         About
-    ============================== -->
+  <!-- ==============================
+       About
+  ============================== -->
 
-    <section
-      class="content-section about-section"
-      id="about"
-    >
+  <section
+    id="about"
+    class="content-section about-section"
+  >
 
-      <div class="about-grid">
+    <div class="about-grid">
 
-        <div>
+      <div>
 
-          <p class="section-label">
-            ABOUT
-          </p>
+        <p class="section-label">
+          ABOUT
+        </p>
 
-          <h2>
-            Math Notesについて
-          </h2>
-
-        </div>
-
-
-        <div class="about-text">
-
-          <p>
-            Math Notesは、大学・大学院で学んだ数学を自分自身の理解とともに整理するためのサイトです。
-          </p>
-
-          <p>
-            定義や公式を並べるだけではなく、「なぜそうなるのか」「何を意味しているのか」という部分もできるだけ丁寧に説明していきます。
-          </p>
-
-        </div>
+        <h2>
+          このサイトについて
+        </h2>
 
       </div>
 
-    </section>
 
+      <div class="about-text">
 
-  </main>
+        <p>
+          Math Notesは、大学・大学院で学んだ数学を
+          自分自身の理解とともに整理するためのサイトです。
+        </p>
+
+        <p>
+          定義や公式を並べるだけではなく、
+          「なぜそうなるのか」
+          「何を意味しているのか」
+          という部分もできるだけ丁寧に説明していきます。
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
 
 
 
@@ -427,88 +352,14 @@
       </p>
 
       <p class="copyright">
-        © 2026 Math Notes
+        © Math Notes
       </p>
 
     </div>
 
   </footer>
 
-<script>
 
-  const topicCards =
-    document.querySelectorAll(".topic-card");
-
-  const articleItems =
-    document.querySelectorAll(".article-filter-item");
-
-  const articleTitle =
-    document.getElementById("article-section-title");
-
-  const showAllButton =
-    document.getElementById("show-all-articles");
-
-
-  const categoryNames = {
-    complex: "複素解析",
-    special: "特殊関数",
-    ode: "微分方程式"
-  };
-
-
-  topicCards.forEach((card) => {
-
-    card.addEventListener("click", () => {
-
-      const category =
-        card.dataset.category;
-
-
-      articleItems.forEach((article) => {
-
-        if (article.dataset.category === category) {
-
-          article.style.display = "block";
-
-        } else {
-
-          article.style.display = "none";
-
-        }
-
-      });
-
-
-      articleTitle.textContent =
-        categoryNames[category] + "の記事";
-
-
-      document
-        .getElementById("articles")
-        .scrollIntoView({
-          behavior: "smooth"
-        });
-
-    });
-
-  });
-
-
-  showAllButton.addEventListener("click", () => {
-
-    articleItems.forEach((article) => {
-
-      article.style.display = "block";
-
-    });
-
-
-    articleTitle.textContent =
-      "記事一覧";
-
-  });
-
-</script>
 </body>
 
 </html>
