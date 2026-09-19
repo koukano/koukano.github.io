@@ -104,6 +104,13 @@ $$
 
 </div>
 
+ノートでは、エルミート関数が中央で振動しつつ、無限遠では指数因子によって急速に減衰する様子が図で示されている。
+
+<figure class="article-figure">
+  <img src="/images/figures/hermite-oscillator.svg" alt="エルミート関数が中央で振動し無限遠で減衰する模式図">
+  <figcaption>図1：エルミート関数の模式図。多項式部分による振動と、指数因子による無限遠での減衰を同時に表している。</figcaption>
+</figure>
+
 ## 3. 調和振動子型の方程式
 
 次の微分方程式を考える。
@@ -166,14 +173,21 @@ $$
 
 規格化された $V_n$ に対して、$V_n(x)^2$ を確率密度と考えると、
 
-$$
+$
 P(a\leq x\leq b)
 =
 \int_a^b
 V_n(x)^2\,dx
-$$
+$
 
-と書ける。エルミート多項式は、このように調和振動子の固有状態を表す関数の多項式部分として現れる。
+と書ける。
+
+<figure class="article-figure">
+  <img src="/images/figures/hermite-probability-density.svg" alt="確率密度V_n(x)の二乗と区間aからbの面積を示す模式図">
+  <figcaption>図2：ノートにある確率密度の図を整理したもの。$V_n(x)^2$ のグラフの下で、区間 $[a,b]$ に対応する面積がその区間で粒子を見いだす確率になる。</figcaption>
+</figure>
+
+エルミート多項式は、このように調和振動子の固有状態を表す関数の多項式部分として現れる。
 
 ## 次の記事
 
