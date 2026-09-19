@@ -1,8 +1,8 @@
 ---
 layout: article
 title: "再生核と極値問題"
-category: "special-functions"
-category_label: "特殊関数"
+category: "orthogonal-polynomials"
+category_label: "直交多項式"
 ---
 
 クリストッフェル・ダルブーの公式から得られる再生核には、単に関数値を再生するだけでなく、ある点での多項式の値を最大化するという極値性がある。本記事では、この性質をコーシー・シュワルツの不等式から導く。
