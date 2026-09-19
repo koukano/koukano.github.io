@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img" aria-labelledby="title desc">
+  <title id="title">ポッホハマー積分路</title>
+  <desc id="desc">分岐点0と1のまわりを回り、区間0から1を往復するポッホハマー積分路の模式図</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,4 L0,8 z" fill="#2563a6"/>
+    </marker>
+  </defs>
+  <rect width="760" height="360" fill="#ffffff"/>
+  <line x1="90" y1="190" x2="670" y2="190" stroke="#94a3b8" stroke-width="2"/>
+  <circle cx="230" cy="190" r="5" fill="#173b6c"/>
+  <circle cx="530" cy="190" r="5" fill="#173b6c"/>
+  <text x="222" y="220" font-size="22" fill="#334155">0</text>
+  <text x="523" y="220" font-size="22" fill="#334155">1</text>
+  <path d="M360 176 C430 176 470 176 505 176 C575 176 590 110 535 88 C475 65 445 135 492 166 C515 181 500 204 478 204 C430 204 390 204 355 204 C300 204 270 204 250 204 C180 204 165 270 220 292 C280 315 310 245 263 214 C240 199 255 176 277 176 C310 176 335 176 360 176"
+        fill="none" stroke="#2563a6" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M420 176 L468 176" stroke="#2563a6" stroke-width="6" marker-end="url(#arrow)"/>
+  <path d="M520 97 C565 105 570 145 540 166" fill="none" stroke="#2563a6" stroke-width="6" marker-end="url(#arrow)"/>
+  <path d="M420 204 L372 204" stroke="#2563a6" stroke-width="6" marker-end="url(#arrow)"/>
+  <path d="M240 282 C195 274 190 234 220 213" fill="none" stroke="#2563a6" stroke-width="6" marker-end="url(#arrow)"/>
+  <text x="338" y="145" font-size="22" font-style="italic" fill="#173b6c">C</text>
+  <text x="130" y="42" font-size="24" font-weight="600" fill="#173b6c">ポッホハマー積分路の模式図</text>
+  <text x="132" y="75" font-size="18" fill="#64748b">分岐点 0, 1 を周回し、(0,1) を異なる分枝で往復する</text>
+</svg>

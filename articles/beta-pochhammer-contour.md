@@ -9,11 +9,16 @@ category_label: "ガンマ関数"
 
 積分路 $C$ の向きと分枝は、区間 $(0,1)$ 上で
 
-$$
+$
 t^{x-1}(1-t)^{y-1}>0
-$$
+$
 
 となる主値から出発し、$0$ と $1$ の周回による位相因子がそれぞれ $e^{2\pi i x}$、$e^{2\pi i y}$ となるように固定する。
+
+<figure class="article-figure">
+  <img src="/images/figures/pochhammer-contour.svg" alt="分岐点0と1のまわりを回るポッホハマー積分路の模式図">
+  <figcaption>図1：ノートに描かれているポッホハマー積分路を整理した模式図。分岐点 $0$ と $1$ を周回し、区間 $(0,1)$ を異なる分枝で往復する。</figcaption>
+</figure>
 
 <div class="math-box theorem-box">
 

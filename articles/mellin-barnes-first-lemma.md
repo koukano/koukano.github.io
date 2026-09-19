@@ -63,6 +63,13 @@ $$
 
 </div>
 
+積分路 $L$ は、左側に並ぶ2列の極と右側に並ぶ2列の極を分離するように取る。ノートの積分路を整理すると、次のように描ける。
+
+<figure class="article-figure">
+  <img src="/images/figures/mellin-barnes-contour.svg" alt="Barnes積分で左側の極と右側の極を分離する縦の積分路L">
+  <figcaption>図1：Mellin–Barnes積分路。$L$ の左に $-a-n,-b-n$、右に $c+n,d+n$ の極が並ぶ。破線は留数計算で積分路を閉じる場合の模式図。</figcaption>
+</figure>
+
 ## 証明
 
 ベータ関数の積分表示

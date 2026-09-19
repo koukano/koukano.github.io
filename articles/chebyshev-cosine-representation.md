@@ -90,13 +90,18 @@ $$
 
 多項式解を考えると、余弦の項がチェビシェフ多項式に対応する。したがって、定数倍を除けば、
 
-$$
+$
 T_n(x)
 \propto
 \cos\left(n\cos^{-1}x\right)
-$$
+$
 
-という関係が得られる。
+という関係が得られる。ノートにある振動の図を整理すると、$[-1,1]$ 上でチェビシェフ多項式が余弦関数と同じように振動することが視覚的に分かる。
+
+<figure class="article-figure">
+  <img src="/images/figures/chebyshev-cosine.svg" alt="区間マイナス1から1で振動するチェビシェフ多項式の模式図">
+  <figcaption>図1：$T_n(x)=\cos(n\arccos x)$ の振動。$x=\cos\phi$ と置くと、$\phi$ に関して一定周期の余弦振動として理解できる。</figcaption>
+</figure>
 
 
 ## 4. 微分方程式へ戻して確認する

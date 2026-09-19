@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="360" viewBox="0 0 820 360" role="img" aria-labelledby="title desc">
+  <title id="title">スターリング公式で使うラプラス法の直感</title>
+  <desc id="desc">左はphi(u)=log u-uがu=1で最大となる図、右はexp(x phi(u))がu=1付近に集中する図</desc>
+  <rect width="820" height="360" fill="#ffffff"/>
+  <text x="205" y="38" text-anchor="middle" font-size="22" font-weight="600" fill="#173b6c">指数部 φ(u)=log u-u</text>
+  <text x="615" y="38" text-anchor="middle" font-size="22" font-weight="600" fill="#173b6c">e^{xφ(u)} の集中</text>
+  <line x1="70" y1="290" x2="365" y2="290" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="100" y1="315" x2="100" y2="75" stroke="#94a3b8" stroke-width="2"/>
+  <path d="M112 275 C145 210 185 135 230 115 C275 96 320 145 350 250" fill="none" stroke="#2563a6" stroke-width="5"/>
+  <line x1="230" y1="115" x2="230" y2="290" stroke="#9dcef2" stroke-width="2" stroke-dasharray="7 7"/>
+  <circle cx="230" cy="115" r="6" fill="#173b6c"/>
+  <text x="224" y="318" font-size="18" fill="#334155">1</text>
+  <text x="244" y="110" font-size="18" fill="#334155">最大</text>
+  <text x="347" y="316" font-size="18" fill="#64748b">u</text>
+  <line x1="460" y1="290" x2="755" y2="290" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="490" y1="315" x2="490" y2="75" stroke="#94a3b8" stroke-width="2"/>
+  <path d="M500 288 C545 286 570 275 588 225 C603 182 607 110 615 82 C623 110 627 182 642 225 C660 275 685 286 730 288" fill="none" stroke="#2563a6" stroke-width="5"/>
+  <line x1="615" y1="82" x2="615" y2="290" stroke="#9dcef2" stroke-width="2" stroke-dasharray="7 7"/>
+  <text x="609" y="318" font-size="18" fill="#334155">1</text>
+  <text x="585" y="70" font-size="18" fill="#334155">主要な寄与</text>
+  <text x="737" y="316" font-size="18" fill="#64748b">u</text>
+  <text x="410" y="346" text-anchor="middle" font-size="18" fill="#64748b">x が大きいほど u=1 の近くが積分を支配する</text>
+</svg>
