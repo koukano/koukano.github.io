@@ -130,9 +130,21 @@
 
       <div class="article-back">
 
-        {% if page.category == "special-functions" %}
-          <a href="/special-functions/">
-            ← 特殊関数の記事一覧に戻る
+        {% if page.category == "orthogonal-polynomials" %}
+          <a href="/orthogonal-polynomials/">
+            ← 直交多項式の記事一覧に戻る
+          </a>
+        {% elsif page.category == "gamma-function" %}
+          <a href="/gamma-function/">
+            ← ガンマ関数の記事一覧に戻る
+          </a>
+        {% elsif page.category == "classical-orthogonal-polynomials" %}
+          <a href="/classical-orthogonal-polynomials/">
+            ← 古典的直交多項式の記事一覧に戻る
+          </a>
+        {% elsif page.category == "hypergeometric-function" %}
+          <a href="/hypergeometric-function/">
+            ← 超幾何関数の記事一覧に戻る
           </a>
         {% elsif page.category == "complex-analysis" %}
           <a href="/complex-analysis/">
