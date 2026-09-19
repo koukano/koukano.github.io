@@ -983,3 +983,56 @@ footer {
   }
 
 }
+/* ==============================
+   分野カードをボタンとして使う
+============================== */
+
+button.topic-card {
+  width: 100%;
+
+  font-family: inherit;
+
+  text-align: left;
+
+  cursor: pointer;
+
+  appearance: none;
+}
+
+
+/* ==============================
+   すべての記事を表示
+============================== */
+
+.show-all-button {
+  margin-top: 28px;
+
+  padding: 11px 20px;
+
+  background-color: #ffffff;
+
+  border: 1px solid #7aa7d8;
+
+  border-radius: 7px;
+
+  color: #1d4f91;
+
+  font-family: inherit;
+
+  font-size: 0.9rem;
+
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition:
+    background-color 0.2s,
+    color 0.2s;
+}
+
+
+.show-all-button:hover {
+  background-color: #1d4f91;
+
+  color: #ffffff;
+}
