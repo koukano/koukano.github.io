@@ -1,8 +1,8 @@
 ---
 layout: article
 title: "直交多項式の零点と交互性"
-category: "special-functions"
-category_label: "特殊関数"
+category: "orthogonal-polynomials"
+category_label: "直交多項式"
 ---
 
 直交多項式の重要な性質の一つに、零点が直交区間の内部に現れ、しかも隣り合う次数の零点が交互に並ぶという性質がある。本記事では、この事実を直交性とクリストッフェル・ダルブーの公式から示す。
