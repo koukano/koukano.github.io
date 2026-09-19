@@ -981,30 +981,22 @@ footer {
 }
 
 
-/* 種類ごとの色分け */
+/* ==============================
+   定義・定理・補題・命題
+   色を水色に統一
+============================== */
 
-.definition-box {
-  background-color: #f8fbff;
-
-  border-left-color: #2563a6;
-}
-
-.theorem-box {
-  background-color: #f6fbf8;
-
-  border-left-color: #2f855a;
-}
-
-.lemma-box {
-  background-color: #fffaf3;
-
-  border-left-color: #d69e2e;
-}
-
+.definition-box,
+.theorem-box,
+.lemma-box,
 .proposition-box {
-  background-color: #faf7ff;
+  background-color: #f0f8ff;
+  border-color: #c7e2f7;
+  border-left-color: #5aa9e6;
+}
 
-  border-left-color: #6b46c1;
+.math-box-title {
+  color: #1d4f91;
 }
 
 
