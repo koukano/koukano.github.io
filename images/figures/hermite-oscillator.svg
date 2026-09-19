@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="380" viewBox="0 0 820 380" role="img" aria-labelledby="title desc">
+  <title id="title">エルミート関数の振動と減衰</title>
+  <desc id="desc">エルミート関数が中央で振動し、無限遠で指数的に減衰する模式図</desc>
+  <rect width="820" height="380" fill="#ffffff"/>
+  <text x="410" y="40" text-anchor="middle" font-size="24" font-weight="600" fill="#173b6c">エルミート関数の模式図</text>
+  <line x1="70" y1="205" x2="755" y2="205" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="410" y1="320" x2="410" y2="75" stroke="#94a3b8" stroke-width="2"/>
+  <text x="760" y="229" font-size="18" fill="#64748b">x</text>
+  <path d="M90 204 C180 198 220 145 300 105 C355 77 465 77 520 105 C600 145 640 198 730 204" fill="none" stroke="#9dcef2" stroke-width="3" stroke-dasharray="8 7"/>
+  <path d="M90 206 C180 212 220 265 300 305 C355 333 465 333 520 305 C600 265 640 212 730 206" fill="none" stroke="#9dcef2" stroke-width="3" stroke-dasharray="8 7"/>
+  <path d="M92 205 C150 205 175 198 205 178 C235 158 255 240 285 240 C315 240 332 135 365 135 C398 135 412 274 445 274 C478 274 495 128 528 128 C561 128 580 235 610 235 C640 235 665 205 730 205"
+        fill="none" stroke="#2563a6" stroke-width="5" stroke-linecap="round"/>
+  <text x="535" y="105" font-size="18" fill="#334155">指数的な包絡線</text>
+  <text x="115" y="338" font-size="18" fill="#64748b">中央では零点をはさみながら振動し、|x| が大きいと急速に減衰する</text>
+</svg>
