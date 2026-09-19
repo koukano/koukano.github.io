@@ -454,7 +454,7 @@ K_n(a,a)
 \,|dz|.
 $$
 
-$|\varepsilon|=1$ かつ
+$\lvert \varepsilon \rvert = 1$ かつ
 
 $$
 |z-a|\geq\delta
