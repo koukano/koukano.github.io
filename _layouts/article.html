@@ -103,7 +103,11 @@
       <div class="article-header">
 
         <p class="article-label">
-          MATHEMATICS ARTICLE
+          {% if page.category_label %}
+            {{ page.category_label }}
+          {% else %}
+            MATHEMATICS ARTICLE
+          {% endif %}
         </p>
 
         <h1>
@@ -126,9 +130,23 @@
 
       <div class="article-back">
 
-        <a href="/#articles">
-          ← 記事一覧に戻る
-        </a>
+        {% if page.category == "special-functions" %}
+          <a href="/special-functions/">
+            ← 特殊関数の記事一覧に戻る
+          </a>
+        {% elsif page.category == "complex-analysis" %}
+          <a href="/complex-analysis/">
+            ← 複素解析の記事一覧に戻る
+          </a>
+        {% elsif page.category == "differential-equations" %}
+          <a href="/differential-equations/">
+            ← 微分方程式の記事一覧に戻る
+          </a>
+        {% else %}
+          <a href="/#articles">
+            ← 記事一覧に戻る
+          </a>
+        {% endif %}
 
       </div>
 
