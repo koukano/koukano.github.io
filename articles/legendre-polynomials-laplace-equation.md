@@ -19,19 +19,25 @@ $$
 
 点 $e$ との距離を $\rho$ とすると、
 
-$
+$$
 \rho
 =
 \sqrt{
 1-2r\cos\theta+r^2
 }.
-$
+$$
 
-この位置関係は、ノートでは次のような球座標の図で整理されている。
+点 $P$ を $xz$ 平面上で
+
+$$
+P=(r\sin\theta,0,r\cos\theta)
+$$
+
+と書けば、この関係は三角形 $OeP$ から直接確認できる。
 
 <figure class="article-figure">
-  <img src="/images/figures/legendre-spherical-coordinates.svg" alt="原点Oと点eと観測点Pの球座標での位置関係">
-  <figcaption>図1：点 $e=(0,0,1)$、観測点 $P$、原点からの距離 $r$、極角 $\theta$、点 $e$ からの距離 $\rho$ の関係。余弦定理から $\rho^2=1-2r\cos\theta+r^2$ を得る。</figcaption>
+  <img src="/images/figures/legendre-spherical-coordinates.svg" alt="e=(0,0,1)とP=(r sin theta,0,r cos theta)の幾何学的位置関係">
+  <figcaption>図1：$e=(0,0,1)$、$P=(r\sin\theta,0,r\cos\theta)$ としたときの位置関係。同一縮尺で描かれており、$\rho=|P-e|$ から $\rho^2=r^2+1-2r\cos\theta$ が従う。</figcaption>
 </figure>
 
 したがってポテンシャルは、

@@ -100,7 +100,7 @@ $$
 
 $u=1+s$ とおき、$s=0$ の近くでテイラー展開すると、
 
-$
+$$
 \phi(1+s)
 =
 -1
@@ -108,13 +108,19 @@ $
 \frac{s^2}{2}
 +
 O(s^3).
-$
+$$
 
-ノートでは、このラプラス法の考え方を「指数部が最大になる点の近くに積分の寄与が集中する」という図で捉えている。
+ラプラス法では、最大点 $u=1$ の近くが積分の主要部分を与える。この集中を比較しやすくするため、図では
+
+$$
+\exp\{x(\phi(u)-\phi(1))\}
+$$
+
+を描いている。
 
 <figure class="article-figure">
-  <img src="/images/figures/stirling-laplace-method.svg" alt="phi(u)がu=1で最大となりexp(x phi(u))がu=1付近に集中する図">
-  <figcaption>図1：ラプラス法の直感。$\phi(u)=\log u-u$ は $u=1$ で最大となり、$x$ が大きいほど $e^{x\phi(u)}$ はその近くに集中する。</figcaption>
+  <img src="/images/figures/stirling-laplace-method.svg" alt="phi(u)=log u-uのグラフと正規化した指数関数の集中を示す正確なグラフ">
+  <figcaption>図1：左は $\phi(u)=\log u-u$ のグラフ。右は $\exp\{x(\phi(u)-\phi(1))\}$ を $x=2,8$ について描いたもので、$x$ が大きいほど $u=1$ の近くに集中する。</figcaption>
 </figure>
 
 $x$ が大きいとき、積分への主要な寄与は $s=0$、すなわち $u=1$ の近くから来る。

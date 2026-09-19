@@ -1,26 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="430" viewBox="0 0 800 430" role="img" aria-labelledby="title desc">
-  <title id="title">ルジャンドル多項式と球座標</title>
-  <desc id="desc">原点O、z軸上の点e=(0,0,1)、観測点P、距離r、極角theta、距離rhoの関係</desc>
-  <defs>
-    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#334155"/></marker>
-  </defs>
-  <rect width="800" height="430" fill="#ffffff"/>
-  <text x="400" y="38" text-anchor="middle" font-size="24" font-weight="600" fill="#173b6c">点電荷と球座標の幾何</text>
-  <line x1="135" y1="325" x2="690" y2="325" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
-  <line x1="275" y1="365" x2="275" y2="70" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
-  <text x="698" y="348" font-size="18" fill="#64748b">x</text>
-  <text x="290" y="78" font-size="18" fill="#64748b">z</text>
-  <circle cx="275" cy="325" r="6" fill="#173b6c"/>
-  <text x="250" y="352" font-size="18" fill="#334155">O</text>
-  <circle cx="275" cy="120" r="7" fill="#2563a6"/>
-  <text x="294" y="115" font-size="19" fill="#334155">e=(0,0,1)</text>
-  <circle cx="565" cy="205" r="7" fill="#173b6c"/>
-  <text x="583" y="201" font-size="19" fill="#334155">P</text>
-  <line x1="275" y1="325" x2="565" y2="205" stroke="#2563a6" stroke-width="5"/>
-  <line x1="275" y1="120" x2="565" y2="205" stroke="#4a9fdb" stroke-width="4" stroke-dasharray="9 7"/>
-  <text x="420" y="286" font-size="20" fill="#173b6c">r</text>
-  <text x="430" y="142" font-size="20" fill="#1769aa">ρ</text>
-  <path d="M275 260 A65 65 0 0 1 335 298" fill="none" stroke="#173b6c" stroke-width="3"/>
-  <text x="307" y="270" font-size="21" fill="#173b6c">θ</text>
-  <text x="125" y="402" font-size="18" fill="#64748b">余弦定理より ρ² = 1 − 2r cosθ + r²</text>
+<title id="title">点電荷と球座標の幾何</title>
+<desc id="desc">e=(0,0,1)とP=(r sin theta,0,r cos theta)を同じ縮尺で描き、距離rhoを示した図。</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#64748b"/></marker></defs>
+<rect width="800" height="430" fill="#ffffff"/>
+<text x="400" y="38" text-anchor="middle" font-size="24" font-weight="600" fill="#173b6c">e=(0,0,1) と観測点 P の位置関係</text>
+<line x1="100" y1="335" x2="700" y2="335" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="260" y1="380" x2="260" y2="70" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="708" y="357" font-size="17" fill="#64748b">x</text>
+<text x="274" y="80" font-size="17" fill="#64748b">z</text>
+<circle cx="260" cy="335" r="5" fill="#173b6c"/><text x="235" y="362" font-size="18" fill="#334155">O</text>
+<circle cx="260" cy="220" r="6" fill="#2563a6"/><text x="275" y="212" font-size="18" fill="#334155">e=(0,0,1)</text>
+<circle cx="405.36" cy="213.03" r="6" fill="#173b6c"/><text x="420.36" y="205.03" font-size="18" fill="#334155">P</text>
+<line x1="260" y1="335" x2="405.35693308182607" y2="213.03105106197916" stroke="#2563a6" stroke-width="4"/>
+<line x1="260" y1="220" x2="405.35693308182607" y2="213.03105106197916" stroke="#4a9fdb" stroke-width="4" stroke-dasharray="8 6"/>
+<path d="M 260.00 280.00 L 261.20 280.01 L 262.40 280.05 L 263.60 280.12 L 264.79 280.21 L 265.99 280.33 L 267.18 280.47 L 268.37 280.64 L 269.55 280.84 L 270.73 281.06 L 271.90 281.30 L 273.07 281.58 L 274.24 281.87 L 275.39 282.20 L 276.54 282.55 L 277.68 282.92 L 278.81 283.32 L 279.93 283.74 L 281.05 284.19 L 282.15 284.66 L 283.24 285.15 L 284.33 285.67 L 285.40 286.21 L 286.45 286.78 L 287.50 287.37 L 288.53 287.98 L 289.55 288.61 L 290.56 289.27 L 291.55 289.95 L 292.52 290.65 L 293.48 291.37 L 294.43 292.11 L 295.35 292.87 L 296.26 293.65 L 297.16 294.45 L 298.03 295.27 L 298.89 296.11 L 299.73 296.97 L 300.55 297.84 L 301.35 298.74 L 302.13 299.65" fill="none" stroke="#173b6c" stroke-width="3"/>
+<text x="292" y="287" font-size="20" fill="#173b6c">θ</text>
+<text x="342.67846654091306" y="292.0155255309896" font-size="20" fill="#173b6c">r</text>
+<text x="340.67846654091306" y="208.51552553098958" font-size="20" fill="#1769aa">ρ</text>
+<text x="400" y="405" text-anchor="middle" font-size="18" fill="#64748b">ρ²=|P−e|²=r²+1−2r cosθ</text>
 </svg>
