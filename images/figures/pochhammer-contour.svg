@@ -1,24 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img" aria-labelledby="title desc">
-  <title id="title">ポッホハマー積分路</title>
-  <desc id="desc">分岐点0と1のまわりを回り、区間0から1を往復するポッホハマー積分路の模式図</desc>
-  <defs>
-    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth">
-      <path d="M0,0 L8,4 L0,8 z" fill="#2563a6"/>
-    </marker>
-  </defs>
-  <rect width="760" height="360" fill="#ffffff"/>
-  <line x1="90" y1="190" x2="670" y2="190" stroke="#94a3b8" stroke-width="2"/>
-  <circle cx="230" cy="190" r="5" fill="#173b6c"/>
-  <circle cx="530" cy="190" r="5" fill="#173b6c"/>
-  <text x="222" y="220" font-size="22" fill="#334155">0</text>
-  <text x="523" y="220" font-size="22" fill="#334155">1</text>
-  <path d="M360 176 C430 176 470 176 505 176 C575 176 590 110 535 88 C475 65 445 135 492 166 C515 181 500 204 478 204 C430 204 390 204 355 204 C300 204 270 204 250 204 C180 204 165 270 220 292 C280 315 310 245 263 214 C240 199 255 176 277 176 C310 176 335 176 360 176"
-        fill="none" stroke="#2563a6" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M420 176 L468 176" stroke="#2563a6" stroke-width="6" marker-end="url(#arrow)"/>
-  <path d="M520 97 C565 105 570 145 540 166" fill="none" stroke="#2563a6" stroke-width="6" marker-end="url(#arrow)"/>
-  <path d="M420 204 L372 204" stroke="#2563a6" stroke-width="6" marker-end="url(#arrow)"/>
-  <path d="M240 282 C195 274 190 234 220 213" fill="none" stroke="#2563a6" stroke-width="6" marker-end="url(#arrow)"/>
-  <text x="338" y="145" font-size="22" font-style="italic" fill="#173b6c">C</text>
-  <text x="130" y="42" font-size="24" font-weight="600" fill="#173b6c">ポッホハマー積分路の模式図</text>
-  <text x="132" y="75" font-size="18" fill="#64748b">分岐点 0, 1 を周回し、(0,1) を異なる分枝で往復する</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="430" viewBox="0 0 820 430" role="img" aria-labelledby="title desc">
+<title id="title">ポッホハマー二重ループ積分路</title>
+<desc id="desc">基点Pから出発し、1を反時計回り、0を反時計回り、1を時計回り、0を時計回りに回ってPへ戻る標準的なポッホハマー積分路。</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#2563a6"/></marker></defs>
+<rect width="820" height="430" fill="#ffffff"/>
+<text x="410" y="38" text-anchor="middle" font-size="24" font-weight="600" fill="#173b6c">ポッホハマー二重ループ積分路</text>
+<line x1="100" y1="225" x2="720" y2="225" stroke="#94a3b8" stroke-width="2"/>
+<circle cx="245" cy="225" r="6" fill="#173b6c"/><text x="237" y="254" font-size="20" fill="#334155">0</text>
+<circle cx="575" cy="225" r="6" fill="#173b6c"/><text x="568" y="254" font-size="20" fill="#334155">1</text>
+<circle cx="410" cy="225" r="5" fill="#1d4f91"/><text x="398" y="255" font-size="19" fill="#1d4f91">P</text>
+
+<!-- connector tracks -->
+<path d="M410 214 C465 185 510 178 525 190" fill="none" stroke="#2563a6" stroke-width="4" marker-end="url(#arrow)"/>
+<!-- 1 positive (ccw) outer loop -->
+<path d="M525 190 C610 130 665 180 650 235 C635 292 555 304 520 250 C492 208 515 165 560 157" fill="none" stroke="#2563a6" stroke-width="4" marker-end="url(#arrow)"/>
+<text x="635" y="142" font-size="18" fill="#173b6c">1+</text>
+
+<!-- from 1 back across P to 0 -->
+<path d="M520 250 C470 278 385 278 300 250" fill="none" stroke="#2563a6" stroke-width="4" marker-end="url(#arrow)"/>
+<!-- 0 positive (ccw) outer loop -->
+<path d="M300 250 C265 304 185 292 170 235 C155 180 210 130 295 190 C340 222 328 270 282 292" fill="none" stroke="#2563a6" stroke-width="4" marker-end="url(#arrow)"/>
+<text x="150" y="142" font-size="18" fill="#173b6c">0+</text>
+
+<!-- go to 1 again on inner track -->
+<path d="M295 205 C350 178 455 178 525 205" fill="none" stroke="#4a9fdb" stroke-width="4" marker-end="url(#arrow)"/>
+<!-- 1 negative (cw) inner loop -->
+<path d="M525 205 C550 175 602 175 620 210 C638 247 605 275 570 266 C535 257 520 225 540 198" fill="none" stroke="#4a9fdb" stroke-width="4" marker-end="url(#arrow)"/>
+<text x="610" y="290" font-size="18" fill="#1769aa">1−</text>
+
+<!-- go back to 0 -->
+<path d="M540 238 C485 255 355 255 280 238" fill="none" stroke="#4a9fdb" stroke-width="4" marker-end="url(#arrow)"/>
+<!-- 0 negative (cw) inner loop -->
+<path d="M280 238 C260 270 225 275 198 250 C170 224 184 183 220 175 C257 166 290 190 288 222" fill="none" stroke="#4a9fdb" stroke-width="4" marker-end="url(#arrow)"/>
+<text x="175" y="290" font-size="18" fill="#1769aa">0−</text>
+
+<!-- return to P -->
+<path d="M288 222 C330 232 365 232 405 225" fill="none" stroke="#4a9fdb" stroke-width="4" marker-end="url(#arrow)"/>
+<text x="410" y="397" text-anchor="middle" font-size="17" fill="#64748b">順序：(1+, 0+, 1−, 0−)。+ は反時計回り、− は時計回り。</text>
 </svg>
