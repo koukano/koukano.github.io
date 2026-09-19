@@ -1,8 +1,8 @@
 ---
 layout: article
 title: "ラグランジュ補間"
-category: "special-functions"
-category_label: "特殊関数"
+category: "orthogonal-polynomials"
+category_label: "直交多項式"
 ---
 
 直交多項式による近似から補間公式へ議論を進める。本記事では、まずラグランジュ補間を扱う。
