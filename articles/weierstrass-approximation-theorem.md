@@ -1,8 +1,8 @@
 ---
 layout: article
 title: "ワイエルシュトラスの近似定理とベルンシュタイン多項式"
-category: "special-functions"
-category_label: "特殊関数"
+category: "orthogonal-polynomials"
+category_label: "直交多項式"
 ---
 
 直交多項式の近似理論を考える準備として、ワイエルシュトラスの近似定理を扱う。証明にはベルンシュタイン多項式を用いる。
