@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="430" viewBox="0 0 800 430" role="img" aria-labelledby="title desc">
+  <title id="title">ルジャンドル多項式と球座標</title>
+  <desc id="desc">原点O、z軸上の点e=(0,0,1)、観測点P、距離r、極角theta、距離rhoの関係</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#334155"/></marker>
+  </defs>
+  <rect width="800" height="430" fill="#ffffff"/>
+  <text x="400" y="38" text-anchor="middle" font-size="24" font-weight="600" fill="#173b6c">点電荷と球座標の幾何</text>
+  <line x1="135" y1="325" x2="690" y2="325" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="275" y1="365" x2="275" y2="70" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="698" y="348" font-size="18" fill="#64748b">x</text>
+  <text x="290" y="78" font-size="18" fill="#64748b">z</text>
+  <circle cx="275" cy="325" r="6" fill="#173b6c"/>
+  <text x="250" y="352" font-size="18" fill="#334155">O</text>
+  <circle cx="275" cy="120" r="7" fill="#2563a6"/>
+  <text x="294" y="115" font-size="19" fill="#334155">e=(0,0,1)</text>
+  <circle cx="565" cy="205" r="7" fill="#173b6c"/>
+  <text x="583" y="201" font-size="19" fill="#334155">P</text>
+  <line x1="275" y1="325" x2="565" y2="205" stroke="#2563a6" stroke-width="5"/>
+  <line x1="275" y1="120" x2="565" y2="205" stroke="#4a9fdb" stroke-width="4" stroke-dasharray="9 7"/>
+  <text x="420" y="286" font-size="20" fill="#173b6c">r</text>
+  <text x="430" y="142" font-size="20" fill="#1769aa">ρ</text>
+  <path d="M275 260 A65 65 0 0 1 335 298" fill="none" stroke="#173b6c" stroke-width="3"/>
+  <text x="307" y="270" font-size="21" fill="#173b6c">θ</text>
+  <text x="125" y="402" font-size="18" fill="#64748b">余弦定理より ρ² = 1 − 2r cosθ + r²</text>
+</svg>
