@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="360" viewBox="0 0 820 360" role="img" aria-labelledby="title desc">
+  <title id="title">チェビシェフ多項式の振動</title>
+  <desc id="desc">区間マイナス1から1でT_nが余弦関数のように振動する模式図</desc>
+  <rect width="820" height="360" fill="#ffffff"/>
+  <text x="410" y="38" text-anchor="middle" font-size="24" font-weight="600" fill="#173b6c">Tₙ(x)=cos(n arccos x) の振動</text>
+  <line x1="80" y1="190" x2="750" y2="190" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="410" y1="310" x2="410" y2="70" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="125" y1="95" x2="125" y2="285" stroke="#dbe8f7" stroke-width="2"/>
+  <line x1="695" y1="95" x2="695" y2="285" stroke="#dbe8f7" stroke-width="2"/>
+  <text x="117" y="218" font-size="18" fill="#334155">−1</text>
+  <text x="690" y="218" font-size="18" fill="#334155">1</text>
+  <text x="758" y="213" font-size="18" fill="#64748b">x</text>
+  <text x="424" y="82" font-size="18" fill="#64748b">Tₙ</text>
+  <path d="M125 95 C145 120 155 260 180 275 C210 293 225 105 260 105 C295 105 305 275 340 275 C375 275 385 105 420 105 C455 105 465 275 500 275 C535 275 545 105 580 105 C615 105 630 293 660 275 C685 260 690 120 695 95"
+        fill="none" stroke="#2563a6" stroke-width="5" stroke-linecap="round"/>
+  <line x1="125" y1="95" x2="695" y2="95" stroke="#eaf6ff" stroke-width="2"/>
+  <line x1="125" y1="285" x2="695" y2="285" stroke="#eaf6ff" stroke-width="2"/>
+  <text x="122" y="88" font-size="17" fill="#64748b">1</text>
+  <text x="112" y="304" font-size="17" fill="#64748b">−1</text>
+  <text x="200" y="338" font-size="18" fill="#64748b">x=cosφ とおくと、φ に関して一定周期で振動する</text>
+</svg>
