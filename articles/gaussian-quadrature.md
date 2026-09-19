@@ -1,8 +1,8 @@
 ---
 layout: article
 title: "ガウスの求積公式とクリストッフェル数"
-category: "special-functions"
-category_label: "特殊関数"
+category: "orthogonal-polynomials"
+category_label: "直交多項式"
 ---
 
 直交多項式の零点は、数値積分の標本点として特別な性質を持つ。本記事では、ラグランジュ補間と直交性を用いてガウスの求積公式を導き、重みとして現れるクリストッフェル数が正であることを示す。
