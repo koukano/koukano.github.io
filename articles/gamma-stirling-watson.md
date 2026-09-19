@@ -1,203 +1,142 @@
 ---
 layout: article
-title: "ワトソンの補題とスターリングの公式"
+title: "ワトソンの補題"
 category: "gamma-function"
 category_label: "ガンマ関数"
 ---
 
-ガンマ関数の大きな引数に対する振る舞いを調べるためには漸近展開が重要になる。本記事では、漸近展開の定義、ラプラス型積分に対するワトソンの補題、スターリングの公式を整理する。
+ラプラス型積分では、パラメータが大きくなると積分の主要な寄与が端点の近くから現れる。ワトソンの補題は、この事実を漸近展開として定式化する。
 
-## 1. 漸近展開
+<div class="math-box theorem-box">
 
-関数 $f(z)$ に対して、
+<div class="math-box-title">定理：ワトソンの補題</div>
 
-$$
-f(z)
-\sim
-\sum_{k=0}^{\infty}
-\frac{a_k}{z^k}
-$$
-
-と書くとは、任意の $N$ に対して、
-
-$$
-\lim_{z\to\infty}
-z^N
-\left[
-f(z)
--
-\sum_{k=0}^{N}
-\frac{a_k}{z^k}
-\right]
-=
-0
-$$
-
-が成り立つことをいう。
-
-漸近級数は必ずしも通常の意味で収束する必要はなく、有限項で打ち切ったときの誤差が順に小さくなるという意味で使われる。
-
-## 2. ワトソンの補題
-
-$f(t)$ が $t=0$ の近傍で、
+$\lambda>0$ とし、$t\to0^+$ のとき
 
 $$
 f(t)
 \sim
-\sum_{k=0}^{\infty}
-a_k t^{k/r-1}
+\sum_{n=0}^{\infty}
+a_n t^{n+\lambda-1}
 $$
 
-と展開できるとする。
-
-ラプラス型積分
+とする。また、ラプラス積分
 
 $$
 I(x)
 =
-\int_0^\infty
-e^{-xt}f(t)\,dt
+\int_0^\infty e^{-xt}f(t)\,dt
 $$
 
-を考える。
+が十分大きな $x>0$ に対して収束するとする。
 
-<div class="math-box theorem-box">
-
-<div class="math-box-title">ワトソンの補題</div>
-
-$x\to\infty$ のとき、
+このとき $x\to+\infty$ で、
 
 $$
 I(x)
 \sim
-\sum_{k=0}^{\infty}
-a_k
-\Gamma\left(\frac{k}{r}\right)
-x^{-k/r}
+\sum_{n=0}^{\infty}
+a_n
+\Gamma(n+\lambda)
+x^{-(n+\lambda)}
 $$
 
-という形の漸近展開が得られる。
+が成り立つ。
 
 </div>
 
-本質は、$x$ が大きいとき積分の主要な寄与が $t=0$ の近傍から来ることである。
+## 証明
 
-## 3. ガンマ関数の積分を書き換える
-
-オイラー積分で、
+任意の $N\geq0$ に対して、$t\to0^+$ で
 
 $$
-t=e^x
-$$
-
-と変数変換すると、
-
-$$
-\Gamma(z)
+f(t)
 =
-\int_{-\infty}^{\infty}
-\exp\left(
-zx-e^x
-\right)\,dx
+\sum_{n=0}^{N}
+a_n t^{n+\lambda-1}
++
+R_N(t),
 $$
 
-となる。
-
-指数部
+かつ
 
 $$
-f(x)=zx-e^x
+R_N(t)
+=
+o\left(t^{N+\lambda-1}\right)
 $$
 
-は、
+と書ける。
+
+積分を小さな $\delta>0$ を用いて
 
 $$
-f'(x)=z-e^x
+I(x)
+=
+\int_0^\delta e^{-xt}f(t)\,dt
++
+\int_\delta^\infty e^{-xt}f(t)\,dt
 $$
 
-より、
+と分ける。
+
+後半は $e^{-x\delta}$ を含むため、$x\to\infty$ で任意のべき $x^{-M}$ より速く減衰する。
+
+前半に有限項の展開を代入すると、
 
 $$
-x=\log z
+\int_0^\delta e^{-xt}f(t)\,dt
+=
+\sum_{n=0}^{N}
+a_n
+\int_0^\delta
+e^{-xt}t^{n+\lambda-1}\,dt
++
+\int_0^\delta e^{-xt}R_N(t)\,dt.
 $$
 
-で極大となる。したがって、$z$ が大きいときにはこの点の近傍が積分の主要部分になる。
-
-## 4. ガウス積分による第一近似
-
-極大点の近傍で指数部を2次まで展開するとガウス積分が現れ、
+各主項で $u=xt$ と置けば、
 
 $$
-\Gamma(z+1)
-\sim
-\sqrt{2\pi z}
-\left(
-\frac{z}{e}
-\right)^z
+\int_0^\delta
+e^{-xt}t^{n+\lambda-1}\,dt
+=
+x^{-(n+\lambda)}
+\int_0^{x\delta}
+e^{-u}u^{n+\lambda-1}\,du.
 $$
 
-を得る。
-
-したがって、
-
-<div class="math-box theorem-box">
-
-<div class="math-box-title">スターリングの公式</div>
+$x\to\infty$ とすると右端の積分は
 
 $$
-\Gamma(z)
-\sim
-\sqrt{\frac{2\pi}{z}}
-\left(
-\frac{z}{e}
-\right)^z
+\Gamma(n+\lambda)
 $$
 
-が大きな $z$ に対する第一近似となる。
+に収束する。
 
-</div>
-
-## 5. 高次の漸近展開
-
-さらに高次の項まで考えると、
+また剰余項は $R_N(t)=o(t^{N+\lambda-1})$ を用いることで、
 
 $$
-\Gamma(z)
-\sim
-\sqrt{\frac{2\pi}{z}}
-\left(
-\frac{z}{e}
-\right)^z
-\sum_{k=0}^{\infty}
-\frac{a_k}{z^k}
+\int_0^\delta e^{-xt}R_N(t)\,dt
+=
+o\left(x^{-(N+\lambda)}\right)
 $$
 
-という形になる。
+と評価できる。
 
-最初の係数は、
-
-$$
-a_0=1,
-\qquad
-a_1=\frac{1}{12}
-$$
-
-である。
-
-したがって、
+したがって任意の $N$ について、
 
 $$
-\Gamma(z)
-\sim
-\sqrt{\frac{2\pi}{z}}
-\left(
-\frac{z}{e}
-\right)^z
-\left(
-1+\frac{1}{12z}+\cdots
-\right).
+I(x)
+=
+\sum_{n=0}^{N}
+a_n\Gamma(n+\lambda)x^{-(n+\lambda)}
++
+o\left(x^{-(N+\lambda)}\right),
 $$
+
+すなわち定理の漸近展開を得る。$\square$
 
 ## 次の記事
 
-[ガンマ関数の乗法公式と倍角公式](/articles/gamma-multiplication-formula.html)
+[スターリングの公式](/articles/gamma-stirling-formula.html)
