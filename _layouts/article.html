@@ -13,38 +13,36 @@
     content="{{ page.title }}について解説する数学記事です。"
   >
 
+  <!-- CSS -->
   <link rel="stylesheet" href="/css/style.css">
 
 
- <!-- MathJax -->
-<script>
-  window.MathJax = {
-    tex: {
-      inlineMath: [
-        ['$', '$'],
-        ['\\(', '\\)']
-      ],
+  <!-- ==============================
+       MathJax
+  ============================== -->
 
-      displayMath: [
-        ['$$', '$$'],
-        ['\\[', '\\]']
-      ],
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [
+          ['$', '$'],
+          ['\\(', '\\)']
+        ],
 
-      processEscapes: true
-    }
-  };
-</script>
+        displayMath: [
+          ['$$', '$$'],
+          ['\\[', '\\]']
+        ],
 
-<script
-  id="MathJax-script"
-  async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-</script>
+        processEscapes: true
+      }
+    };
+  </script>
 
   <script
     id="MathJax-script"
-    defer
-    src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
+    async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
   </script>
 
 </head>
@@ -52,15 +50,22 @@
 
 <body>
 
-  <!-- ヘッダー -->
+
+  <!-- ==============================
+       ヘッダー
+  ============================== -->
 
   <header class="site-header">
 
     <div class="header-inner">
 
-      <a class="logo" href="/">
+      <a
+        class="logo"
+        href="/"
+      >
         Math Notes
       </a>
+
 
       <nav class="nav">
 
@@ -84,11 +89,16 @@
 
 
 
-  <!-- 記事 -->
+  <!-- ==============================
+       記事
+  ============================== -->
 
   <main class="article-page">
 
     <article class="article-container">
+
+
+      <!-- 記事タイトル -->
 
       <div class="article-header">
 
@@ -103,12 +113,16 @@
       </div>
 
 
+      <!-- 記事本文 -->
+
       <div class="article-body">
 
         {{ content }}
 
       </div>
 
+
+      <!-- 記事一覧へ戻る -->
 
       <div class="article-back">
 
@@ -118,13 +132,16 @@
 
       </div>
 
+
     </article>
 
   </main>
 
 
 
-  <!-- フッター -->
+  <!-- ==============================
+       フッター
+  ============================== -->
 
   <footer>
 
