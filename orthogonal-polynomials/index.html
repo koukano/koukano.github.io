@@ -1,98 +1,40 @@
 <!DOCTYPE html>
 <html lang="ja">
-
 <head>
-
   <meta charset="UTF-8">
-
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1.0"
-  >
-
-  <meta
-    name="description"
-    content="直交多項式についての記事一覧です。基本性質、漸化式、零点、再生核、近似理論などについて解説します。"
-  >
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="直交多項式の定義、漸化式、零点、再生核、近似理論などを、定理ごとの記事として整理しています。">
   <title>直交多項式 | Math Notes</title>
-
-  <link
-    rel="stylesheet"
-    href="../css/style.css"
-  >
-
+  <link rel="stylesheet" href="/css/style.css">
 </head>
-
-
 <body>
-
-  <!-- ヘッダー -->
-
   <header class="site-header">
-
     <div class="header-inner">
-
-      <a
-        href="../index.html"
-        class="logo"
-      >
-        Math Notes
-      </a>
-
-
+      <a href="/" class="logo">Math Notes</a>
       <nav class="nav">
-
-        <a href="../index.html#topics">
-          分野
-        </a>
-
-        <a href="../index.html#articles">
-          記事
-        </a>
-
-        <a href="../index.html#about">
-          About
-        </a>
-
+        <a href="/#topics">分野</a>
+        <a href="/#articles">記事</a>
+        <a href="/#about">About</a>
       </nav>
-
     </div>
-
   </header>
 
-
-  <!-- 記事一覧 -->
-
   <section class="articles-section">
-
     <div class="articles-inner">
-
       <div class="section-header">
-
-        <p class="section-label">
-          ORTHOGONAL POLYNOMIALS
-        </p>
-
-        <h2>
-          直交多項式
-        </h2>
-
-        <p>
-          直交多項式の基本性質、漸化式、零点、再生核、近似理論などに関する記事をまとめています。
-        </p>
-
+        <p class="section-label">ORTHOGONAL POLYNOMIALS</p>
+        <h2>直交多項式</h2>
+        <p>直交多項式の定義、漸化式、零点、再生核、近似理論などを、定理ごとの記事として整理しています。</p>
       </div>
-
 
       <div class="article-list">
 
         <a href="/articles/orthogonal-polynomials.html" class="article-link">
           <div class="article-item">
             <div>
-              <span class="article-category">直交多項式</span>
+              <span class="article-category">基礎</span>
               <h3>直交多項式とは何か</h3>
-              <p>直交多項式の定義、内積、ノルム、正規直交性を整理します。</p>
+              <p>内積、ノルム、正規直交性などの基本事項を整理します。</p>
             </div>
             <span class="article-arrow">→</span>
           </div>
@@ -101,9 +43,9 @@
         <a href="/articles/three-term-recurrence.html" class="article-link">
           <div class="article-item">
             <div>
-              <span class="article-category">直交多項式</span>
+              <span class="article-category">定理</span>
               <h3>直交多項式の3項間漸化式</h3>
-              <p>正規直交多項式が満たす3項間漸化式を導出します。</p>
+              <p>正規直交多項式が満たす3項間漸化式を証明します。</p>
             </div>
             <span class="article-arrow">→</span>
           </div>
@@ -112,9 +54,9 @@
         <a href="/articles/christoffel-darboux-formula.html" class="article-link">
           <div class="article-item">
             <div>
-              <span class="article-category">再生核</span>
+              <span class="article-category">定理</span>
               <h3>クリストッフェル・ダルブーの公式</h3>
-              <p>直交多項式の有限和を2つの連続する多項式で表す公式を導きます。</p>
+              <p>再生核を隣り合う直交多項式で表す公式を証明します。</p>
             </div>
             <span class="article-arrow">→</span>
           </div>
@@ -123,9 +65,9 @@
         <a href="/articles/reproducing-kernel-extremal-property.html" class="article-link">
           <div class="article-item">
             <div>
-              <span class="article-category">再生核</span>
+              <span class="article-category">定理</span>
               <h3>再生核と極値問題</h3>
-              <p>再生核が一点での多項式の値を最大化する性質を扱います。</p>
+              <p>再生核の極値性を扱います。</p>
             </div>
             <span class="article-arrow">→</span>
           </div>
@@ -134,9 +76,9 @@
         <a href="/articles/weierstrass-approximation-theorem.html" class="article-link">
           <div class="article-item">
             <div>
-              <span class="article-category">近似理論</span>
-              <h3>ワイエルシュトラスの近似定理とベルンシュタイン多項式</h3>
-              <p>ベルンシュタイン多項式を用いてワイエルシュトラスの近似定理を確認します。</p>
+              <span class="article-category">定理</span>
+              <h3>ワイエルシュトラスの近似定理</h3>
+              <p>ベルンシュタイン多項式を用いた近似定理を扱います。</p>
             </div>
             <span class="article-arrow">→</span>
           </div>
@@ -145,9 +87,20 @@
         <a href="/articles/zeros-of-orthogonal-polynomials.html" class="article-link">
           <div class="article-item">
             <div>
-              <span class="article-category">直交多項式</span>
-              <h3>直交多項式の零点と交互性</h3>
-              <p>零点が区間内に単純に現れることと、隣り合う次数の零点の交互性を示します。</p>
+              <span class="article-category">定理</span>
+              <h3>直交多項式の零点：区間内の単純零点</h3>
+              <p>n次直交多項式が区間内にn個の単純零点を持つことを証明します。</p>
+            </div>
+            <span class="article-arrow">→</span>
+          </div>
+        </a>
+
+        <a href="/articles/interlacing-zeros-of-orthogonal-polynomials.html" class="article-link">
+          <div class="article-item">
+            <div>
+              <span class="article-category">定理</span>
+              <h3>直交多項式の零点の交互性</h3>
+              <p>隣り合う次数の零点が交互に現れることを証明します。</p>
             </div>
             <span class="article-arrow">→</span>
           </div>
@@ -156,9 +109,9 @@
         <a href="/articles/best-approximation-orthogonal-polynomials.html" class="article-link">
           <div class="article-item">
             <div>
-              <span class="article-category">近似理論</span>
+              <span class="article-category">定理</span>
               <h3>直交多項式による最良近似</h3>
-              <p>正規直交多項式による直交射影と最良近似について扱います。</p>
+              <p>直交射影による最良近似を扱います。</p>
             </div>
             <span class="article-arrow">→</span>
           </div>
@@ -167,9 +120,9 @@
         <a href="/articles/lagrange-interpolation.html" class="article-link">
           <div class="article-item">
             <div>
-              <span class="article-category">補間</span>
+              <span class="article-category">定理</span>
               <h3>ラグランジュ補間</h3>
-              <p>標本点で関数値を一致させるラグランジュ補間公式と剰余項を扱います。</p>
+              <p>ラグランジュ補間公式と剰余項を扱います。</p>
             </div>
             <span class="article-arrow">→</span>
           </div>
@@ -178,9 +131,9 @@
         <a href="/articles/hermite-interpolation.html" class="article-link">
           <div class="article-item">
             <div>
-              <span class="article-category">補間</span>
+              <span class="article-category">定理</span>
               <h3>エルミート補間</h3>
-              <p>関数値と導関数値を同時に一致させるエルミート補間を扱います。</p>
+              <p>関数値と導関数値を一致させる補間を扱います。</p>
             </div>
             <span class="article-arrow">→</span>
           </div>
@@ -189,9 +142,9 @@
         <a href="/articles/gaussian-quadrature.html" class="article-link">
           <div class="article-item">
             <div>
-              <span class="article-category">数値積分</span>
+              <span class="article-category">定理</span>
               <h3>ガウスの求積公式とクリストッフェル数</h3>
-              <p>直交多項式の零点を標本点とするガウス求積とクリストッフェル数を扱います。</p>
+              <p>直交多項式の零点を節点とする求積公式を扱います。</p>
             </div>
             <span class="article-arrow">→</span>
           </div>
@@ -200,9 +153,20 @@
         <a href="/articles/zeros-distribution-orthogonal-polynomials.html" class="article-link">
           <div class="article-item">
             <div>
-              <span class="article-category">直交多項式</span>
-              <h3>高次数の直交多項式と零点の分布</h3>
-              <p>異なる次数の直交多項式の零点配置と有限区間での分布を扱います。</p>
+              <span class="article-category">定理</span>
+              <h3>異なる次数の直交多項式の零点の分離</h3>
+              <p>m>n のときの零点配置を証明します。</p>
+            </div>
+            <span class="article-arrow">→</span>
+          </div>
+        </a>
+
+        <a href="/articles/zeros-dense-orthogonal-polynomials.html" class="article-link">
+          <div class="article-item">
+            <div>
+              <span class="article-category">定理</span>
+              <h3>有限区間における零点の稠密化</h3>
+              <p>十分高い次数では任意の部分区間に零点が現れることを証明します。</p>
             </div>
             <span class="article-arrow">→</span>
           </div>
@@ -211,9 +175,9 @@
         <a href="/articles/bessel-parseval-orthogonal-polynomials.html" class="article-link">
           <div class="article-item">
             <div>
-              <span class="article-category">関数解析</span>
+              <span class="article-category">定理</span>
               <h3>ベッセルの不等式とパーセヴァルの等式</h3>
-              <p>直交展開の係数とノルムの関係を $L^2$ 空間で整理します。</p>
+              <p>直交展開の係数とノルムの関係を扱います。</p>
             </div>
             <span class="article-arrow">→</span>
           </div>
@@ -222,9 +186,9 @@
         <a href="/articles/l2-completeness-orthogonal-polynomials.html" class="article-link">
           <div class="article-item">
             <div>
-              <span class="article-category">関数解析</span>
+              <span class="article-category">定理</span>
               <h3>L²(w)における正規直交多項式の完備性</h3>
-              <p>閉性と完備性の関係を通して正規直交多項式系の完備性を考えます。</p>
+              <p>正規直交多項式系の完備性を扱います。</p>
             </div>
             <span class="article-arrow">→</span>
           </div>
@@ -233,46 +197,26 @@
         <a href="/articles/riemann-mapping-orthogonal-polynomials.html" class="article-link">
           <div class="article-item">
             <div>
-              <span class="article-category">複素解析との関係</span>
-              <h3>リーマンの写像定理と直交多項式</h3>
-              <p>境界上の正規直交多項式と再生核からリーマン写像を表す方法を扱います。</p>
+              <span class="article-category">定理</span>
+              <h3>再生核によるリーマン写像の表示</h3>
+              <p>境界上の正規直交多項式からリーマン写像を表す公式を証明します。</p>
             </div>
             <span class="article-arrow">→</span>
           </div>
         </a>
-
       </div>
-
 
       <div class="article-back">
-
-        <a href="../index.html">
-          ← トップページへ戻る
-        </a>
-
+        <a href="/">← トップページへ戻る</a>
       </div>
-
     </div>
-
   </section>
 
-
   <footer>
-
     <div class="footer-inner">
-
-      <p class="footer-logo">
-        Math Notes
-      </p>
-
-      <p class="copyright">
-        © Math Notes
-      </p>
-
+      <p class="footer-logo">Math Notes</p>
+      <p class="copyright">© Math Notes</p>
     </div>
-
   </footer>
-
 </body>
-
 </html>

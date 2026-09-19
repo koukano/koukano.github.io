@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="ガンマ関数の定義、基本性質、解析接続、反射公式、漸近展開などに関する記事をまとめています。">
+  <meta name="description" content="ガンマ関数・ベータ関数・Mellin変換の内容を、1つの定理につき1つの記事として整理しています。">
   <title>ガンマ関数 | Math Notes</title>
   <link rel="stylesheet" href="/css/style.css">
 </head>
@@ -24,7 +24,7 @@
       <div class="section-header">
         <p class="section-label">GAMMA FUNCTION</p>
         <h2>ガンマ関数</h2>
-        <p>ガンマ関数の定義、基本性質、解析接続、反射公式、漸近展開などに関する記事をまとめています。</p>
+        <p>ガンマ関数・ベータ関数・Mellin変換の内容を、1つの定理につき1つの記事として整理しています。</p>
       </div>
 
       <div class="article-list">
@@ -32,9 +32,53 @@
         <a href="/articles/gamma-function-definition-properties.html" class="article-link">
           <div class="article-item">
             <div>
-              <span class="article-category">基礎</span>
-              <h3>ガンマ関数の定義と基本的性質</h3>
-              <p>オイラー積分、ガウスの表示、ワイエルシュトラス積表示、関数方程式、極と留数を整理します。</p>
+              <span class="article-category">定義</span>
+              <h3>ガンマ関数の定義</h3>
+              <p>オイラー積分によるガンマ関数の定義を確認します。</p>
+            </div>
+            <span class="article-arrow">→</span>
+          </div>
+        </a>
+
+        <a href="/articles/gamma-gauss-limit-formula.html" class="article-link">
+          <div class="article-item">
+            <div>
+              <span class="article-category">定理</span>
+              <h3>ガウスの極限表示</h3>
+              <p>ガンマ関数を有限積の極限として表します。</p>
+            </div>
+            <span class="article-arrow">→</span>
+          </div>
+        </a>
+
+        <a href="/articles/gamma-weierstrass-product.html" class="article-link">
+          <div class="article-item">
+            <div>
+              <span class="article-category">定理</span>
+              <h3>ワイエルシュトラスの積表示</h3>
+              <p>逆ガンマ関数の無限積表示を証明します。</p>
+            </div>
+            <span class="article-arrow">→</span>
+          </div>
+        </a>
+
+        <a href="/articles/gamma-functional-equation.html" class="article-link">
+          <div class="article-item">
+            <div>
+              <span class="article-category">定理</span>
+              <h3>ガンマ関数の関数方程式</h3>
+              <p>Γ(z+1)=zΓ(z) を証明します。</p>
+            </div>
+            <span class="article-arrow">→</span>
+          </div>
+        </a>
+
+        <a href="/articles/gamma-poles-residues.html" class="article-link">
+          <div class="article-item">
+            <div>
+              <span class="article-category">定理</span>
+              <h3>ガンマ関数の極と留数</h3>
+              <p>非正整数における単純極と留数を求めます。</p>
             </div>
             <span class="article-arrow">→</span>
           </div>
@@ -43,9 +87,31 @@
         <a href="/articles/gamma-reflection-hankel.html" class="article-link">
           <div class="article-item">
             <div>
-              <span class="article-category">解析接続</span>
-              <h3>オイラーの反射公式とハンケルの積分表示</h3>
-              <p>反射公式と鍵穴型積分路を用いたガンマ関数・逆ガンマ関数の積分表示を扱います。</p>
+              <span class="article-category">定理</span>
+              <h3>オイラーの反射公式</h3>
+              <p>Γ(z)Γ(1-z)=π/sin(πz) を証明します。</p>
+            </div>
+            <span class="article-arrow">→</span>
+          </div>
+        </a>
+
+        <a href="/articles/gamma-hankel-integral.html" class="article-link">
+          <div class="article-item">
+            <div>
+              <span class="article-category">定理</span>
+              <h3>ガンマ関数のハンケル型積分表示</h3>
+              <p>分岐を利用した複素積分表示を証明します。</p>
+            </div>
+            <span class="article-arrow">→</span>
+          </div>
+        </a>
+
+        <a href="/articles/reciprocal-gamma-hankel-integral.html" class="article-link">
+          <div class="article-item">
+            <div>
+              <span class="article-category">定理</span>
+              <h3>逆ガンマ関数のハンケル積分表示</h3>
+              <p>1/Γ(z) のハンケル積分表示を証明します。</p>
             </div>
             <span class="article-arrow">→</span>
           </div>
@@ -54,9 +120,20 @@
         <a href="/articles/gamma-stirling-watson.html" class="article-link">
           <div class="article-item">
             <div>
-              <span class="article-category">漸近展開</span>
-              <h3>ワトソンの補題とスターリングの公式</h3>
-              <p>ラプラス型積分の漸近評価からスターリングの公式を整理します。</p>
+              <span class="article-category">定理</span>
+              <h3>ワトソンの補題</h3>
+              <p>ラプラス型積分の漸近展開を証明します。</p>
+            </div>
+            <span class="article-arrow">→</span>
+          </div>
+        </a>
+
+        <a href="/articles/gamma-stirling-formula.html" class="article-link">
+          <div class="article-item">
+            <div>
+              <span class="article-category">定理</span>
+              <h3>スターリングの公式</h3>
+              <p>ガンマ関数の大きな引数での漸近公式を証明します。</p>
             </div>
             <span class="article-arrow">→</span>
           </div>
@@ -65,9 +142,20 @@
         <a href="/articles/gamma-multiplication-formula.html" class="article-link">
           <div class="article-item">
             <div>
-              <span class="article-category">関数公式</span>
-              <h3>ガンマ関数の乗法公式と倍角公式</h3>
-              <p>ガウスの乗法公式と、その特別な場合であるルジャンドルの倍角公式を扱います。</p>
+              <span class="article-category">定理</span>
+              <h3>ガウスの乗法公式</h3>
+              <p>等間隔にずれたガンマ関数の積をまとめる公式を証明します。</p>
+            </div>
+            <span class="article-arrow">→</span>
+          </div>
+        </a>
+
+        <a href="/articles/legendre-duplication-formula.html" class="article-link">
+          <div class="article-item">
+            <div>
+              <span class="article-category">定理</span>
+              <h3>ルジャンドルの倍角公式</h3>
+              <p>ガウスの乗法公式の m=2 の場合を導きます。</p>
             </div>
             <span class="article-arrow">→</span>
           </div>
@@ -76,9 +164,20 @@
         <a href="/articles/beta-function-gamma.html" class="article-link">
           <div class="article-item">
             <div>
-              <span class="article-category">ベータ関数</span>
-              <h3>ベータ関数とガンマ関数</h3>
-              <p>ベータ関数の定義、ガンマ関数との関係、複素積分による解析接続を扱います。</p>
+              <span class="article-category">定理</span>
+              <h3>ベータ関数とガンマ関数の関係</h3>
+              <p>B(x,y)=Γ(x)Γ(y)/Γ(x+y) を証明します。</p>
+            </div>
+            <span class="article-arrow">→</span>
+          </div>
+        </a>
+
+        <a href="/articles/beta-pochhammer-contour.html" class="article-link">
+          <div class="article-item">
+            <div>
+              <span class="article-category">定理</span>
+              <h3>ベータ関数のポッホハマー積分表示</h3>
+              <p>分岐点0と1を回る複素積分表示を扱います。</p>
             </div>
             <span class="article-arrow">→</span>
           </div>
@@ -87,9 +186,9 @@
         <a href="/articles/digamma-function.html" class="article-link">
           <div class="article-item">
             <div>
-              <span class="article-category">対数微分</span>
-              <h3>ガンマ関数の対数微分：ディガンマ関数</h3>
-              <p>ワイエルシュトラス積表示からディガンマ関数の級数表示を導きます。</p>
+              <span class="article-category">定理</span>
+              <h3>ディガンマ関数の級数表示</h3>
+              <p>ガンマ関数の対数微分を扱います。</p>
             </div>
             <span class="article-arrow">→</span>
           </div>
@@ -98,9 +197,20 @@
         <a href="/articles/gamma-generalized-binomial-theorem.html" class="article-link">
           <div class="article-item">
             <div>
-              <span class="article-category">級数展開</span>
-              <h3>ガンマ関数と一般化二項定理</h3>
-              <p>一般化二項定理の係数をガンマ関数で表します。</p>
+              <span class="article-category">定理</span>
+              <h3>一般化二項定理</h3>
+              <p>複素指数に対する二項展開を証明します。</p>
+            </div>
+            <span class="article-arrow">→</span>
+          </div>
+        </a>
+
+        <a href="/articles/gamma-binomial-coefficient.html" class="article-link">
+          <div class="article-item">
+            <div>
+              <span class="article-category">定理</span>
+              <h3>ガンマ関数による二項係数の表示</h3>
+              <p>一般化二項係数をガンマ関数で表します。</p>
             </div>
             <span class="article-arrow">→</span>
           </div>
@@ -109,9 +219,9 @@
         <a href="/articles/mellin-transform-inversion.html" class="article-link">
           <div class="article-item">
             <div>
-              <span class="article-category">Mellin変換</span>
+              <span class="article-category">定理</span>
               <h3>Mellin変換とMellin反転公式</h3>
-              <p>Mellin変換を定義し、フーリエ変換との関係から反転公式を確認します。</p>
+              <p>Mellin反転公式を扱います。</p>
             </div>
             <span class="article-arrow">→</span>
           </div>
@@ -120,9 +230,9 @@
         <a href="/articles/mellin-barnes-first-lemma.html" class="article-link">
           <div class="article-item">
             <div>
-              <span class="article-category">Mellin–Barnes積分</span>
-              <h3>Mellin–Barnes積分とBarnesの第一補題</h3>
-              <p>ガンマ関数の極を分離する積分路とBarnesの第一補題を扱います。</p>
+              <span class="article-category">定理</span>
+              <h3>Barnesの第一補題</h3>
+              <p>Mellin–Barnes積分の代表的な公式を扱います。</p>
             </div>
             <span class="article-arrow">→</span>
           </div>
@@ -131,14 +241,24 @@
         <a href="/articles/mellin-algebraic-equation.html" class="article-link">
           <div class="article-item">
             <div>
-              <span class="article-category">応用</span>
-              <h3>Mellin変換による代数方程式の解の表示</h3>
-              <p>代数方程式の解をMellin変換し、ガンマ関数を用いた複素積分表示へ変換します。</p>
+              <span class="article-category">定理</span>
+              <h3>代数方程式の解の回転対称性</h3>
+              <p>y^μ+xy^p-1=0 の解の対称性を証明します。</p>
             </div>
             <span class="article-arrow">→</span>
           </div>
         </a>
 
+        <a href="/articles/mellin-algebraic-transform.html" class="article-link">
+          <div class="article-item">
+            <div>
+              <span class="article-category">定理</span>
+              <h3>代数方程式の解のMellin変換</h3>
+              <p>正の実数解のMellin変換をガンマ関数で表します。</p>
+            </div>
+            <span class="article-arrow">→</span>
+          </div>
+        </a>
       </div>
 
       <div class="article-back">
