@@ -104,11 +104,11 @@ $$
 
 </div>
 
-ノートでは、エルミート関数が中央で振動しつつ、無限遠では指数因子によって急速に減衰する様子が図で示されている。
+具体例として $n=3$ の正規化された固有関数を描くと、零点を持ちながら振動し、無限遠で指数的に減衰することが分かる。
 
 <figure class="article-figure">
-  <img src="/images/figures/hermite-oscillator.svg" alt="エルミート関数が中央で振動し無限遠で減衰する模式図">
-  <figcaption>図1：エルミート関数の模式図。多項式部分による振動と、指数因子による無限遠での減衰を同時に表している。</figcaption>
+  <img src="/images/figures/hermite-oscillator.svg" alt="n=3の正規化された調和振動子固有関数V3の正確なグラフ">
+  <figcaption>図1：$n=3$ の正規化された $V_3(x)=C_3e^{-x^2/2}H_3(\sqrt2x)$。3個の零点を持ち、$|x|\to\infty$ で指数的に $0$ へ減衰する。</figcaption>
 </figure>
 
 ## 3. 調和振動子型の方程式
@@ -177,14 +177,14 @@ $
 P(a\leq x\leq b)
 =
 \int_a^b
-V_n(x)^2\,dx
+V_n(x)^2\,dx.
 $
 
 と書ける。
 
 <figure class="article-figure">
-  <img src="/images/figures/hermite-probability-density.svg" alt="確率密度V_n(x)の二乗と区間aからbの面積を示す模式図">
-  <figcaption>図2：ノートにある確率密度の図を整理したもの。$V_n(x)^2$ のグラフの下で、区間 $[a,b]$ に対応する面積がその区間で粒子を見いだす確率になる。</figcaption>
+  <img src="/images/figures/hermite-probability-density.svg" alt="n=3の確率密度V3の二乗を正確に描き区間マイナス1から1を塗ったグラフ">
+  <figcaption>図2：$n=3$ の確率密度 $|V_3(x)|^2$。青く塗った部分は具体例として $P(-1\leq x\leq1)=\int_{-1}^{1}|V_3(x)|^2\,dx$ を表す。</figcaption>
 </figure>
 
 エルミート多項式は、このように調和振動子の固有状態を表す関数の多項式部分として現れる。
