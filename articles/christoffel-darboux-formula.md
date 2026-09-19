@@ -1,8 +1,8 @@
 ---
 layout: article
 title: "クリストッフェル・ダルブーの公式"
-category: "special-functions"
-category_label: "特殊関数"
+category: "orthogonal-polynomials"
+category_label: "直交多項式"
 ---
 
 正規直交多項式から作られる有限和
