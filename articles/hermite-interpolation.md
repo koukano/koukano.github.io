@@ -1,8 +1,8 @@
 ---
 layout: article
 title: "エルミート補間"
-category: "special-functions"
-category_label: "特殊関数"
+category: "orthogonal-polynomials"
+category_label: "直交多項式"
 ---
 
 ラグランジュ補間では関数値だけを一致させるが、エルミート補間では関数値と導関数の値を同時に一致させる。本記事では、この補間公式と剰余項を扱う。
