@@ -1,8 +1,8 @@
 ---
 layout: article
 title: "L²(w)における正規直交多項式の完備性"
-category: "special-functions"
-category_label: "特殊関数"
+category: "orthogonal-polynomials"
+category_label: "直交多項式"
 ---
 
 正規直交多項式が重み付き $L^2$ 空間で関数を十分に表現できるかという問題を考える。本記事では、完備性と閉性の関係を整理し、正規直交多項式系の完備性についてまとめる。
