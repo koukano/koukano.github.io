@@ -10,7 +10,7 @@
 
   <meta
     name="description"
-    content="複素解析、特殊関数、微分方程式を中心に、大学数学を定義・具体例・証明とともに整理する数学サイトです。"
+    content="複素解析、直交多項式、特殊関数、微分方程式を中心に、大学数学を定義・具体例・証明とともに整理する数学サイトです。"
   >
 
   <link rel="stylesheet" href="css/style.css">
@@ -19,7 +19,9 @@
 
 <body>
 
-  <!-- ヘッダー -->
+  <!-- ==============================
+       ヘッダー
+  ============================== -->
 
   <header class="site-header">
 
@@ -47,7 +49,9 @@
   <main>
 
 
-    <!-- メインビジュアル -->
+    <!-- ==============================
+         メインビジュアル
+    ============================== -->
 
     <section class="hero">
 
@@ -63,9 +67,7 @@
         </h1>
 
         <p class="hero-text">
-          複素解析・特殊関数・微分方程式を中心に、
-          大学・大学院で学んだ数学を整理しています。
-          定義だけでなく、具体例や直感も大切にしています。
+          複素解析・直交多項式・特殊関数・微分方程式を中心に、大学・大学院で学んだ数学を整理しています。定義だけでなく、具体例や直感も大切にしています。
         </p>
 
         <a
@@ -81,7 +83,9 @@
 
 
 
-    <!-- Topics -->
+    <!-- ==============================
+         Topics
+    ============================== -->
 
     <section
       class="content-section"
@@ -108,7 +112,12 @@
       <div class="topic-grid">
 
 
-        <article class="topic-card">
+        <!-- 複素解析 -->
+
+        <a
+          class="topic-card topic-card-link"
+          href="/articles/riemann-mapping-orthogonal-polynomials.html"
+        >
 
           <span class="topic-number">
             01
@@ -119,40 +128,45 @@
           </h3>
 
           <p>
-            正則関数、複素積分、留数定理、
-            解析接続、リーマンの写像定理など。
+            正則関数、複素積分、留数定理、解析接続、リーマンの写像定理など。
           </p>
 
           <span class="topic-link">
             記事を見る →
           </span>
 
-        </article>
+        </a>
 
 
 
-        <article class="topic-card">
+        <!-- 直交多項式 -->
+
+        <a
+          class="topic-card topic-card-link"
+          href="/articles/orthogonal-polynomials-introduction.html"
+        >
 
           <span class="topic-number">
             02
           </span>
 
           <h3>
-            特殊関数
+            直交多項式
           </h3>
 
           <p>
-            ガンマ関数、ベータ関数、
-            超幾何関数、スターリングの公式など。
+            内積、正規直交多項式、漸化式、再生核、零点、関数近似など。
           </p>
 
           <span class="topic-link">
             記事を見る →
           </span>
 
-        </article>
+        </a>
 
 
+
+        <!-- 特殊関数 -->
 
         <article class="topic-card">
 
@@ -161,16 +175,39 @@
           </span>
 
           <h3>
+            特殊関数
+          </h3>
+
+          <p>
+            ガンマ関数、ベータ関数、超幾何関数、スターリングの公式など。
+          </p>
+
+          <span class="topic-link">
+            準備中
+          </span>
+
+        </article>
+
+
+
+        <!-- 微分方程式 -->
+
+        <article class="topic-card">
+
+          <span class="topic-number">
+            04
+          </span>
+
+          <h3>
             微分方程式
           </h3>
 
           <p>
-            線形常微分方程式、Frobenius法、
-            特異点、特性指数など。
+            線形常微分方程式、Frobenius法、特異点、特性指数など。
           </p>
 
           <span class="topic-link">
-            記事を見る →
+            準備中
           </span>
 
         </article>
@@ -182,7 +219,9 @@
 
 
 
-    <!-- Articles -->
+    <!-- ==============================
+         Articles
+    ============================== -->
 
     <section
       class="articles-section"
@@ -211,20 +250,25 @@
         <div class="article-list">
 
 
-          <article class="article-item">
+          <!-- 直交多項式とは何か -->
+
+          <a
+            class="article-item article-link"
+            href="/articles/orthogonal-polynomials-introduction.html"
+          >
 
             <div class="article-content">
 
               <span class="article-category">
-                特殊関数
+                直交多項式
               </span>
 
               <h3>
-                ガンマ関数とは？
+                直交多項式とは何か
               </h3>
 
               <p>
-                階乗との関係から基本的な性質まで整理します。
+                内積、ノルム、直交性から正規直交多項式の定義までを解説します。
               </p>
 
             </div>
@@ -233,60 +277,119 @@
               →
             </span>
 
-          </article>
+          </a>
 
 
 
-         <a
-  class="article-item article-link"
-  href="/articles/riemann-mapping-orthogonal-polynomials.html"
->
+          <!-- リーマンの写像定理と直交多項式 -->
 
-  <div class="article-content">
-
-    <span class="article-category">
-      複素解析・直交多項式
-    </span>
-
-    <h3>
-      リーマンの写像定理と直交多項式
-    </h3>
-
-    <p>
-      複素領域の正規直交多項式と再生核を用いて、
-      リーマン写像関数を表す方法を解説します。
-    </p>
-
-  </div>
-
-  <span class="article-arrow">
-    →
-  </span>
-
-</a>
-
-
-
-          <article class="article-item">
+          <a
+            class="article-item article-link"
+            href="/articles/riemann-mapping-orthogonal-polynomials.html"
+          >
 
             <div class="article-content">
 
               <span class="article-category">
-                微分方程式
+                複素解析・直交多項式
               </span>
 
               <h3>
-                Frobenius法
+                リーマンの写像定理と直交多項式
               </h3>
 
               <p>
-                確定特異点のまわりで級数解を求める方法を解説します。
+                複素領域の正規直交多項式と再生核を用いて、リーマン写像関数を表す方法を解説します。
               </p>
 
             </div>
 
             <span class="article-arrow">
               →
+            </span>
+
+          </a>
+
+
+
+          <!-- 3項間漸化式 -->
+
+          <article class="article-item">
+
+            <div class="article-content">
+
+              <span class="article-category">
+                直交多項式
+              </span>
+
+              <h3>
+                正規直交多項式の3項間漸化式
+              </h3>
+
+              <p>
+                正規直交多項式が満たす重要な3項間漸化式について解説する予定です。
+              </p>
+
+            </div>
+
+            <span class="article-arrow">
+              準備中
+            </span>
+
+          </article>
+
+
+
+          <!-- クリストッフェル・ダルブーの公式 -->
+
+          <article class="article-item">
+
+            <div class="article-content">
+
+              <span class="article-category">
+                直交多項式
+              </span>
+
+              <h3>
+                クリストッフェル・ダルブーの公式
+              </h3>
+
+              <p>
+                正規直交多項式から作られる核と、クリストッフェル・ダルブーの公式を解説する予定です。
+              </p>
+
+            </div>
+
+            <span class="article-arrow">
+              準備中
+            </span>
+
+          </article>
+
+
+
+          <!-- 直交多項式の零点 -->
+
+          <article class="article-item">
+
+            <div class="article-content">
+
+              <span class="article-category">
+                直交多項式
+              </span>
+
+              <h3>
+                直交多項式の零点
+              </h3>
+
+              <p>
+                直交多項式の零点の位置や、隣り合う次数の零点が交互に現れる性質を解説する予定です。
+              </p>
+
+            </div>
+
+            <span class="article-arrow">
+              準備中
             </span>
 
           </article>
@@ -300,7 +403,9 @@
 
 
 
-    <!-- About -->
+    <!-- ==============================
+         About
+    ============================== -->
 
     <section
       class="content-section about-section"
@@ -325,14 +430,11 @@
         <div class="about-text">
 
           <p>
-            Math Notesは、大学・大学院で学んだ数学を
-            自分自身の理解とともに整理するためのサイトです。
+            Math Notesは、大学・大学院で学んだ数学を自分自身の理解とともに整理するためのサイトです。
           </p>
 
           <p>
-            定義や公式を並べるだけではなく、
-            「なぜそうなるのか」「何を意味しているのか」
-            という部分もできるだけ丁寧に説明していきます。
+            定義や公式を並べるだけではなく、「なぜそうなるのか」「何を意味しているのか」という部分もできるだけ丁寧に説明していきます。
           </p>
 
         </div>
@@ -346,7 +448,9 @@
 
 
 
-  <!-- フッター -->
+  <!-- ==============================
+       フッター
+  ============================== -->
 
   <footer>
 
