@@ -63,11 +63,11 @@ $$
 
 </div>
 
-積分路 $L$ は、左側に並ぶ2列の極と右側に並ぶ2列の極を分離するように取る。ノートの積分路を整理すると、次のように描ける。
+積分路 $L$ は縦線 $\operatorname{Re}s=\sigma$ とし、$\Gamma(a+s),\Gamma(b+s)$ の極を左側、$\Gamma(c-s),\Gamma(d-s)$ の極を右側に分離するように選ぶ。
 
 <figure class="article-figure">
-  <img src="/images/figures/mellin-barnes-contour.svg" alt="Barnes積分で左側の極と右側の極を分離する縦の積分路L">
-  <figcaption>図1：Mellin–Barnes積分路。$L$ の左に $-a-n,-b-n$、右に $c+n,d+n$ の極が並ぶ。破線は留数計算で積分路を閉じる場合の模式図。</figcaption>
+  <img src="/images/figures/mellin-barnes-contour.svg" alt="左側の二つの極列と右側の二つの極列を分離する縦のMellin-Barnes積分路">
+  <figcaption>図1：Mellin–Barnes積分路 $L:\operatorname{Re}s=\sigma$。左側に $s=-a-n,-b-n$、右側に $s=c+n,d+n$ の極が来るように $\sigma$ を選ぶ。</figcaption>
 </figure>
 
 ## 証明
