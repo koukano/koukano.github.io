@@ -1,8 +1,8 @@
 ---
 layout: article
 title: "リーマンの写像定理と直交多項式"
-category: "special-functions"
-category_label: "特殊関数"
+category: "orthogonal-polynomials"
+category_label: "直交多項式"
 ---
 
 リーマンの写像定理は、複素解析における重要な定理の一つであり、複素平面上の広いクラスの領域を単位円板へ等角に写せることを主張する。本記事では、まずリーマンの写像定理を確認し、その後、領域の境界曲線上に正規直交多項式と再生核を導入する。最終的には、再生核を用いてリーマン写像関数を表す方法を考える。
