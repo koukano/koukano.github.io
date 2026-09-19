@@ -1,8 +1,8 @@
 ---
 layout: article
 title: "高次数の直交多項式と零点の分布"
-category: "special-functions"
-category_label: "特殊関数"
+category: "orthogonal-polynomials"
+category_label: "直交多項式"
 ---
 
 直交多項式の零点には、隣り合う次数だけでなく、離れた次数の間にも規則性がある。本記事では、ガウスの求積公式を利用して零点の分布をさらに詳しく調べる。
