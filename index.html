@@ -108,57 +108,79 @@
 
       </div>
 
+<section id="articles" class="articles-section">
 
-  <div class="topic-grid">
+  <div class="articles-inner">
 
-  <div class="topic-card">
-    <span class="topic-number">01</span>
+    <div class="section-header">
 
-    <h3>複素解析</h3>
+      <p class="section-label">ARTICLES</p>
 
-    <p>
-      正則関数、複素積分、解析接続、留数定理、
-      リーマンの写像定理などについてまとめます。
-    </p>
+      <h2 id="article-section-title">
+        記事一覧
+      </h2>
 
-    <a href="#articles" class="topic-link">
-      記事を見る →
-    </a>
+      <p>
+        学んだ数学の内容を分野ごとにまとめています。
+      </p>
+
+    </div>
+
+
+    <div class="article-list">
+
+
+      <!-- 特殊関数 -->
+
+      <a
+        href="articles/riemann-mapping-orthogonal-polynomials.html"
+        class="article-link article-filter-item"
+        data-category="special"
+      >
+
+        <div class="article-item">
+
+          <div>
+
+            <span class="article-category">
+              特殊関数
+            </span>
+
+            <h3>
+              リーマンの写像定理と直交多項式
+            </h3>
+
+            <p>
+              直交多項式と再生核を用いて
+              リーマンの写像関数を表現します。
+            </p>
+
+          </div>
+
+          <span class="article-arrow">
+            →
+          </span>
+
+        </div>
+
+      </a>
+
+
+    </div>
+
+
+    <button
+      id="show-all-articles"
+      class="show-all-button"
+      type="button"
+    >
+      すべての記事を表示
+    </button>
+
   </div>
 
+</section>
 
-  <div class="topic-card">
-    <span class="topic-number">02</span>
-
-    <h3>特殊関数</h3>
-
-    <p>
-      ガンマ関数、超幾何関数、直交多項式など、
-      解析学に現れる特殊関数についてまとめます。
-    </p>
-
-    <a href="#articles" class="topic-link">
-      記事を見る →
-    </a>
-  </div>
-
-
-  <div class="topic-card">
-    <span class="topic-number">03</span>
-
-    <h3>微分方程式</h3>
-
-    <p>
-      常微分方程式、特異点、Frobenius法などについて
-      まとめます。
-    </p>
-
-    <a href="#articles" class="topic-link">
-      記事を見る →
-    </a>
-  </div>
-
-</div>
     </section>
 
 
@@ -412,7 +434,81 @@
 
   </footer>
 
+<script>
 
+  const topicCards =
+    document.querySelectorAll(".topic-card");
+
+  const articleItems =
+    document.querySelectorAll(".article-filter-item");
+
+  const articleTitle =
+    document.getElementById("article-section-title");
+
+  const showAllButton =
+    document.getElementById("show-all-articles");
+
+
+  const categoryNames = {
+    complex: "複素解析",
+    special: "特殊関数",
+    ode: "微分方程式"
+  };
+
+
+  topicCards.forEach((card) => {
+
+    card.addEventListener("click", () => {
+
+      const category =
+        card.dataset.category;
+
+
+      articleItems.forEach((article) => {
+
+        if (article.dataset.category === category) {
+
+          article.style.display = "block";
+
+        } else {
+
+          article.style.display = "none";
+
+        }
+
+      });
+
+
+      articleTitle.textContent =
+        categoryNames[category] + "の記事";
+
+
+      document
+        .getElementById("articles")
+        .scrollIntoView({
+          behavior: "smooth"
+        });
+
+    });
+
+  });
+
+
+  showAllButton.addEventListener("click", () => {
+
+    articleItems.forEach((article) => {
+
+      article.style.display = "block";
+
+    });
+
+
+    articleTitle.textContent =
+      "記事一覧";
+
+  });
+
+</script>
 </body>
 
 </html>
