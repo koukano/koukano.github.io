@@ -1,15 +1,28 @@
 ---
 layout: article
-title: "ゲーゲンバウアー多項式とルジャンドル多項式の母関数"
+title: "ゲーゲンバウアー多項式の母関数"
 category: "classical-orthogonal-polynomials"
 category_label: "古典的直交多項式"
 ---
 
-ゲーゲンバウアー多項式の3項間漸化式を母関数へ変換すると、閉じた形の母関数を導くことができる。さらに、パラメータを特別な値に選ぶことでルジャンドル多項式の母関数が得られる。
+ゲーゲンバウアー多項式の3項間漸化式から母関数を導く。
 
-## 1. ゲーゲンバウアー多項式の漸化式
+<div class="math-box theorem-box">
 
-ゲーゲンバウアー多項式を $C_n^\lambda(x)$ とすると、
+<div class="math-box-title">定理：ゲーゲンバウアー多項式の母関数</div>
+
+$$
+\frac{1}{(1-2xt+t^2)^\lambda}
+=
+\sum_{n=0}^{\infty}
+C_n^\lambda(x)t^n.
+$$
+
+</div>
+
+## 証明
+
+ゲーゲンバウアー多項式は
 
 $$
 (n+1)C_{n+1}^\lambda(x)
@@ -21,19 +34,9 @@ $$
 0
 $$
 
-という3項間漸化式を満たす。
+を満たす。
 
-初期値は、
-
-$$
-C_0^\lambda(x)=1,
-\qquad
-C_1^\lambda(x)=2\lambda x
-$$
-
-である。
-
-## 2. 母関数を導入する
+母関数を
 
 $$
 G(x,t)
@@ -44,7 +47,15 @@ $$
 
 とおく。
 
-3項間漸化式に $t^n$ を掛けて $n$ について和をとり、$G$ とその $t$ 微分で整理すると、
+漸化式に $t^n$ を掛けて $n\geq0$ について和をとり、初期値
+
+$$
+C_0^\lambda(x)=1,
+\qquad
+C_1^\lambda(x)=2\lambda x
+$$
+
+を用いて整理すると、
 
 $$
 (1-2xt+t^2)
@@ -53,11 +64,9 @@ $$
 2\lambda(x-t)G
 $$
 
-という微分方程式が得られる。
+を得る。
 
-## 3. 微分方程式を解く
-
-両辺を $G(1-2xt+t^2)$ で割ると、
+したがって、
 
 $$
 \frac{1}{G}
@@ -67,7 +76,7 @@ $$
 {1-2xt+t^2}.
 $$
 
-右辺は、
+右辺は
 
 $$
 -\lambda
@@ -75,7 +84,7 @@ $$
 \log(1-2xt+t^2)
 $$
 
-と書けるので、積分すると、
+なので、$t$ について積分すると、
 
 $$
 \log G
@@ -83,74 +92,30 @@ $$
 -\lambda
 \log(1-2xt+t^2)
 +
-C.
+C(x).
 $$
 
-初期条件
+$t=0$ では $G(x,0)=C_0^\lambda(x)=1$ だから $C(x)=0$ である。
 
-$$
-G(x,0)=1
-$$
-
-から $C=0$ となり、
-
-<div class="math-box theorem-box">
-
-<div class="math-box-title">ゲーゲンバウアー多項式の母関数</div>
+よって、
 
 $$
 G(x,t)
 =
-\frac{1}
-{(1-2xt+t^2)^\lambda}
+(1-2xt+t^2)^{-\lambda}.
+$$
+
+したがって、
+
+$$
+\frac{1}{(1-2xt+t^2)^\lambda}
 =
 \sum_{n=0}^{\infty}
 C_n^\lambda(x)t^n.
 $$
 
-</div>
-
-## 4. ルジャンドル多項式
-
-$\lambda=\frac12$ とすると、
-
-$$
-C_n^{1/2}(x)
-=
-P_n(x)
-$$
-
-となり、
-
-<div class="math-box theorem-box">
-
-<div class="math-box-title">ルジャンドル多項式の母関数</div>
-
-$$
-\frac{1}
-{\sqrt{1-2xt+t^2}}
-=
-\sum_{n=0}^{\infty}
-P_n(x)t^n.
-$$
-
-</div>
-
-この母関数は、ルジャンドル多項式を静電ポテンシャルやラプラス方程式と結びつける際にも現れる。
-
-## 5. ノルム
-
-ルジャンドル多項式の直交性と母関数を用いると、
-
-$$
-\int_{-1}^{1}
-P_n(x)^2\,dx
-=
-\frac{2}{2n+1}
-$$
-
-という規格化が得られる。
+$\square$
 
 ## 次の記事
 
-[ルジャンドル多項式とラプラス方程式](/articles/legendre-polynomials-laplace-equation.html)
+[ルジャンドル多項式の母関数](/articles/legendre-generating-function.html)
