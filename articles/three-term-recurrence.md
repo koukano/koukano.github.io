@@ -1,8 +1,8 @@
 ---
 layout: article
 title: "直交多項式の3項間漸化式"
-category: "special-functions"
-category_label: "特殊関数"
+category: "orthogonal-polynomials"
+category_label: "直交多項式"
 ---
 
 直交多項式には、隣り合う3つの次数の多項式を結びつける3項間漸化式が存在する。本記事では、その導出を確認する。表記はサイト内で統一している。
