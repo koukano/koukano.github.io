@@ -6,12 +6,24 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  {% if page.description %}
+    {% assign seo_description = page.description %}
+  {% else %}
+    {% capture seo_description %}{{ page.title }}について、定理の条件や証明を数式とともに解説する数学記事です。{% endcapture %}
+  {% endif %}
+
   <title>{{ page.title }} | Math Notes</title>
 
-  <meta
-    name="description"
-    content="{{ page.title }}について解説する数学記事です。"
-  >
+  <meta name="description" content="{{ seo_description | strip | escape }}">
+  <meta name="robots" content="index, follow">
+
+  <link rel="canonical" href="https://koukano.github.io{{ page.url }}">
+
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Math Notes">
+  <meta property="og:title" content="{{ page.title }} | Math Notes">
+  <meta property="og:description" content="{{ seo_description | strip | escape }}">
+  <meta property="og:url" content="https://koukano.github.io{{ page.url }}">
 
   <!-- CSS -->
   <link rel="stylesheet" href="/css/style.css">
