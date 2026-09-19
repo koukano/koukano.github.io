@@ -88,19 +88,19 @@ $$
 
 となる。
 
-多項式解を考えると、余弦の項がチェビシェフ多項式に対応する。したがって、定数倍を除けば、
+多項式解を標準的な規格化 $T_n(1)=1$ で選ぶと、
 
 $
 T_n(x)
-\propto
+=
 \cos\left(n\cos^{-1}x\right)
 $
 
-という関係が得られる。ノートにある振動の図を整理すると、$[-1,1]$ 上でチェビシェフ多項式が余弦関数と同じように振動することが視覚的に分かる。
+となる。したがって $[-1,1]$ 上では $|T_n(x)|\leq1$ である。具体例として $n=5$ を描くと次のようになる。
 
 <figure class="article-figure">
-  <img src="/images/figures/chebyshev-cosine.svg" alt="区間マイナス1から1で振動するチェビシェフ多項式の模式図">
-  <figcaption>図1：$T_n(x)=\cos(n\arccos x)$ の振動。$x=\cos\phi$ と置くと、$\phi$ に関して一定周期の余弦振動として理解できる。</figcaption>
+  <img src="/images/figures/chebyshev-cosine.svg" alt="T5(x)=cos(5 arccos x)を区間マイナス1から1で正確に描いたグラフ">
+  <figcaption>図1：$T_5(x)=\cos(5\arccos x)$ の正確なグラフ。一般に $T_n(x)=\cos(n\arccos x)$ であり、$[-1,1]$ 上で $|T_n(x)|\leq1$。</figcaption>
 </figure>
 
 
