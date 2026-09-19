@@ -1,92 +1,103 @@
 ---
 layout: article
-title: "ガンマ関数の乗法公式と倍角公式"
+title: "ガウスの乗法公式"
 category: "gamma-function"
 category_label: "ガンマ関数"
 ---
 
-ガンマ関数の積には、引数を等間隔にずらした複数のガンマ関数を1つのガンマ関数へまとめる乗法公式がある。本記事ではその公式と、特別な場合である倍角公式を扱う。
+<div class="math-box theorem-box">
 
-## 1. 乗法公式
+<div class="math-box-title">定理：ガウスの乗法公式</div>
 
 正整数 $m$ に対して、
 
-<div class="math-box theorem-box">
+$$
+\prod_{k=0}^{m-1}
+\Gamma\left(z+\frac{k}{m}\right)
+=
+(2\pi)^{\frac{m-1}{2}}
+m^{\frac12-mz}
+\Gamma(mz)
+$$
 
-<div class="math-box-title">ガウスの乗法公式</div>
+が成り立つ。
+
+</div>
+
+## 証明
 
 $$
-\Gamma(z)
-\Gamma\left(z+\frac1m\right)
-\Gamma\left(z+\frac2m\right)
-\cdots
-\Gamma\left(z+\frac{m-1}{m}\right)
+F(z)
+=
+m^{mz}
+\frac{
+\displaystyle\prod_{k=0}^{m-1}
+\Gamma\left(z+\frac{k}{m}\right)
+}{
+\Gamma(mz)
+}
+$$
+
+とおく。
+
+$z$ を $z+1/m$ に置き換えると、分子では因子が一つずつずれ、
+
+$$
+\prod_{k=0}^{m-1}
+\Gamma\left(z+\frac1m+\frac{k}{m}\right)
+=
+\frac{\Gamma(z+1)}{\Gamma(z)}
+\prod_{k=0}^{m-1}
+\Gamma\left(z+\frac{k}{m}\right)
+=
+z
+\prod_{k=0}^{m-1}
+\Gamma\left(z+\frac{k}{m}\right).
+$$
+
+一方、
+
+$$
+\Gamma(mz+1)=mz\Gamma(mz).
+$$
+
+したがって、
+
+$$
+F\left(z+\frac1m\right)=F(z).
+$$
+
+つまり $F$ は周期 $1/m$ を持つ。
+
+そこで $z$ を正の実軸上で大きくし、各ガンマ関数にスターリングの公式を適用する。整理すると、
+
+$$
+F(z)
+\longrightarrow
+(2\pi)^{\frac{m-1}{2}}m^{1/2}.
+$$
+
+周期性より、任意の固定した $z$ に対して $z+n/m$ とずらしても $F$ の値は変わらないため、
+
+$$
+F(z)
+=
+(2\pi)^{\frac{m-1}{2}}m^{1/2}.
+$$
+
+よって、
+
+$$
+\prod_{k=0}^{m-1}
+\Gamma\left(z+\frac{k}{m}\right)
 =
 (2\pi)^{\frac{m-1}{2}}
 m^{\frac12-mz}
 \Gamma(mz).
 $$
 
-</div>
-
-ガウスの極限表示を各因子に適用し、積をまとめると、左辺と $\Gamma(mz)$ の比が $z$ に依存しない定数因子へ整理される。最後にスターリングの公式を用いて、その定数を決定する。
-
-## 2. 定数因子の決定
-
-積
-
-$$
-G(z)
-=
-\Gamma(z)
-\Gamma\left(z+\frac1m\right)
-\cdots
-\Gamma\left(z+\frac{m-1}{m}\right)
-$$
-
-を考える。
-
-ガウス表示を用いると、$G(z)$ と $\Gamma(mz)$ の比は、
-
-$$
-G(z)
-=
-C_m\,
-m^{\frac12-mz}
-\Gamma(mz)
-$$
-
-という形になる。スターリングの公式を比較することで、
-
-$$
-C_m
-=
-(2\pi)^{\frac{m-1}{2}}
-$$
-
-を得る。
-
-## 3. 倍角公式
-
-$m=2$ とすると、
-
-<div class="math-box theorem-box">
-
-<div class="math-box-title">ルジャンドルの倍角公式</div>
-
-$$
-\Gamma(z)
-\Gamma\left(z+\frac12\right)
-=
-2^{1-2z}
-\sqrt{\pi}\,
-\Gamma(2z).
-$$
-
-</div>
-
-これは乗法公式の最も基本的な場合である。
+$\square$
 
 ## 次の記事
 
-[ベータ関数とガンマ関数](/articles/beta-function-gamma.html)
+[ルジャンドルの倍角公式](/articles/legendre-duplication-formula.html)
