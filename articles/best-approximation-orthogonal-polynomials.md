@@ -1,8 +1,8 @@
 ---
 layout: article
 title: "直交多項式による最良近似"
-category: "special-functions"
-category_label: "特殊関数"
+category: "orthogonal-polynomials"
+category_label: "直交多項式"
 ---
 
 正規直交多項式を用いて関数を多項式で近似するとき、どの多項式が $L^2$ の意味で最良近似になるかを考える。本記事では、その中心となる結果をまとめる。
