@@ -1,6 +1,8 @@
 ---
 layout: article
 title: "リーマンの写像定理と直交多項式"
+category: "special-functions"
+category_label: "特殊関数"
 ---
 
 
