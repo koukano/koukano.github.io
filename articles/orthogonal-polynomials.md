@@ -2,8 +2,8 @@
 
 layout: article
 title: "直交多項式とは何か — 内積から正規直交多項式まで"
-category: "special-functions"
-category_label: "特殊関数"
+category: "orthogonal-polynomials"
+category_label: "直交多項式"
 ---
 
 
