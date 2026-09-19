@@ -1,8 +1,8 @@
 ---
 layout: article
 title: "ベッセルの不等式とパーセヴァルの等式"
-category: "special-functions"
-category_label: "特殊関数"
+category: "orthogonal-polynomials"
+category_label: "直交多項式"
 ---
 
 正規直交多項式を有限次元の多項式空間から $L^2$ 空間へ拡張して考える。本記事では、その準備としてベッセルの不等式とパーセヴァルの等式を整理する。
