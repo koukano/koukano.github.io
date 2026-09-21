@@ -1,6 +1,8 @@
 ---
 layout: article
 title: "Barnesの第一補題"
+seo_title: "Barnesの第一補題とは？Mellin–Barnes積分の基本公式"
+description: "Mellin–Barnes積分で現れる4つのガンマ関数の積を評価するBarnesの第一補題を、積分路と極の条件を含めて解説します。"
 category: "gamma-function"
 category_label: "ガンマ関数"
 ---
