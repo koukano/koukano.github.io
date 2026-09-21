@@ -1,6 +1,8 @@
 ---
 layout: article
 title: "再生核によるリーマン写像の表示"
+seo_title: "再生核によるリーマン写像の表示｜直交多項式との関係"
+description: "境界上の正規直交多項式から作る再生核を用いて、リーマン写像を復元する表示とその条件を解説します。"
 category: "orthogonal-polynomials"
 category_label: "直交多項式"
 ---
