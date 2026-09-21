@@ -1,6 +1,8 @@
 ---
 layout: article
 title: "有限区間における直交多項式の零点の稠密化"
+seo_title: "直交多項式の零点の稠密化｜有限区間での分布"
+description: "有限な直交区間で次数を大きくすると直交多項式の零点が区間全体に現れることを、部分区間ごとの存在として証明します。"
 category: "orthogonal-polynomials"
 category_label: "直交多項式"
 ---
