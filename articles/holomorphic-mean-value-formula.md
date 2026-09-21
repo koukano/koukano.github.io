@@ -1,6 +1,8 @@
 ---
 layout: article
 title: "正則関数の平均値公式"
+seo_title: "正則関数の平均値公式｜コーシーの積分公式から証明"
+description: "正則関数の値が円周上の値の平均で表される平均値公式を、コーシーの積分公式から証明します。"
 category: "complex-analysis"
 category_label: "複素解析"
 ---
