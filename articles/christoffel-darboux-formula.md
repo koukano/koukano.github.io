@@ -1,6 +1,8 @@
 ---
 layout: article
 title: "クリストッフェル・ダルブーの公式"
+seo_title: "クリストッフェル・ダルブーの公式｜直交多項式と再生核"
+description: "直交多項式の有限和を2つの連続する多項式で表すクリストッフェル・ダルブーの公式を、再生核との関係とともに導きます。"
 category: "orthogonal-polynomials"
 category_label: "直交多項式"
 ---
