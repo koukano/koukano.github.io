@@ -1,6 +1,8 @@
 ---
 layout: article
 title: "エルミート補間"
+seo_title: "エルミート補間とは？補間公式と剰余項"
+description: "関数値と導関数の値を同時に一致させるエルミート補間について、定義、補間多項式、剰余項を数式で整理します。"
 category: "orthogonal-polynomials"
 category_label: "直交多項式"
 ---
