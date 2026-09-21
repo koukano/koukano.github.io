@@ -1,6 +1,8 @@
 ---
 layout: article
 title: "古典的直交多項式が満たす微分方程式"
+seo_title: "古典的直交多項式が満たす微分方程式｜ヤコビ・ラゲール・エルミート"
+description: "ヤコビ、ゲーゲンバウアー、チェビシェフ、ルジャンドル、ラゲール、エルミート多項式が満たす2階微分方程式を整理します。"
 category: "classical-orthogonal-polynomials"
 category_label: "古典的直交多項式"
 ---
