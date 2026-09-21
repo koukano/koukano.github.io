@@ -1,6 +1,8 @@
 ---
 layout: article
 title: "チェビシェフ多項式と余弦関数"
+seo_title: "チェビシェフ多項式と余弦関数｜T_n(cosθ)=cos(nθ)"
+description: "チェビシェフ多項式と余弦関数の関係を、微分方程式と変数変換 x=cosθ から導きます。"
 category: "classical-orthogonal-polynomials"
 category_label: "古典的直交多項式"
 ---
