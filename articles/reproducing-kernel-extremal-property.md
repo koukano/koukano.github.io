@@ -1,6 +1,8 @@
 ---
 layout: article
 title: "再生核と極値問題"
+seo_title: "再生核と極値問題｜クリストッフェル・ダルブー核の極値性"
+description: "直交多項式から作られる再生核の極値性を、コーシー・シュワルツの不等式を用いて証明します。"
 category: "orthogonal-polynomials"
 category_label: "直交多項式"
 ---
