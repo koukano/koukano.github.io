@@ -1,6 +1,8 @@
 ---
 layout: article
 title: "直交多項式の零点の交互性"
+seo_title: "直交多項式の零点の交互性｜隣り合う次数の零点配置"
+description: "n次とn+1次の直交多項式の零点が交互に現れる性質を、共通零点を持たないこととあわせて証明します。"
 category: "orthogonal-polynomials"
 category_label: "直交多項式"
 ---
