@@ -1,6 +1,8 @@
 ---
 layout: article
 title: "ガンマ関数の定義"
+seo_title: "ガンマ関数とは？定義・収束条件と階乗との関係"
+description: "ガンマ関数 Γ(z) のオイラー積分による定義、Re z>0 という収束条件、階乗との関係を数式とともに解説します。"
 category: "gamma-function"
 category_label: "ガンマ関数"
 ---
