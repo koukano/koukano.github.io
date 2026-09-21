@@ -1,6 +1,8 @@
 ---
 layout: article
 title: "リーマンの写像定理の証明"
+seo_title: "リーマンの写像定理とは？定理の内容と証明"
+description: "単連結な真部分領域と単位円板の正則同値を主張するリーマンの写像定理を、モンテルの定理やシュワルツの補題を用いて証明します。"
 category: "complex-analysis"
 category_label: "複素解析"
 ---
