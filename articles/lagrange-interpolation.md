@@ -1,6 +1,8 @@
 ---
 layout: article
 title: "ラグランジュ補間"
+seo_title: "ラグランジュ補間とは？補間公式と基本多項式"
+description: "相異なる標本点を通るラグランジュ補間多項式について、定義、基本多項式、補間公式を数式で解説します。"
 category: "orthogonal-polynomials"
 category_label: "直交多項式"
 ---
