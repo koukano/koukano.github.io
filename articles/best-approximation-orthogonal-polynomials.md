@@ -1,6 +1,8 @@
 ---
 layout: article
 title: "直交多項式による最良近似"
+seo_title: "直交多項式による最良近似｜L²最小二乗近似"
+description: "正規直交多項式を用いたL²の意味での最良近似を解説し、直交射影が最小二乗近似を与える理由を数式で示します。"
 category: "orthogonal-polynomials"
 category_label: "直交多項式"
 ---
