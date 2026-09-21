@@ -1,6 +1,8 @@
 ---
 layout: article
 title: "ガンマ関数の関数方程式"
+seo_title: "ガンマ関数の関数方程式 Γ(z+1)=zΓ(z)｜証明と意味"
+description: "ガンマ関数の基本公式 Γ(z+1)=zΓ(z) を部分積分から証明し、階乗の拡張との関係を説明します。"
 category: "gamma-function"
 category_label: "ガンマ関数"
 ---
