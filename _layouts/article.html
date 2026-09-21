@@ -187,7 +187,9 @@
       <div class="article-header">
 
         <p class="article-label">
-          {% if page.category_label %}
+          {% if page.category and page.category_label %}
+            <a href="/{{ page.category }}/">{{ page.category_label }}</a>
+          {% elsif page.category_label %}
             {{ page.category_label }}
           {% else %}
             MATHEMATICS ARTICLE
