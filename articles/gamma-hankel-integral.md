@@ -1,6 +1,8 @@
 ---
 layout: article
 title: "ガンマ関数のハンケル型積分表示"
+seo_title: "ガンマ関数のハンケル積分表示｜積分路・分枝・公式"
+description: "ガンマ関数のハンケル型積分表示を、分岐切断、積分路の向き、成立条件とともに複素積分で解説します。"
 category: "gamma-function"
 category_label: "ガンマ関数"
 ---
