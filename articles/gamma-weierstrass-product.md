@@ -1,6 +1,8 @@
 ---
 layout: article
 title: "ワイエルシュトラスの積表示"
+seo_title: "ワイエルシュトラスの積表示｜逆ガンマ関数の無限積"
+description: "逆ガンマ関数 1/Γ(z) のワイエルシュトラス積表示を導き、整関数性と非正整数に現れる零点との関係を説明します。"
 category: "gamma-function"
 category_label: "ガンマ関数"
 ---
