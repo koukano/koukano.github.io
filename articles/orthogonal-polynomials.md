@@ -2,6 +2,8 @@
 
 layout: article
 title: "直交多項式とは何か — 内積から正規直交多項式まで"
+seo_title: "直交多項式とは？内積・直交性・正規直交多項式を基礎から解説"
+description: "直交多項式の定義を、線形空間・内積・ノルム・直交性・正規直交多項式の順に基礎から数式とともに解説します。"
 category: "orthogonal-polynomials"
 category_label: "直交多項式"
 ---
