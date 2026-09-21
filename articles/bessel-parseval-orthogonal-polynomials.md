@@ -1,6 +1,8 @@
 ---
 layout: article
 title: "ベッセルの不等式とパーセヴァルの等式"
+seo_title: "ベッセルの不等式とパーセヴァルの等式｜直交多項式とL²空間"
+description: "重み付きL²空間におけるベッセルの不等式とパーセヴァルの等式を、正規直交多項式による展開との関係を含めて数式とともに整理します。"
 category: "orthogonal-polynomials"
 category_label: "直交多項式"
 ---
