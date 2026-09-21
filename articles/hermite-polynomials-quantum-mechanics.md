@@ -1,6 +1,8 @@
 ---
 layout: article
 title: "量子力学におけるエルミート多項式"
+seo_title: "量子力学におけるエルミート多項式｜調和振動子との関係"
+description: "エルミート多項式が量子力学の調和振動子型微分方程式に現れる理由を、微分方程式の変換から解説します。"
 category: "classical-orthogonal-polynomials"
 category_label: "古典的直交多項式"
 ---
