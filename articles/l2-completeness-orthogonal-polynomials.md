@@ -1,6 +1,8 @@
 ---
 layout: article
 title: "L²(w)における正規直交多項式の完備性"
+seo_title: "L²(w)における正規直交多項式の完備性｜定義と証明"
+description: "重み付きL²空間における正規直交多項式系の完備性を、コーシー列・ヒルベルト空間・閉性との関係から整理します。"
 category: "orthogonal-polynomials"
 category_label: "直交多項式"
 ---
