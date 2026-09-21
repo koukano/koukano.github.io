@@ -1,6 +1,8 @@
 ---
 layout: article
 title: "ルジャンドル多項式とラプラス方程式"
+seo_title: "ルジャンドル多項式とラプラス方程式｜球座標で現れる理由"
+description: "ルジャンドル多項式が球座標におけるラプラス方程式の変数分離から現れる理由を、母関数と静電ポテンシャルとの関係から説明します。"
 category: "classical-orthogonal-polynomials"
 category_label: "古典的直交多項式"
 ---
