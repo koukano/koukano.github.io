@@ -1,6 +1,8 @@
 ---
 layout: article
 title: "ガウスの極限表示"
+seo_title: "ガウスの極限表示とは？ガンマ関数の有限積表示"
+description: "ガンマ関数を有限積の極限として表すガウスの極限表示を、成立条件と解析接続へのつながりを含めて解説します。"
 category: "gamma-function"
 category_label: "ガンマ関数"
 ---
