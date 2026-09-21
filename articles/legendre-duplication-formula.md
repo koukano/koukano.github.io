@@ -1,6 +1,8 @@
 ---
 layout: article
 title: "ルジャンドルの倍角公式"
+seo_title: "ルジャンドルの倍角公式｜ガンマ関数の公式と証明"
+description: "ガンマ関数のルジャンドルの倍角公式 Γ(z)Γ(z+1/2)=2^(1-2z)√πΓ(2z) をガウスの乗法公式から導きます。"
 category: "gamma-function"
 category_label: "ガンマ関数"
 ---
