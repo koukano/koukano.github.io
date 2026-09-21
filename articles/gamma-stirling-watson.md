@@ -1,6 +1,8 @@
 ---
 layout: article
 title: "ワトソンの補題"
+seo_title: "ワトソンの補題とは？ラプラス型積分の漸近展開"
+description: "ワトソンの補題を用いて、ラプラス型積分の端点近傍から得られる漸近展開の考え方と成立条件を整理します。"
 category: "gamma-function"
 category_label: "ガンマ関数"
 ---
