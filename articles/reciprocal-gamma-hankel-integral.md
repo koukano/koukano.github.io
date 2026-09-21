@@ -1,6 +1,8 @@
 ---
 layout: article
 title: "逆ガンマ関数のハンケル積分表示"
+seo_title: "逆ガンマ関数のハンケル積分表示｜1/Γ(z) の公式"
+description: "逆ガンマ関数 1/Γ(z) のハンケル積分表示を、積分路と分枝の取り方を含めて数式で整理します。"
 category: "gamma-function"
 category_label: "ガンマ関数"
 ---
