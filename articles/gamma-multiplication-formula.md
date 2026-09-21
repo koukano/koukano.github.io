@@ -1,6 +1,8 @@
 ---
 layout: article
 title: "ガウスの乗法公式"
+seo_title: "ガウスの乗法公式｜ガンマ関数の積公式と証明"
+description: "ガンマ関数のガウスの乗法公式を示し、正整数 m に対する積表示とルジャンドルの倍角公式との関係を整理します。"
 category: "gamma-function"
 category_label: "ガンマ関数"
 ---
