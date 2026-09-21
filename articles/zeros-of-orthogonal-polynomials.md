@@ -1,6 +1,8 @@
 ---
 layout: article
 title: "直交多項式の零点：区間内の単純零点"
+seo_title: "直交多項式の零点｜区間内にn個の単純零点を持つ理由"
+description: "n次の正規直交多項式が直交区間の内部にちょうどn個の相異なる単純零点を持つことを、直交性を用いて証明します。"
 category: "orthogonal-polynomials"
 category_label: "直交多項式"
 ---
