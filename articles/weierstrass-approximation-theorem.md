@@ -1,6 +1,8 @@
 ---
 layout: article
 title: "ワイエルシュトラスの近似定理とベルンシュタイン多項式"
+seo_title: "ワイエルシュトラスの近似定理とは？ベルンシュタイン多項式による証明"
+description: "連続関数を多項式で一様近似できるワイエルシュトラスの近似定理を、ベルンシュタイン多項式を用いて証明します。"
 category: "orthogonal-polynomials"
 category_label: "直交多項式"
 ---
