@@ -1,6 +1,8 @@
 ---
 layout: article
 title: "ゲーゲンバウアー多項式の母関数"
+seo_title: "ゲーゲンバウアー多項式の母関数｜公式と導出"
+description: "ゲーゲンバウアー多項式 C_n^λ(x) の母関数 (1-2xt+t²)^(-λ) を3項間漸化式から導きます。"
 category: "classical-orthogonal-polynomials"
 category_label: "古典的直交多項式"
 ---
