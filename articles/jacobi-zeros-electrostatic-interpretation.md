@@ -1,6 +1,8 @@
 ---
 layout: article
 title: "ヤコビ多項式の零点と静電気学的解釈"
+seo_title: "ヤコビ多項式の零点と静電気学的解釈｜平衡位置との関係"
+description: "ヤコビ多項式の零点を点電荷の平衡位置として解釈し、平衡条件からヤコビ微分方程式が現れることを説明します。"
 category: "classical-orthogonal-polynomials"
 category_label: "古典的直交多項式"
 ---
