@@ -1,6 +1,8 @@
 ---
 layout: article
 title: "ガウスの求積公式とクリストッフェル数"
+seo_title: "ガウスの求積公式とは？直交多項式の零点と数値積分"
+description: "直交多項式の零点を標本点に用いるガウスの求積公式を導き、クリストッフェル数の意味と正値性を説明します。"
 category: "orthogonal-polynomials"
 category_label: "直交多項式"
 ---
