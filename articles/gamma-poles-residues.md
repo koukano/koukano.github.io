@@ -1,6 +1,8 @@
 ---
 layout: article
 title: "ガンマ関数の極と留数"
+seo_title: "ガンマ関数の極と留数｜非正整数の単純極を計算"
+description: "ガンマ関数 Γ(z) が 0,-1,-2,… に単純極を持つことと、各極での留数 Res Γ(z)=(-1)^n/n! を導きます。"
 category: "gamma-function"
 category_label: "ガンマ関数"
 ---
