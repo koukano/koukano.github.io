@@ -1,6 +1,8 @@
 ---
 layout: article
 title: "ベータ関数のポッホハマー積分表示"
+seo_title: "ポッホハマー積分とは？ベータ関数の解析接続"
+description: "ベータ関数のポッホハマー積分表示を、分岐点0・1と積分路の取り方、解析接続との関係を含めて解説します。"
 category: "gamma-function"
 category_label: "ガンマ関数"
 ---
