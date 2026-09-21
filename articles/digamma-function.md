@@ -1,6 +1,8 @@
 ---
 layout: article
 title: "ガンマ関数の対数微分：ディガンマ関数"
+seo_title: "ディガンマ関数とは？ガンマ関数の対数微分"
+description: "ディガンマ関数 ψ(z)=Γ'(z)/Γ(z) の定義と基本的な表示を、ガンマ関数のワイエルシュトラス積表示から導きます。"
 category: "gamma-function"
 category_label: "ガンマ関数"
 ---
