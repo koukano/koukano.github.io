@@ -1,6 +1,8 @@
 ---
 layout: article
 title: "ラゲール多項式の母関数"
+seo_title: "ラゲール多項式の母関数｜一般化ラゲール多項式の公式"
+description: "一般化ラゲール多項式 L_n^α(x) の母関数を示し、|t|<1 における公式を数式とともに整理します。"
 category: "classical-orthogonal-polynomials"
 category_label: "古典的直交多項式"
 ---
