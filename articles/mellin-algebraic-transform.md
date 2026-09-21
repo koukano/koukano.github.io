@@ -1,6 +1,8 @@
 ---
 layout: article
 title: "代数方程式の解のMellin変換"
+seo_title: "代数方程式の解のMellin変換｜積分表示と導出"
+description: "代数方程式 y^μ+xy^p-1=0 の正の実数解に対するMellin変換を定義し、ガンマ関数を含む表示へ導きます。"
 category: "gamma-function"
 category_label: "ガンマ関数"
 ---
