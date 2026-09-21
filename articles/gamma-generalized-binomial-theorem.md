@@ -1,6 +1,8 @@
 ---
 layout: article
 title: "一般化二項定理"
+seo_title: "一般化二項定理とは？複素指数への拡張と収束範囲"
+description: "一般化二項定理 (1+x)^α=Σ(α choose n)x^n を、複素指数の場合の成立条件 |x|<1 とともに整理します。"
 category: "gamma-function"
 category_label: "ガンマ関数"
 ---
