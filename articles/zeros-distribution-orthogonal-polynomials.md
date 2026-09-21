@@ -1,6 +1,8 @@
 ---
 layout: article
 title: "異なる次数の直交多項式の零点の分離"
+seo_title: "異なる次数の直交多項式の零点の分離｜零点配置の定理"
+description: "m>n の直交多項式について、n次多項式の隣り合う零点の間にm次多項式の零点が存在することを証明します。"
 category: "orthogonal-polynomials"
 category_label: "直交多項式"
 ---
