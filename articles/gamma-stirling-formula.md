@@ -1,6 +1,8 @@
 ---
 layout: article
 title: "スターリングの公式"
+seo_title: "スターリングの公式とは？ガンマ関数の漸近公式を証明"
+description: "ガンマ関数の大きな引数に対するスターリングの公式を、ラプラス法を用いて実数 x→∞ の場合に証明します。"
 category: "gamma-function"
 category_label: "ガンマ関数"
 ---
