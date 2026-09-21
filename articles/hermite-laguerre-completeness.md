@@ -1,6 +1,8 @@
 ---
 layout: article
 title: "エルミート多項式とラゲール多項式の完備性"
+seo_title: "エルミート多項式とラゲール多項式の完備性｜無限区間での証明"
+description: "エルミート多項式とラゲール多項式の完備性を、有限区間とは異なる無限区間上の議論と変換積分を用いて整理します。"
 category: "classical-orthogonal-polynomials"
 category_label: "古典的直交多項式"
 ---
