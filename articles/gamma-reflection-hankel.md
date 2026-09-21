@@ -1,6 +1,8 @@
 ---
 layout: article
 title: "オイラーの反射公式"
+seo_title: "オイラーの反射公式｜Γ(z)Γ(1-z)=π/sinπz の証明"
+description: "ガンマ関数のオイラーの反射公式 Γ(z)Γ(1-z)=π/sin(πz) を、成立条件とともに証明します。"
 category: "gamma-function"
 category_label: "ガンマ関数"
 ---
