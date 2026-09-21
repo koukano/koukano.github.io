@@ -1,6 +1,8 @@
 ---
 layout: article
 title: "ガンマ関数による二項係数の表示"
+seo_title: "ガンマ関数による二項係数の表示｜公式と証明"
+description: "ガンマ関数を用いて一般化された二項係数を表す公式を示し、その成立条件と証明を数式で整理します。"
 category: "gamma-function"
 category_label: "ガンマ関数"
 ---
