@@ -1,6 +1,8 @@
 ---
 layout: article
 title: "直交多項式の3項間漸化式"
+seo_title: "直交多項式の3項間漸化式｜公式と証明"
+description: "正規直交多項式が満たす3項間漸化式を、係数の導出と直交性を用いた証明とともに整理します。"
 category: "orthogonal-polynomials"
 category_label: "直交多項式"
 ---
