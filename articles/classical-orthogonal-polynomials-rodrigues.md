@@ -1,6 +1,8 @@
 ---
 layout: article
 title: "ロドリゲスの公式と古典的直交多項式"
+seo_title: "ロドリゲスの公式とは？古典的直交多項式を統一的に表す公式"
+description: "ロドリゲスの公式を用いて、ヤコビ・ルジャンドル・チェビシェフ・ゲーゲンバウアー・ラゲール・エルミート多項式を整理します。"
 category: "classical-orthogonal-polynomials"
 category_label: "古典的直交多項式"
 ---
