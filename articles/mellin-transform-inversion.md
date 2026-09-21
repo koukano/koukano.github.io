@@ -1,6 +1,8 @@
 ---
 layout: article
 title: "Mellin変換とMellin反転公式"
+seo_title: "Mellin変換とは？定義とMellin反転公式"
+description: "Mellin変換の定義とMellin反転公式を、ガンマ関数やMellin–Barnes積分とのつながりを含めて整理します。"
 category: "gamma-function"
 category_label: "ガンマ関数"
 ---
