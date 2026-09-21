@@ -1,6 +1,8 @@
 ---
 layout: article
 title: "ベータ関数とガンマ関数の関係"
+seo_title: "ベータ関数とガンマ関数の関係｜公式と導出"
+description: "ベータ関数B(x,y)とガンマ関数Γ(x)の関係 B(x,y)=Γ(x)Γ(y)/Γ(x+y) を、定義と成立条件から導きます。"
 category: "gamma-function"
 category_label: "ガンマ関数"
 ---
