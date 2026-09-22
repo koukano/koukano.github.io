@@ -209,6 +209,24 @@
 
         {{ content }}
 
+        {% unless page.hide_references %}
+        <section class="references">
+          <h2>参考文献</h2>
+
+          {% if page.references %}
+          <ul>
+            {% for reference in page.references %}
+            <li>{{ reference }}</li>
+            {% endfor %}
+          </ul>
+          {% else %}
+          <ul>
+            <li>Harry Hochstadt, <cite>The Functions of Mathematical Physics</cite>, Wiley-Interscience, 1971.</li>
+          </ul>
+          {% endif %}
+        </section>
+        {% endunless %}
+
       </div>
 
 
