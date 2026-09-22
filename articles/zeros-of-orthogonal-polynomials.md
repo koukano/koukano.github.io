@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "直交多項式の零点：区間内の単純零点"
+title: "直交多項式の零点（Zeros of Orthogonal Polynomials）：区間内の単純零点"
 seo_title: "直交多項式の零点｜区間内にn個の単純零点を持つ理由"
 description: "n次の正規直交多項式が直交区間の内部にちょうどn個の相異なる単純零点を持つことを、直交性を用いて証明します。"
 category: "orthogonal-polynomials"
@@ -21,7 +21,7 @@ $$
 
 <div class="math-box theorem-box">
 
-<div class="math-box-title">定理：直交多項式の零点</div>
+<div class="math-box-title">定理：直交多項式の零点（Zeros of Orthogonal Polynomials）</div>
 
 $n$ 次の正規直交多項式 $\phi_n$ は、区間 $(a,b)$ に相異なる $n$ 個の零点を持つ。すなわち、すべての零点は $(a,b)$ の内部にあり、しかもすべて単純零点である。
 

@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "一般化二項定理"
+title: "一般化二項定理（Generalized Binomial Theorem）"
 seo_title: "一般化二項定理とは？複素指数への拡張と収束範囲"
 description: "一般化二項定理 (1+x)^α=Σ(α choose n)x^n を、複素指数の場合の成立条件 |x|<1 とともに整理します。"
 category: "gamma-function"
@@ -9,7 +9,7 @@ category_label: "ガンマ関数"
 
 <div class="math-box theorem-box">
 
-<div class="math-box-title">定理：一般化二項定理</div>
+<div class="math-box-title">定理：一般化二項定理（Generalized Binomial Theorem）</div>
 
 $|x|<1$ とする。$x=0$ の近傍で選んだ $(1+x)^\alpha$ の正則な分枝に対して、
 

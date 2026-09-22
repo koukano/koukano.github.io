@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "ヤコビ多項式の零点と静電気学的解釈"
+title: "ヤコビ多項式の零点と静電気学的解釈（Electrostatic Interpretation of the Zeros of Jacobi Polynomials）"
 seo_title: "ヤコビ多項式の零点と静電気学的解釈｜平衡位置との関係"
 description: "ヤコビ多項式の零点を点電荷の平衡位置として解釈し、平衡条件からヤコビ微分方程式が現れることを説明します。"
 category: "classical-orthogonal-polynomials"
@@ -149,7 +149,7 @@ n(n-1+2p+2q)f
 0.
 $$
 
-## 5. ヤコビ微分方程式との比較
+## 5. ヤコビ微分方程式（Jacobi Differential Equation）との比較
 
 ヤコビ多項式の微分方程式
 
@@ -188,7 +188,7 @@ $$
 
 <div class="math-box theorem-box">
 
-<div class="math-box-title">零点の静電気学的解釈</div>
+<div class="math-box-title">零点の静電気学的解釈（Electrostatic Interpretation of Zeros）</div>
 
 ヤコビ多項式 $P_n^{(2p-1,\,2q-1)}$ の零点は、区間 $(-1,1)$ に置かれた $n$ 個の単位電荷が、端点の固定電荷 $p,q$ と互いの反発のもとで平衡になる位置として解釈できる。
 

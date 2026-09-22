@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "有限区間における直交多項式の零点の稠密化"
+title: "有限区間における直交多項式の零点の稠密化（Density of Zeros of Orthogonal Polynomials on a Finite Interval）"
 seo_title: "直交多項式の零点の稠密化｜有限区間での分布"
 description: "有限な直交区間で次数を大きくすると直交多項式の零点が区間全体に現れることを、部分区間ごとの存在として証明します。"
 category: "orthogonal-polynomials"
@@ -11,7 +11,7 @@ category_label: "直交多項式"
 
 <div class="math-box theorem-box">
 
-<div class="math-box-title">定理：有限区間における零点の稠密化</div>
+<div class="math-box-title">定理：有限区間における零点の稠密化（Density of Zeros on a Finite Interval）</div>
 
 $(a,b)$ を有限区間とし、$(\alpha,\beta)$ をその任意の部分区間とする。このとき、$n$ を十分大きくとれば、正規直交多項式 $\phi_n$ は $(\alpha,\beta)$ に少なくとも1つ零点を持つ。
 

@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "L²(w)における正規直交多項式の完備性"
+title: "L²(w)における正規直交多項式の完備性（Completeness of Orthonormal Polynomials in L²(w)）"
 seo_title: "L²(w)における正規直交多項式の完備性｜定義と証明"
 description: "重み付きL²空間における正規直交多項式系の完備性を、コーシー列・ヒルベルト空間・閉性との関係から整理します。"
 category: "orthogonal-polynomials"
@@ -13,7 +13,7 @@ category_label: "直交多項式"
 
 <div class="math-box definition-box">
 
-<div class="math-box-title">定義：コーシー列</div>
+<div class="math-box-title">定義：コーシー列（Cauchy Sequence）</div>
 
 関数列 $\{f_n\}$ が、任意の $\varepsilon>0$ に対してある $N$ が存在し、
 
@@ -31,7 +31,7 @@ $$
 
 <div class="math-box definition-box">
 
-<div class="math-box-title">定義：完備な内積空間</div>
+<div class="math-box-title">定義：完備な内積空間（Complete Inner Product Space）</div>
 
 すべてのコーシー列がその空間内の元へ収束するとき、その内積空間を完備という。完備な内積空間をヒルベルト空間という。
 
@@ -53,7 +53,7 @@ $$
 
 <div class="math-box theorem-box">
 
-<div class="math-box-title">定理：閉性と完備性</div>
+<div class="math-box-title">定理：閉性と完備性（Closedness and Completeness）</div>
 
 ヒルベルト空間における正規直交系は、閉じていることと完備であることが同値である。
 

@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "ベータ関数のポッホハマー積分表示"
+title: "ベータ関数のポッホハマー積分表示（Pochhammer Contour Integral Representation of the Beta Function）"
 seo_title: "ポッホハマー積分とは？ベータ関数の解析接続"
 description: "ベータ関数のポッホハマー積分表示を、分岐点0・1と積分路の取り方、解析接続との関係を含めて解説します。"
 category: "gamma-function"
@@ -30,7 +30,7 @@ $$
 
 <div class="math-box theorem-box">
 
-<div class="math-box-title">定理：ベータ関数のポッホハマー積分表示</div>
+<div class="math-box-title">定理：ベータ関数のポッホハマー積分表示（Pochhammer Contour Integral Representation of the Beta Function）</div>
 
 上の向きと分枝のもとで、
 

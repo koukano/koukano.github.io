@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "ワトソンの補題"
+title: "ワトソンの補題（Watson's Lemma）"
 seo_title: "ワトソンの補題とは？ラプラス型積分の漸近展開"
 description: "ワトソンの補題を用いて、ラプラス型積分の端点近傍から得られる漸近展開の考え方と成立条件を整理します。"
 category: "gamma-function"
@@ -11,7 +11,7 @@ category_label: "ガンマ関数"
 
 <div class="math-box theorem-box">
 
-<div class="math-box-title">定理：ワトソンの補題</div>
+<div class="math-box-title">定理：ワトソンの補題（Watson's Lemma）</div>
 
 $\lambda>0$ とし、$t\to0^+$ のとき
 

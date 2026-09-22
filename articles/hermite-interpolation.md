@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "エルミート補間"
+title: "エルミート補間（Hermite Interpolation）"
 seo_title: "エルミート補間とは？補間公式と剰余項"
 description: "関数値と導関数の値を同時に一致させるエルミート補間について、定義、補間多項式、剰余項を数式で整理します。"
 category: "orthogonal-polynomials"
@@ -11,7 +11,7 @@ category_label: "直交多項式"
 
 <div class="math-box definition-box">
 
-<div class="math-box-title">定義：エルミート補間</div>
+<div class="math-box-title">定義：エルミート補間（Hermite Interpolation）</div>
 
 相異なる標本点 $x_1,\ldots,x_n$ に対して、$2n-1$ 次以下の多項式 $F$ が
 
@@ -79,7 +79,7 @@ $$
 
 を満たす。
 
-## 2. エルミート補間公式
+## 2. エルミート補間公式（Hermite Interpolation Formula）
 
 したがって、
 
@@ -106,7 +106,7 @@ $$
 
 <div class="math-box theorem-box">
 
-<div class="math-box-title">定理：エルミート補間公式</div>
+<div class="math-box-title">定理：エルミート補間公式（Hermite Interpolation Formula）</div>
 
 上で定義した $\sigma_k,\tau_k$ を用いると、
 

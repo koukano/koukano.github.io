@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "オイラーの反射公式"
+title: "オイラーの反射公式（Euler's Reflection Formula）"
 seo_title: "オイラーの反射公式｜Γ(z)Γ(1-z)=π/sinπz の証明"
 description: "ガンマ関数のオイラーの反射公式 Γ(z)Γ(1-z)=π/sin(πz) を、成立条件とともに証明します。"
 category: "gamma-function"
@@ -11,7 +11,7 @@ category_label: "ガンマ関数"
 
 <div class="math-box theorem-box">
 
-<div class="math-box-title">定理：オイラーの反射公式</div>
+<div class="math-box-title">定理：オイラーの反射公式（Euler's Reflection Formula）</div>
 
 $z\notin\mathbb{Z}$ に対して、
 

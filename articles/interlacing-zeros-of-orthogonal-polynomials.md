@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "直交多項式の零点の交互性"
+title: "直交多項式の零点の交互性（Interlacing of Zeros of Orthogonal Polynomials）"
 seo_title: "直交多項式の零点の交互性｜隣り合う次数の零点配置"
 description: "n次とn+1次の直交多項式の零点が交互に現れる性質を、共通零点を持たないこととあわせて証明します。"
 category: "orthogonal-polynomials"
@@ -13,7 +13,7 @@ $n$ 次と $(n+1)$ 次の正規直交多項式の零点には、互い違いに�
 
 <div class="math-box theorem-box">
 
-<div class="math-box-title">定理：隣り合う次数の零点の交互性</div>
+<div class="math-box-title">定理：隣り合う次数の零点の交互性（Interlacing of Zeros of Consecutive Degrees）</div>
 
 $\phi_n$ と $\phi_{n+1}$ の零点は区間 $(a,b)$ で交互に現れる。また、$\phi_n$ と $\phi_{n+1}$ は共通の零点を持たない。
 

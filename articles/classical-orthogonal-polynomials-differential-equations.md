@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "古典的直交多項式が満たす微分方程式"
+title: "古典的直交多項式が満たす微分方程式（Differential Equations for Classical Orthogonal Polynomials）"
 seo_title: "古典的直交多項式が満たす微分方程式｜ヤコビ・ラゲール・エルミート"
 description: "ヤコビ、ゲーゲンバウアー、チェビシェフ、ルジャンドル、ラゲール、エルミート多項式が満たす2階微分方程式を整理します。"
 category: "classical-orthogonal-polynomials"
@@ -68,11 +68,11 @@ $$
 
 を得る。
 
-## 2. ヤコビ微分方程式
+## 2. ヤコビ微分方程式（Jacobi Differential Equation）
 
 <div class="math-box theorem-box">
 
-<div class="math-box-title">ヤコビ微分方程式</div>
+<div class="math-box-title">ヤコビ微分方程式（Jacobi Differential Equation）</div>
 
 $$
 (1-x^2)y''

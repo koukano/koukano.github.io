@@ -17,7 +17,7 @@ category_label: "直交多項式"
 
 <div class="math-box definition-box">
 
-<div class="math-box-title">定義：線形空間</div>
+<div class="math-box-title">定義：線形空間（Vector Space）</div>
 
 集合 $V$ に対して、任意の $a,b\in V$ と $\lambda,\mu\in\mathbb{R}$ について、和 $a+b\in V$ とスカラー倍 $\lambda a\in V$ が定義され、ベクトルの加法とスカラー倍に関する通常の演算法則を満たすとき、$V$ を実数体 $\mathbb{R}$ 上の線形空間という。
 
@@ -31,7 +31,7 @@ category_label: "直交多項式"
 
 <div class="math-box definition-box">
 
-<div class="math-box-title">定義：内積</div>
+<div class="math-box-title">定義：内積（Inner Product）</div>
 
 実線形空間 $V$ において、任意の $f,g\in V$ に対して実数 $\langle f,g\rangle$ が定まり、次の性質を満たすとき、$\langle f,g\rangle$ を $f$ と $g$ の内積という。
 
@@ -59,7 +59,7 @@ $$
 
 <div class="math-box definition-box">
 
-<div class="math-box-title">定義：ノルム</div>
+<div class="math-box-title">定義：ノルム（Norm）</div>
 
 $f\in V$ に対して、
 
@@ -75,7 +75,7 @@ $$
 
 <div class="math-box theorem-box">
 
-<div class="math-box-title">定理：ノルムの基本性質</div>
+<div class="math-box-title">定理：ノルムの基本性質（Basic Properties of a Norm）</div>
 
 任意の $f,g\in V$ と $\alpha\in\mathbb{R}$ に対して、
 
@@ -105,7 +105,7 @@ $$
 
 <div class="math-box definition-box">
 
-<div class="math-box-title">定義：直交</div>
+<div class="math-box-title">定義：直交（Orthogonality）</div>
 
 $0$ ではない $f,g\in V$ に対して、
 
@@ -127,7 +127,7 @@ $$
 
 <div class="math-box definition-box">
 
-<div class="math-box-title">定義：正規直交</div>
+<div class="math-box-title">定義：正規直交（Orthonormality）</div>
 
 $f_0,f_1,\ldots,f_n$ が互いに直交し、
 
@@ -162,7 +162,7 @@ $$
 
 <div class="math-box definition-box">
 
-<div class="math-box-title">定義：多項式の内積</div>
+<div class="math-box-title">定義：多項式の内積（Inner Product of Polynomials）</div>
 
 $f,g\in\mathbb{R}[x]$ に対して、
 
@@ -184,7 +184,7 @@ $$
 
 <div class="math-box definition-box">
 
-<div class="math-box-title">定義：正規直交多項式</div>
+<div class="math-box-title">定義：正規直交多項式（Orthonormal Polynomials）</div>
 
 $n$ 次多項式 $\phi_n(x)$ を
 

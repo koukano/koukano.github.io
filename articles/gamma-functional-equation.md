@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "ガンマ関数の関数方程式"
+title: "ガンマ関数の関数方程式（Functional Equation of the Gamma Function）"
 seo_title: "ガンマ関数の関数方程式 Γ(z+1)=zΓ(z)｜証明と意味"
 description: "ガンマ関数の基本公式 Γ(z+1)=zΓ(z) を部分積分から証明し、階乗の拡張との関係を説明します。"
 category: "gamma-function"
@@ -17,7 +17,7 @@ $$
 
 <div class="math-box theorem-box">
 
-<div class="math-box-title">定理：ガンマ関数の関数方程式</div>
+<div class="math-box-title">定理：ガンマ関数の関数方程式（Functional Equation of the Gamma Function）</div>
 
 $\operatorname{Re}z>0$ に対して、
 

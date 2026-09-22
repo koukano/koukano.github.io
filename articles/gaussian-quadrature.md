@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "ガウスの求積公式とクリストッフェル数"
+title: "ガウスの求積公式（Gaussian Quadrature Formula）とクリストッフェル数"
 seo_title: "ガウスの求積公式とは？直交多項式の零点と数値積分"
 description: "直交多項式の零点を標本点に用いるガウスの求積公式を導き、クリストッフェル数の意味と正値性を説明します。"
 category: "orthogonal-polynomials"
@@ -46,7 +46,7 @@ $$
 
 <div class="math-box theorem-box">
 
-<div class="math-box-title">定理：ガウスの求積公式</div>
+<div class="math-box-title">定理：ガウスの求積公式（Gaussian Quadrature Formula）</div>
 
 $f$ が高々 $2n-1$ 次の多項式ならば、
 

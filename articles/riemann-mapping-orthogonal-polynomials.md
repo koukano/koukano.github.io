@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "再生核によるリーマン写像の表示"
+title: "再生核によるリーマン写像の表示（Representation of a Riemann Map by a Reproducing Kernel）"
 seo_title: "再生核によるリーマン写像の表示｜直交多項式との関係"
 description: "境界上の正規直交多項式から作る再生核を用いて、リーマン写像を復元する表示とその条件を解説します。"
 category: "orthogonal-polynomials"
@@ -65,7 +65,7 @@ $$
 
 <div class="math-box theorem-box">
 
-<div class="math-box-title">定理：再生核によるリーマン写像の表示</div>
+<div class="math-box-title">定理：再生核によるリーマン写像の表示（Representation of a Riemann Map by a Reproducing Kernel）</div>
 
 上の仮定のもとで、
 

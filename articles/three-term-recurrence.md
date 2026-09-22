@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "直交多項式の3項間漸化式"
+title: "直交多項式の3項間漸化式（Three-Term Recurrence Relation）"
 seo_title: "直交多項式の3項間漸化式｜公式と証明"
 description: "正規直交多項式が満たす3項間漸化式を、係数の導出と直交性を用いた証明とともに整理します。"
 category: "orthogonal-polynomials"
@@ -21,7 +21,7 @@ $$
 
 <div class="math-box theorem-box">
 
-<div class="math-box-title">定理：3項間漸化式</div>
+<div class="math-box-title">定理：3項間漸化式（Three-Term Recurrence Relation）</div>
 
 正規直交多項式 $\phi_n$ は
 

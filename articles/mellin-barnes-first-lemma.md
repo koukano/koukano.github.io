@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Barnesの第一補題"
+title: "Barnesの第一補題（Barnes' First Lemma）"
 seo_title: "Barnesの第一補題とは？Mellin–Barnes積分の基本公式"
 description: "Mellin–Barnes積分で現れる4つのガンマ関数の積を評価するBarnesの第一補題を、積分路と極の条件を含めて解説します。"
 category: "gamma-function"
@@ -11,7 +11,7 @@ Mellin–Barnes積分で頻繁に現れる4つのガンマ関数の積は、Barn
 
 <div class="math-box theorem-box">
 
-<div class="math-box-title">定理：Barnesの第一補題</div>
+<div class="math-box-title">定理：Barnesの第一補題（Barnes' First Lemma）</div>
 
 積分路 $L$ を縦の直線にとり、
 

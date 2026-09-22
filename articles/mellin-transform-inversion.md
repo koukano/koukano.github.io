@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Mellin変換とMellin反転公式"
+title: "Mellin変換（Mellin Transform）とMellin反転公式（Mellin Inversion Formula）"
 seo_title: "Mellin変換とは？定義とMellin反転公式"
 description: "Mellin変換の定義とMellin反転公式を、ガンマ関数やMellin–Barnes積分とのつながりを含めて整理します。"
 category: "gamma-function"
@@ -9,11 +9,11 @@ category_label: "ガンマ関数"
 
 Mellin変換は、正の実軸上の関数を複素変数の関数へ移す積分変換である。ガンマ関数そのものもMellin変換として現れ、Mellin–Barnes積分を考えるための基礎になる。
 
-## 1. Mellin変換
+## 1. Mellin変換（Mellin Transform）
 
 <div class="math-box definition-box">
 
-<div class="math-box-title">定義：Mellin変換</div>
+<div class="math-box-title">定義：Mellin変換（Mellin Transform）</div>
 
 関数 $f(x)$ に対して、
 
@@ -30,11 +30,11 @@ $$
 
 積分が収束する $z$ の範囲は関数 $f$ によって異なり、通常は複素平面上の縦の帯状領域になる。
 
-## 2. Mellin反転公式
+## 2. Mellin反転公式（Mellin Inversion Formula）
 
 <div class="math-box theorem-box">
 
-<div class="math-box-title">Mellin反転公式</div>
+<div class="math-box-title">Mellin反転公式（Mellin Inversion Formula）</div>
 
 適切な条件のもとで、
 

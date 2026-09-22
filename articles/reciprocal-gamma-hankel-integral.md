@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "逆ガンマ関数のハンケル積分表示"
+title: "逆ガンマ関数のハンケル積分表示（Hankel Integral Representation of the Reciprocal Gamma Function）"
 seo_title: "逆ガンマ関数のハンケル積分表示｜1/Γ(z) の公式"
 description: "逆ガンマ関数 1/Γ(z) のハンケル積分表示を、積分路と分枝の取り方を含めて数式で整理します。"
 category: "gamma-function"
@@ -11,7 +11,7 @@ category_label: "ガンマ関数"
 
 <div class="math-box theorem-box">
 
-<div class="math-box-title">定理：逆ガンマ関数のハンケル表示</div>
+<div class="math-box-title">定理：逆ガンマ関数のハンケル表示（Hankel Representation of the Reciprocal Gamma Function）</div>
 
 ハンケル型積分路 $H$ を前の記事と同じ向きにとると、
 

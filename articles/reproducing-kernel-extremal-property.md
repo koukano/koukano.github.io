@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "再生核と極値問題"
+title: "再生核と極値問題（Reproducing Kernels and Extremal Problems）"
 seo_title: "再生核と極値問題｜クリストッフェル・ダルブー核の極値性"
 description: "直交多項式から作られる再生核の極値性を、コーシー・シュワルツの不等式を用いて証明します。"
 category: "orthogonal-polynomials"
@@ -11,7 +11,7 @@ category_label: "直交多項式"
 
 <div class="math-box theorem-box">
 
-<div class="math-box-title">定理：再生核の極値性</div>
+<div class="math-box-title">定理：再生核の極値性（Extremal Property of the Reproducing Kernel）</div>
 
 高々 $n$ 次でノルムが $1$ の実係数多項式 $\rho$ のうち、固定した点 $y\in(a,b)$ における $\lvert\rho(y)\rvert$ を最大にするものは、
 
@@ -67,7 +67,7 @@ $$
 
 である。
 
-## 2. コーシー・シュワルツの不等式
+## 2. コーシー・シュワルツの不等式（Cauchy–Schwarz Inequality）
 
 ベクトル
 

@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "代数方程式の解の回転対称性"
+title: "代数方程式の解の回転対称性（Rotational Symmetry of the Solutions of an Algebraic Equation）"
 seo_title: "代数方程式の解の回転対称性｜複素数解の構造"
 description: "代数方程式 y^μ+xy^p-1=0 の解が持つ回転対称性を、μ乗根と複素数解の関係から整理します。"
 category: "gamma-function"
@@ -23,7 +23,7 @@ $$
 
 <div class="math-box theorem-box">
 
-<div class="math-box-title">定理：解の回転対称性</div>
+<div class="math-box-title">定理：解の回転対称性（Rotational Symmetry of the Solutions）</div>
 
 $y(x)$ が
 

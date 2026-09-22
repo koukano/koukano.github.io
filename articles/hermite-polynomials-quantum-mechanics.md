@@ -9,7 +9,7 @@ category_label: "古典的直交多項式"
 
 エルミート多項式は、調和振動子型の微分方程式と直接結びついている。本記事では、エルミート多項式の微分方程式から指数関数を掛けた関数を作り、量子力学で現れる微分方程式との対応を確認する。
 
-## 1. エルミート微分方程式
+## 1. エルミート微分方程式（Hermite Differential Equation）
 
 重み $e^{-x^2/2}$ に対応するエルミート多項式は、
 
@@ -81,7 +81,7 @@ $$
 
 <div class="math-box theorem-box">
 
-<div class="math-box-title">エルミート関数の微分方程式</div>
+<div class="math-box-title">エルミート関数の微分方程式（Differential Equation for Hermite Functions）</div>
 
 $$
 U_n(x)
@@ -113,7 +113,7 @@ $$
   <figcaption>図1：$n=3$ の正規化された $V_3(x)=C_3e^{-x^2/2}H_3(\sqrt2x)$。3個の零点を持ち、$|x|\to\infty$ で指数的に $0$ へ減衰する。<span class="figure-source">本文の公式に基づき作図。</span></figcaption>
 </figure>
 
-## 3. 調和振動子型の方程式
+## 3. 調和振動子型の方程式（Harmonic Oscillator Equation）
 
 次の微分方程式を考える。
 

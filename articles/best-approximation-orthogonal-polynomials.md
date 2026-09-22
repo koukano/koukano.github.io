@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "直交多項式による最良近似"
+title: "直交多項式による最良近似（Best Approximation by Orthogonal Polynomials）"
 seo_title: "直交多項式による最良近似｜L²最小二乗近似"
 description: "正規直交多項式を用いたL²の意味での最良近似を解説し、直交射影が最小二乗近似を与える理由を数式で示します。"
 category: "orthogonal-polynomials"
@@ -31,7 +31,7 @@ $$
 
 <div class="math-box theorem-box">
 
-<div class="math-box-title">定理：最良近似多項式</div>
+<div class="math-box-title">定理：最良近似多項式（Best Approximation Polynomial）</div>
 
 $f$ に対して、
 

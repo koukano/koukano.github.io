@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "エルミート多項式の母関数"
+title: "エルミート多項式の母関数（Generating Function for Hermite Polynomials）"
 seo_title: "エルミート多項式の母関数｜公式と導出"
 description: "エルミート多項式の母関数を定義から導き、各次数の多項式を1つの生成関数にまとめる方法を解説します。"
 category: "classical-orthogonal-polynomials"
@@ -20,7 +20,7 @@ $$
 
 <div class="math-box theorem-box">
 
-<div class="math-box-title">定理：エルミート多項式の母関数</div>
+<div class="math-box-title">定理：エルミート多項式の母関数（Generating Function for Hermite Polynomials）</div>
 
 $$
 e^{-t^2/2+tx}

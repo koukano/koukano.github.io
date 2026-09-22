@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "クリストッフェル・ダルブーの公式"
+title: "クリストッフェル・ダルブーの公式（Christoffel–Darboux Formula）"
 seo_title: "クリストッフェル・ダルブーの公式｜直交多項式と再生核"
 description: "直交多項式の有限和を2つの連続する多項式で表すクリストッフェル・ダルブーの公式を、再生核との関係とともに導きます。"
 category: "orthogonal-polynomials"
@@ -20,7 +20,7 @@ $$
 
 <div class="math-box theorem-box">
 
-<div class="math-box-title">定理：クリストッフェル・ダルブーの公式</div>
+<div class="math-box-title">定理：クリストッフェル・ダルブーの公式（Christoffel–Darboux Formula）</div>
 
 $n$ 次までの正規直交多項式から
 

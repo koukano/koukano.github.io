@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "ルジャンドル多項式とラプラス方程式"
+title: "ルジャンドル多項式とラプラス方程式（Laplace's Equation）"
 seo_title: "ルジャンドル多項式とラプラス方程式｜球座標で現れる理由"
 description: "ルジャンドル多項式が球座標におけるラプラス方程式の変数分離から現れる理由を、母関数と静電ポテンシャルとの関係から説明します。"
 category: "classical-orthogonal-polynomials"
@@ -74,7 +74,7 @@ $$
 
 という展開が得られる。
 
-## 2. 球座標におけるラプラス方程式
+## 2. 球座標におけるラプラス方程式（Laplace's Equation）
 
 電荷の存在しない領域では、
 
@@ -168,7 +168,7 @@ $$
 
 を選ぶ。
 
-## 5. 角度方向とルジャンドル方程式
+## 5. 角度方向とルジャンドル方程式（Legendre Differential Equation）
 
 角度方向の方程式で、
 
@@ -204,7 +204,7 @@ $$
 
 <div class="math-box theorem-box">
 
-<div class="math-box-title">ラプラス方程式とルジャンドル多項式</div>
+<div class="math-box-title">ラプラス方程式（Laplace's Equation）とルジャンドル多項式</div>
 
 球座標で軸対称なラプラス方程式を変数分離すると、角度方向の方程式としてルジャンドル微分方程式が現れる。そのため、ルジャンドル多項式は球対称・軸対称なポテンシャル問題に自然に現れる。
 

@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "リーマンの写像定理の証明"
+title: "リーマンの写像定理（Riemann Mapping Theorem）の証明"
 seo_title: "リーマンの写像定理とは？定理の内容と証明"
 description: "単連結な真部分領域と単位円板の正則同値を主張するリーマンの写像定理を、モンテルの定理やシュワルツの補題を用いて証明します。"
 category: "complex-analysis"
@@ -11,7 +11,7 @@ category_label: "複素解析"
 
 > **注記**：以下では証明の流れを保ちながら、記号をサイト内で統一し、後続の議論から必要であることが明らかな単葉性の条件や、不等号などの明らかな誤植を論理が通る形に整えている。
 
-## 1. リーマンの写像定理
+## 1. リーマンの写像定理（Riemann Mapping Theorem）
 
 単位円板を
 
@@ -29,7 +29,7 @@ $$
 
 <div class="math-box theorem-box">
 
-<div class="math-box-title">定理：リーマンの写像定理</div>
+<div class="math-box-title">定理：リーマンの写像定理（Riemann Mapping Theorem）</div>
 
 $D\subsetneq\mathbb{C}$ を単連結領域とする。このとき、$D$ から単位円板 $\mathbb{D}$ への正則な全単射写像
 
@@ -55,7 +55,7 @@ $$
 
 <div class="math-box lemma-box">
 
-<div class="math-box-title">補題：正則関数の領域保存定理</div>
+<div class="math-box-title">補題：正則関数の領域保存定理（Open Mapping Theorem）</div>
 
 定数でない正則関数は開集合を開集合へ写す。したがって、領域の像も領域になる。
 
@@ -63,7 +63,7 @@ $$
 
 <div class="math-box lemma-box">
 
-<div class="math-box-title">補題：正則な対数と $n$ 乗根</div>
+<div class="math-box-title">補題：正則な対数と $n$ 乗根（Holomorphic Logarithms and $n$-th Roots）</div>
 
 $D$ を単連結領域とし、$f$ を $D$ 上で零点を持たない正則関数とする。このとき、$D$ 上の正則な一価関数 $g,h$ で
 
@@ -79,7 +79,7 @@ $$
 
 <div class="math-box lemma-box">
 
-<div class="math-box-title">補題：モンテルの定理</div>
+<div class="math-box-title">補題：モンテルの定理（Montel's Theorem）</div>
 
 領域 $D$ 上の正則関数族 $\mathcal{F}$ が $D$ の任意のコンパクト部分集合上で一様有界ならば、$\mathcal{F}$ は正規族である。
 
@@ -87,7 +87,7 @@ $$
 
 <div class="math-box lemma-box">
 
-<div class="math-box-title">補題：最大値の原理</div>
+<div class="math-box-title">補題：最大値の原理（Maximum Modulus Principle）</div>
 
 定数でない正則関数は、領域の内部で絶対値の最大値をとらない。
 
@@ -95,7 +95,7 @@ $$
 
 <div class="math-box lemma-box">
 
-<div class="math-box-title">補題：シュワルツの補題</div>
+<div class="math-box-title">補題：シュワルツの補題（Schwarz's Lemma）</div>
 
 $f$ を単位円板 $\mathbb{D}$ 上の正則関数とし、
 

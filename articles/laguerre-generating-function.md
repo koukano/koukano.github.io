@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "ラゲール多項式の母関数"
+title: "ラゲール多項式の母関数（Generating Function for Laguerre Polynomials）"
 seo_title: "ラゲール多項式の母関数｜一般化ラゲール多項式の公式"
 description: "一般化ラゲール多項式 L_n^α(x) の母関数を示し、|t|<1 における公式を数式とともに整理します。"
 category: "classical-orthogonal-polynomials"
@@ -11,7 +11,7 @@ category_label: "古典的直交多項式"
 
 <div class="math-box theorem-box">
 
-<div class="math-box-title">定理：ラゲール多項式の母関数</div>
+<div class="math-box-title">定理：ラゲール多項式の母関数（Generating Function for Laguerre Polynomials）</div>
 
 $|t|<1$ のとき、
 

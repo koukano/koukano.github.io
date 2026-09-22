@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "異なる次数の直交多項式の零点の分離"
+title: "異なる次数の直交多項式の零点の分離（Separation of Zeros of Orthogonal Polynomials of Different Degrees）"
 seo_title: "異なる次数の直交多項式の零点の分離｜零点配置の定理"
 description: "m>n の直交多項式について、n次多項式の隣り合う零点の間にm次多項式の零点が存在することを証明します。"
 category: "orthogonal-polynomials"
@@ -11,7 +11,7 @@ category_label: "直交多項式"
 
 <div class="math-box theorem-box">
 
-<div class="math-box-title">定理：異なる次数の零点の分離</div>
+<div class="math-box-title">定理：異なる次数の零点の分離（Separation of Zeros of Different Degrees）</div>
 
 $m>n\geq2$ とする。このとき、$\phi_n$ の隣り合う2つの零点の間には、$\phi_m$ の零点が少なくとも1つ存在する。
 

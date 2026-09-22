@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "ラグランジュ補間"
+title: "ラグランジュ補間（Lagrange Interpolation）"
 seo_title: "ラグランジュ補間とは？補間公式と基本多項式"
 description: "相異なる標本点を通るラグランジュ補間多項式について、定義、基本多項式、補間公式を数式で解説します。"
 category: "orthogonal-polynomials"
@@ -13,7 +13,7 @@ $x_1,\ldots,x_n$ を相異なる標本点とし、$f$ をこれらの点で定�
 
 <div class="math-box definition-box">
 
-<div class="math-box-title">定義：ラグランジュ補間</div>
+<div class="math-box-title">定義：ラグランジュ補間（Lagrange Interpolation）</div>
 
 $n-1$ 次以下の多項式 $F$ が
 
@@ -101,7 +101,7 @@ $$
 
 <div class="math-box theorem-box">
 
-<div class="math-box-title">定理：ラグランジュ補間公式</div>
+<div class="math-box-title">定理：ラグランジュ補間公式（Lagrange Interpolation Formula）</div>
 
 相異なる $n$ 点 $x_1,\ldots,x_n$ に対して、
 

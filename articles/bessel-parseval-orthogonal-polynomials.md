@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "ベッセルの不等式とパーセヴァルの等式"
+title: "ベッセルの不等式（Bessel's Inequality）とパーセヴァルの等式（Parseval's Identity）"
 seo_title: "ベッセルの不等式とパーセヴァルの等式｜直交多項式とL²空間"
 description: "重み付きL²空間におけるベッセルの不等式とパーセヴァルの等式を、正規直交多項式による展開との関係を含めて数式とともに整理します。"
 category: "orthogonal-polynomials"
@@ -77,7 +77,7 @@ $$
 
 <div class="math-box theorem-box">
 
-<div class="math-box-title">ベッセルの不等式</div>
+<div class="math-box-title">ベッセルの不等式（Bessel's Inequality）</div>
 
 $$
 \sum_{k=0}^{n}
@@ -99,7 +99,7 @@ $$
 
 この不等式は、直交展開の係数の二乗和が元の関数のノルムを超えないことを示している。
 
-## 3. パーセヴァルの等式
+## 3. パーセヴァルの等式（Parseval's Identity）
 
 正規直交系が十分に豊かで、部分和が $f$ に $L^2$ の意味で収束するとき、
 
@@ -125,7 +125,7 @@ $$
 
 <div class="math-box definition-box">
 
-<div class="math-box-title">パーセヴァルの等式</div>
+<div class="math-box-title">パーセヴァルの等式（Parseval's Identity）</div>
 
 $$
 \lVert f\rVert^2

@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "ルジャンドル多項式の母関数"
+title: "ルジャンドル多項式の母関数（Generating Function for Legendre Polynomials）"
 seo_title: "ルジャンドル多項式の母関数｜公式と導出"
 description: "ルジャンドル多項式 P_n(x) の母関数 1/√(1-2xt+t²) を、ゲーゲンバウアー多項式との関係から導きます。"
 category: "classical-orthogonal-polynomials"
@@ -11,7 +11,7 @@ category_label: "古典的直交多項式"
 
 <div class="math-box theorem-box">
 
-<div class="math-box-title">定理：ルジャンドル多項式の母関数</div>
+<div class="math-box-title">定理：ルジャンドル多項式の母関数（Generating Function for Legendre Polynomials）</div>
 
 $$
 \frac{1}{\sqrt{1-2xt+t^2}}

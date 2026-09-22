@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "ロドリゲスの公式と古典的直交多項式"
+title: "ロドリゲスの公式（Rodrigues' Formula）と古典的直交多項式"
 seo_title: "ロドリゲスの公式とは？古典的直交多項式を統一的に表す公式"
 description: "ロドリゲスの公式を用いて、ヤコビ・ルジャンドル・チェビシェフ・ゲーゲンバウアー・ラゲール・エルミート多項式を整理します。"
 category: "classical-orthogonal-polynomials"
@@ -9,7 +9,7 @@ category_label: "古典的直交多項式"
 
 古典的直交多項式の多くは、重み関数と高階微分を用いるロドリゲスの公式によって統一的に表すことができる。本記事では、有限区間におけるヤコビ多項式から始め、ルジャンドル多項式、チェビシェフ多項式、ゲーゲンバウアー多項式、さらに無限区間におけるラゲール多項式とエルミート多項式までを整理する。
 
-## 1. 有限区間におけるロドリゲスの公式
+## 1. 有限区間におけるロドリゲスの公式（Rodrigues' Formula）
 
 区間 $[-1,1]$ 上で重み関数 $w(x)$ を考える。$w$ が必要な回数だけ微分可能であり、端点で適切な消滅条件を満たすとき、
 
@@ -38,7 +38,7 @@ $$
 
 <div class="math-box theorem-box">
 
-<div class="math-box-title">ロドリゲスの公式から得られる直交性</div>
+<div class="math-box-title">ロドリゲスの公式から得られる直交性（Orthogonality from Rodrigues' Formula）</div>
 
 $$
 P_n(x)
@@ -127,7 +127,7 @@ $$
 
 <div class="math-box definition-box">
 
-<div class="math-box-title">ヤコビ多項式</div>
+<div class="math-box-title">ヤコビ多項式（Jacobi Polynomials）</div>
 
 $$
 P_n^{(\alpha,\beta)}(x)
@@ -180,7 +180,7 @@ $$
 
 <div class="math-box definition-box">
 
-<div class="math-box-title">ラゲール多項式</div>
+<div class="math-box-title">ラゲール多項式（Laguerre Polynomials）</div>
 
 $$
 L_n^\alpha(x)
@@ -211,7 +211,7 @@ $$
 
 <div class="math-box definition-box">
 
-<div class="math-box-title">エルミート多項式</div>
+<div class="math-box-title">エルミート多項式（Hermite Polynomials）</div>
 
 $$
 H_n(x)

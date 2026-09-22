@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "スターリングの公式"
+title: "スターリングの公式（Stirling's Formula）"
 seo_title: "スターリングの公式とは？ガンマ関数の漸近公式を証明"
 description: "ガンマ関数の大きな引数に対するスターリングの公式を、ラプラス法を用いて実数 x→∞ の場合に証明します。"
 category: "gamma-function"
@@ -11,7 +11,7 @@ category_label: "ガンマ関数"
 
 <div class="math-box theorem-box">
 
-<div class="math-box-title">定理：スターリングの公式</div>
+<div class="math-box-title">定理：スターリングの公式（Stirling's Formula）</div>
 
 $x\to+\infty$ のとき、
 

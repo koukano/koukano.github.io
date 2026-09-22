@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "ガンマ関数の極と留数"
+title: "ガンマ関数の極と留数（Poles and Residues of the Gamma Function）"
 seo_title: "ガンマ関数の極と留数｜非正整数の単純極を計算"
 description: "ガンマ関数 Γ(z) が 0,-1,-2,… に単純極を持つことと、各極での留数 Res Γ(z)=(-1)^n/n! を導きます。"
 category: "gamma-function"
@@ -11,7 +11,7 @@ category_label: "ガンマ関数"
 
 <div class="math-box theorem-box">
 
-<div class="math-box-title">定理：ガンマ関数の極と留数</div>
+<div class="math-box-title">定理：ガンマ関数の極と留数（Poles and Residues of the Gamma Function）</div>
 
 ガンマ関数 $\Gamma(z)$ は
 

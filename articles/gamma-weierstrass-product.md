@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "ワイエルシュトラスの積表示"
+title: "ワイエルシュトラスの積表示（Weierstrass Product Formula）"
 seo_title: "ワイエルシュトラスの積表示｜逆ガンマ関数の無限積"
 description: "逆ガンマ関数 1/Γ(z) のワイエルシュトラス積表示を導き、整関数性と非正整数に現れる零点との関係を説明します。"
 category: "gamma-function"
@@ -11,7 +11,7 @@ category_label: "ガンマ関数"
 
 <div class="math-box theorem-box">
 
-<div class="math-box-title">定理：ワイエルシュトラスの積表示</div>
+<div class="math-box-title">定理：ワイエルシュトラスの積表示（Weierstrass Product Formula）</div>
 
 オイラー・マスケローニ定数を
 

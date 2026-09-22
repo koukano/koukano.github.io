@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "ワイエルシュトラスの近似定理とベルンシュタイン多項式"
+title: "ワイエルシュトラスの近似定理（Weierstrass Approximation Theorem）とベルンシュタイン多項式"
 seo_title: "ワイエルシュトラスの近似定理とは？ベルンシュタイン多項式による証明"
 description: "連続関数を多項式で一様近似できるワイエルシュトラスの近似定理を、ベルンシュタイン多項式を用いて証明します。"
 category: "orthogonal-polynomials"
@@ -11,7 +11,7 @@ category_label: "直交多項式"
 
 <div class="math-box theorem-box">
 
-<div class="math-box-title">定理：ワイエルシュトラスの近似定理</div>
+<div class="math-box-title">定理：ワイエルシュトラスの近似定理（Weierstrass Approximation Theorem）</div>
 
 $f$ を閉区間 $[a,b]$ 上の連続関数とする。任意の $\varepsilon>0$ に対して、ある多項式 $p$ が存在し、
 

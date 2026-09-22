@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "正則関数の平均値公式"
+title: "正則関数の平均値公式（Mean Value Formula for Holomorphic Functions）"
 seo_title: "正則関数の平均値公式｜コーシーの積分公式から証明"
 description: "正則関数の値が円周上の値の平均で表される平均値公式を、コーシーの積分公式から証明します。"
 category: "complex-analysis"
@@ -11,7 +11,7 @@ category_label: "複素解析"
 
 <div class="math-box theorem-box">
 
-<div class="math-box-title">定理：正則関数の平均値公式</div>
+<div class="math-box-title">定理：正則関数の平均値公式（Mean Value Formula for Holomorphic Functions）</div>
 
 $f$ を領域 $D$ 上の正則関数とし、$a\in D$ とする。半径 $r>0$ の閉円板
 

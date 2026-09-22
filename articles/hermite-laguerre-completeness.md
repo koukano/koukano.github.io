@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "エルミート多項式とラゲール多項式の完備性"
+title: "エルミート多項式とラゲール多項式の完備性（Completeness of Hermite and Laguerre Polynomials）"
 seo_title: "エルミート多項式とラゲール多項式の完備性｜無限区間での証明"
 description: "エルミート多項式とラゲール多項式の完備性を、有限区間とは異なる無限区間上の議論と変換積分を用いて整理します。"
 category: "classical-orthogonal-polynomials"
@@ -158,7 +158,7 @@ $$
 
 <div class="math-box theorem-box">
 
-<div class="math-box-title">完備性の考え方</div>
+<div class="math-box-title">完備性の考え方（Idea of Completeness）</div>
 
 無限区間におけるエルミート多項式系やラゲール多項式系では、すべての多項式との直交条件を変換積分へ移し、その一意性を利用することで零関数しか残らないことを示す。
 
