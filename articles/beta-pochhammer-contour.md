@@ -25,7 +25,7 @@ $$
 
 <figure class="article-figure">
   <img src="/images/figures/pochhammer-contour.svg" alt="基点Pから1と0を正負の向きに順に回るポッホハマー二重ループ積分路">
-  <figcaption>図1：標準的なポッホハマー二重ループ積分路。基点 $P\in(0,1)$ から出発し、$1$ を反時計回り、$0$ を反時計回り、$1$ を時計回り、$0$ を時計回りに周回して $P$ に戻る。</figcaption>
+  <figcaption>図1：標準的なポッホハマー二重ループ積分路。基点 $P\in(0,1)$ から出発し、$1$ を反時計回り、$0$ を反時計回り、$1$ を時計回り、$0$ を時計回りに周回して $P$ に戻る。<span class="figure-source">本文で定めた積分路に基づき作図。</span></figcaption>
 </figure>
 
 <div class="math-box theorem-box">

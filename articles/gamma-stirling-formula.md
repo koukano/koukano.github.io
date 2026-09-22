@@ -122,7 +122,7 @@ $$
 
 <figure class="article-figure">
   <img src="/images/figures/stirling-laplace-method.svg" alt="phi(u)=log u-uのグラフと正規化した指数関数の集中を示す正確なグラフ">
-  <figcaption>図1：左は $\phi(u)=\log u-u$ のグラフ。右は $\exp\{x(\phi(u)-\phi(1))\}$ を $x=2,8$ について描いたもので、$x$ が大きいほど $u=1$ の近くに集中する。</figcaption>
+  <figcaption>図1：左は $\phi(u)=\log u-u$ のグラフ。右は $\exp\{x(\phi(u)-\phi(1))\}$ を $x=2,8$ について描いたもので、$x$ が大きいほど $u=1$ の近くに集中する。<span class="figure-source">本文の公式に基づき作図。</span></figcaption>
 </figure>
 
 $x$ が大きいとき、積分への主要な寄与は $s=0$、すなわち $u=1$ の近くから来る。

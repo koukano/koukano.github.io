@@ -69,7 +69,7 @@ $$
 
 <figure class="article-figure">
   <img src="/images/figures/mellin-barnes-contour.svg" alt="左側の二つの極列と右側の二つの極列を分離する縦のMellin-Barnes積分路">
-  <figcaption>図1：Mellin–Barnes積分路 $L:\operatorname{Re}s=\sigma$。左側に $s=-a-n,-b-n$、右側に $s=c+n,d+n$ の極が来るように $\sigma$ を選ぶ。</figcaption>
+  <figcaption>図1：Mellin–Barnes積分路 $L:\operatorname{Re}s=\sigma$。左側に $s=-a-n,-b-n$、右側に $s=c+n,d+n$ の極が来るように $\sigma$ を選ぶ。<span class="figure-source">本文の極配置に基づき作図。</span></figcaption>
 </figure>
 
 ## 証明

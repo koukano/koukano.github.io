@@ -1,31 +1,52 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="820" height="390" viewBox="0 0 820 390" role="img" aria-labelledby="title desc">
-<title id="title">Barnesの第一補題の積分路</title>
-<desc id="desc">複素s平面でGamma(a+s),Gamma(b+s)の極を左、Gamma(c-s),Gamma(d-s)の極を右に分離する縦線Re s=sigma。</desc>
-<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#2563a6"/></marker></defs>
+<title id="title">Mellin-Barnes積分路</title>
+<desc id="desc">複素s平面で左側とright polesを分離する縦の積分路Lを黒線で示した図。</desc>
+<defs>
+<marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth">
+  <path d="M0,0 L8,4 L0,8 Z" fill="#111111"/>
+</marker>
+
+</defs>
+<style>
+  text { font-family: "Times New Roman", "Noto Serif JP", serif; fill: #111111; }
+  .axis { stroke: #111111; stroke-width: 2; fill: none; }
+  .tick { stroke: #111111; stroke-width: 1.4; }
+  .guide { stroke: #777777; stroke-width: 1.3; stroke-dasharray: 7 6; fill: none; }
+  .curve { stroke: #111111; stroke-width: 3; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+  .curve-thin { stroke: #111111; stroke-width: 2.2; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+  .label { font-size: 19px; }
+  .small { font-size: 16px; }
+  .math { font-size: 21px; font-style: italic; }
+  .point { fill: #ffffff; stroke: #111111; stroke-width: 2; }
+  .solid-point { fill: #111111; }
+  .note-box { fill: #ffffff; stroke: #777777; stroke-width: 1; }
+</style>
 <rect width="820" height="390" fill="#ffffff"/>
-<text x="410" y="38" text-anchor="middle" font-size="24" font-weight="600" fill="#173b6c">Mellin–Barnes積分路 L : Re s=σ</text>
-<line x1="75" y1="205" x2="750" y2="205" stroke="#94a3b8" stroke-width="2"/>
-<line x1="410" y1="345" x2="410" y2="70" stroke="#2563a6" stroke-width="5" marker-end="url(#arrow)"/>
-<text x="423" y="95" font-size="20" font-style="italic" fill="#173b6c">L</text>
-<text x="425" y="225" font-size="17" fill="#334155">σ</text>
-<text x="755" y="227" font-size="17" fill="#64748b">Re s</text>
-<text x="423" y="77" font-size="17" fill="#64748b">Im s</text>
-<g fill="#173b6c">
-  <circle cx="160" cy="205" r="6"/><circle cx="205" cy="205" r="6"/><circle cx="250" cy="205" r="6"/>
-</g>
-<g fill="#4a9fdb">
-  <rect x="178" y="199" width="12" height="12" transform="rotate(45 184 205)"/><rect x="223" y="199" width="12" height="12" transform="rotate(45 229 205)"/><rect x="268" y="199" width="12" height="12" transform="rotate(45 274 205)"/>
-</g>
-<g fill="#173b6c">
-  <circle cx="565" cy="205" r="6"/><circle cx="610" cy="205" r="6"/><circle cx="655" cy="205" r="6"/>
-</g>
-<g fill="#4a9fdb">
-  <rect x="538" y="199" width="12" height="12" transform="rotate(45 544 205)"/><rect x="583" y="199" width="12" height="12" transform="rotate(45 589 205)"/><rect x="628" y="199" width="12" height="12" transform="rotate(45 634 205)"/>
-</g>
-<text x="105" y="165" font-size="18" fill="#334155">s=−a−n</text>
-<text x="205" y="255" font-size="18" fill="#1769aa">s=−b−n</text>
-<text x="535" y="165" font-size="18" fill="#334155">s=c+n</text>
-<text x="585" y="255" font-size="18" fill="#1769aa">s=d+n</text>
-<text x="112" y="330" font-size="17" fill="#64748b">左側：Γ(a+s), Γ(b+s) の極</text>
-<text x="500" y="330" font-size="17" fill="#64748b">右側：Γ(c−s), Γ(d−s) の極</text>
+<line x1="72" y1="205" x2="758" y2="205" class="axis" marker-end="url(#arrow)"/>
+<line x1="380" y1="344" x2="380" y2="62" class="axis" marker-end="url(#arrow)"/>
+<line x1="440" y1="342" x2="440" y2="66" class="curve" marker-end="url(#arrow)"/>
+<text x="752" y="229" class="math">Re s</text>
+<text x="392" y="72" class="math">Im s</text>
+<text x="450" y="92" class="math">L</text>
+<text x="448" y="228" class="small">σ</text>
+<circle cx="155" cy="205" r="6" class="solid-point"/>
+<circle cx="205" cy="205" r="6" class="solid-point"/>
+<circle cx="255" cy="205" r="6" class="solid-point"/>
+<rect x="171" y="199" width="12" height="12" transform="rotate(45 177 205)" fill="#111111"/>
+<rect x="221" y="199" width="12" height="12" transform="rotate(45 227 205)" fill="#111111"/>
+<rect x="271" y="199" width="12" height="12" transform="rotate(45 277 205)" fill="#111111"/>
+<circle cx="565" cy="205" r="6" class="solid-point"/>
+<circle cx="615" cy="205" r="6" class="solid-point"/>
+<circle cx="665" cy="205" r="6" class="solid-point"/>
+<rect x="537" y="199" width="12" height="12" transform="rotate(45 543 205)" fill="#111111"/>
+<rect x="587" y="199" width="12" height="12" transform="rotate(45 593 205)" fill="#111111"/>
+<rect x="637" y="199" width="12" height="12" transform="rotate(45 643 205)" fill="#111111"/>
+<text x="108" y="156" class="label">s=−a−n</text>
+<text x="154" y="263" class="label">s=−b−n</text>
+<text x="520" y="156" class="label">s=c+n</text>
+<text x="566" y="263" class="label">s=d+n</text>
+<text x="108" y="326" class="small">left poles</text>
+<text x="558" y="326" class="small">右側の極列</text>
+<rect x="462" y="72" width="150" height="42" rx="2" class="note-box"/>
+<text x="476" y="100" class="math">Re s=σ</text>
 </svg>

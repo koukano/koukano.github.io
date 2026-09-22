@@ -102,7 +102,7 @@ $$
 
 <figure class="article-figure">
   <img src="/images/figures/chebyshev-cosine.svg" alt="T5(x)=cos(5 arccos x)を区間マイナス1から1で正確に描いたグラフ">
-  <figcaption>図1：$T_5(x)=\cos(5\arccos x)$ の正確なグラフ。一般に $T_n(x)=\cos(n\arccos x)$ であり、$[-1,1]$ 上で $|T_n(x)|\leq1$。</figcaption>
+  <figcaption>図1：$T_5(x)=\cos(5\arccos x)$ の正確なグラフ。一般に $T_n(x)=\cos(n\arccos x)$ であり、$[-1,1]$ 上で $|T_n(x)|\leq1$。<span class="figure-source">本文の公式に基づき作図。</span></figcaption>
 </figure>
 
 

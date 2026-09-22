@@ -110,7 +110,7 @@ $$
 
 <figure class="article-figure">
   <img src="/images/figures/hermite-oscillator.svg" alt="n=3の正規化された調和振動子固有関数V3の正確なグラフ">
-  <figcaption>図1：$n=3$ の正規化された $V_3(x)=C_3e^{-x^2/2}H_3(\sqrt2x)$。3個の零点を持ち、$|x|\to\infty$ で指数的に $0$ へ減衰する。</figcaption>
+  <figcaption>図1：$n=3$ の正規化された $V_3(x)=C_3e^{-x^2/2}H_3(\sqrt2x)$。3個の零点を持ち、$|x|\to\infty$ で指数的に $0$ へ減衰する。<span class="figure-source">本文の公式に基づき作図。</span></figcaption>
 </figure>
 
 ## 3. 調和振動子型の方程式
@@ -186,7 +186,7 @@ $$
 
 <figure class="article-figure">
   <img src="/images/figures/hermite-probability-density.svg" alt="n=3の確率密度V3の二乗を正確に描き区間マイナス1から1を塗ったグラフ">
-  <figcaption>図2：$n=3$ の確率密度 $|V_3(x)|^2$。青く塗った部分は具体例として $P(-1\leq x\leq1)=\int_{-1}^{1}|V_3(x)|^2\,dx$ を表す。</figcaption>
+  <figcaption>図2：$n=3$ の確率密度 $|V_3(x)|^2$。斜線部分は具体例として $P(-1\leq x\leq1)=\int_{-1}^{1}|V_3(x)|^2\,dx$ を表す。<span class="figure-source">本文の公式に基づき作図。</span></figcaption>
 </figure>
 
 エルミート多項式は、このように調和振動子の固有状態を表す関数の多項式部分として現れる。

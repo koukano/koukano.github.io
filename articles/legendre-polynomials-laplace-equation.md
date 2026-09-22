@@ -39,7 +39,7 @@ $$
 
 <figure class="article-figure">
   <img src="/images/figures/legendre-spherical-coordinates.svg" alt="e=(0,0,1)とP=(r sin theta,0,r cos theta)の幾何学的位置関係">
-  <figcaption>図1：$e=(0,0,1)$、$P=(r\sin\theta,0,r\cos\theta)$ としたときの位置関係。同一縮尺で描かれており、$\rho=|P-e|$ から $\rho^2=r^2+1-2r\cos\theta$ が従う。</figcaption>
+  <figcaption>図1：$e=(0,0,1)$、$P=(r\sin\theta,0,r\cos\theta)$ としたときの位置関係。同一縮尺で描かれており、$\rho=|P-e|$ から $\rho^2=r^2+1-2r\cos\theta$ が従う。<span class="figure-source">本文の幾何学的設定に基づき作図。</span></figcaption>
 </figure>
 
 したがってポテンシャルは、
