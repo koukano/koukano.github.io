@@ -82,7 +82,8 @@ e^{-t^2/2+tx}
 H_n(x)\frac{t^n}{n!}
 $$
 
-を得る。$\square$
+を得る。
+<div class="proof-end">\(\square\)</div>
 
 ## 次の記事
 

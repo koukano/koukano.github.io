@@ -89,7 +89,8 @@ $$
 e^{-s}(-s)^{-z}\,ds
 $$
 
-を得る。$\square$
+を得る。
+<div class="proof-end">\(\square\)</div>
 
 ## 次の記事
 

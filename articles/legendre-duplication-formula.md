@@ -66,4 +66,5 @@ $$
 2^{1-2z}\sqrt{\pi}\,\Gamma(2z).
 $$
 
-$\square$
+
+<div class="proof-end">\(\square\)</div>

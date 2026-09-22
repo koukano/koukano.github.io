@@ -56,7 +56,8 @@ $$
 P_n(x)t^n
 $$
 
-を得る。$\square$
+を得る。
+<div class="proof-end">\(\square\)</div>
 
 ## 関連記事
 

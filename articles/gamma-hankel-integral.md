@@ -103,7 +103,8 @@ $$
 e^{-s}(-s)^{z-1}\,ds.
 $$
 
-これで示された。$\square$
+これで示された。
+<div class="proof-end">\(\square\)</div>
 
 ## 次の記事
 

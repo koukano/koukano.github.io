@@ -100,7 +100,8 @@ y(t)^\mu+t,y(t)^p-1
 0.
 $$
 
-よって $\widetilde y$ も解である。$\square$
+よって $\widetilde y$ も解である。
+<div class="proof-end">\(\square\)</div>
 
 ## 次の記事
 

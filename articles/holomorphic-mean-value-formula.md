@@ -109,7 +109,8 @@ f(a)
 f(a+re^{i\theta})\,d\theta
 $$
 
-が示された。$\square$
+が示された。
+<div class="proof-end">\(\square\)</div>
 
 ## 関連記事
 

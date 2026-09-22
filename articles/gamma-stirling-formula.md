@@ -167,7 +167,8 @@ $$
 \left(\frac{x}{e}\right)^x
 $$
 
-を得る。$\square$
+を得る。
+<div class="proof-end">\(\square\)</div>
 
 ## 補足
 

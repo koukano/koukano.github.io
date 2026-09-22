@@ -220,7 +220,8 @@ $$
 0<\operatorname{Re}z<\frac{\mu}{p}
 $$
 
-を得る。$\square$
+を得る。
+<div class="proof-end">\(\square\)</div>
 
 ## 関連記事
 

@@ -257,7 +257,8 @@ $$
 }.
 $$
 
-これで示された。$\square$
+これで示された。
+<div class="proof-end">\(\square\)</div>
 
 ## 補足：積分路の意味
 

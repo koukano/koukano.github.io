@@ -103,7 +103,8 @@ $$
 \frac{\pi}{\sin\pi z}
 $$
 
-を得る。$\square$
+を得る。
+<div class="proof-end">\(\square\)</div>
 
 ## 系
 

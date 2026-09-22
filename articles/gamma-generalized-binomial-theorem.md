@@ -95,7 +95,8 @@ $$
 \binom{\alpha}{n}x^n.
 $$
 
-$\square$
+
+<div class="proof-end">\(\square\)</div>
 
 ## 次の記事
 

@@ -641,6 +641,9 @@ a {
   height: auto;
 
   margin: 0 auto;
+
+  /* 記事内の図は白黒（モノクロ）で統一 */
+  filter: grayscale(100%);
 }
 
 .article-figure figcaption {
@@ -668,6 +671,27 @@ a {
 
   overflow-x: auto;
   overflow-y: hidden;
+}
+
+
+
+/* ==============================
+   証明終了記号
+============================== */
+
+.proof-end {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  min-height: 1.5em;
+  margin: 4px 0 0;
+
+  text-align: right;
+}
+
+.proof-end mjx-container {
+  margin: 0 !important;
 }
 
 

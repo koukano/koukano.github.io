@@ -98,7 +98,8 @@ m^{\frac12-mz}
 \Gamma(mz).
 $$
 
-$\square$
+
+<div class="proof-end">\(\square\)</div>
 
 ## 次の記事
 

@@ -137,7 +137,8 @@ a_n\Gamma(n+\lambda)x^{-(n+\lambda)}
 o\left(x^{-(N+\lambda)}\right),
 $$
 
-すなわち定理の漸近展開を得る。$\square$
+すなわち定理の漸近展開を得る。
+<div class="proof-end">\(\square\)</div>
 
 ## 次の記事
 

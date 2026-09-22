@@ -74,7 +74,8 @@ $$
 {n!\,\Gamma(p)}.
 $$
 
-$\square$
+
+<div class="proof-end">\(\square\)</div>
 
 ## 次の記事
 

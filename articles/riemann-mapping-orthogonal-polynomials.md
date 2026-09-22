@@ -381,7 +381,8 @@ $$
 K_n(a,\xi)^2\,d\xi
 $$
 
-を得る。$\square$
+を得る。
+<div class="proof-end">\(\square\)</div>
 
 ## 注意
 
