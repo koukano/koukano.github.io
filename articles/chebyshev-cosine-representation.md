@@ -98,11 +98,17 @@ T_n(x)
 \cos\left(n\cos^{-1}x\right)
 $$
 
-となる。したがって $[-1,1]$ 上では $|T_n(x)|\leq1$ である。具体例として $n=5$ を描くと次のようになる。
+となる。したがって、−1 から 1 までの区間では
+
+$
+\lvert T_n(x)\rvert\leq 1
+$
+
+が成り立つ。具体例として、次数 5 の場合を描くと次のようになる。
 
 <figure class="article-figure">
   <img src="/images/figures/chebyshev-cosine.svg" alt="T5(x)=cos(5 arccos x)を区間マイナス1から1で正確に描いたグラフ">
-  <figcaption>図1：$T_5(x)=\cos(5\arccos x)$ の正確なグラフ。一般に $T_n(x)=\cos(n\arccos x)$ であり、$[-1,1]$ 上で $|T_n(x)|\leq1$。<span class="figure-source">本文の公式に基づき作図。</span></figcaption>
+  <figcaption>図1：$T_5(x)=\cos(5\arccos x)$ の正確なグラフ。一般に $T_n(x)=\cos(n\arccos x)$ であり、−1 から 1 までの区間で絶対値は 1 以下となる。<span class="figure-source">本文の公式に基づき作図。</span></figcaption>
 </figure>
 
 
