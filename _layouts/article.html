@@ -30,7 +30,7 @@
 
   {% capture canonical_url %}https://koukano.github.io{{ page.url }}{% endcapture %}
 
-  <title>{{ seo_title }} | 複素解析 Note</title>
+  <title>{{ seo_title | escape }} | 複素解析 Note</title>
 
   <meta name="description" content="{{ seo_description | strip | escape }}">
   <meta name="robots" content="index, follow">
@@ -40,12 +40,12 @@
   <meta property="og:type" content="article">
   <meta property="og:locale" content="ja_JP">
   <meta property="og:site_name" content="複素解析 Note">
-  <meta property="og:title" content="{{ seo_title }} | 複素解析 Note">
+  <meta property="og:title" content="{{ seo_title | escape }} | 複素解析 Note">
   <meta property="og:description" content="{{ seo_description | strip | escape }}">
   <meta property="og:url" content="{{ canonical_url | strip }}">
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="{{ seo_title }} | 複素解析 Note">
+  <meta name="twitter:title" content="{{ seo_title | escape }} | 複素解析 Note">
   <meta name="twitter:description" content="{{ seo_description | strip | escape }}">
 
   <script type="application/ld+json">
@@ -182,6 +182,16 @@
     <article class="article-container">
 
 
+      {% if page.category and page.category_label %}
+      <nav class="breadcrumbs" aria-label="パンくずリスト">
+        <ol>
+          <li><a href="/">複素解析 Note</a></li>
+          <li><a href="/{{ page.category }}/">{{ page.category_label | escape }}</a></li>
+          <li aria-current="page">{{ page.seo_title | default: page.title | escape }}</li>
+        </ol>
+      </nav>
+      {% endif %}
+
       <!-- 記事タイトル -->
 
       <div class="article-header">
@@ -208,6 +218,23 @@
       <div class="article-body">
 
         {{ content }}
+
+        {% assign reading_paths = site.data.reading_paths[page.category] %}
+        {% if reading_paths %}
+        <nav class="reading-guide" aria-labelledby="reading-path-title">
+          <h2 id="reading-path-title">この分野を学ぶための記事</h2>
+          <ul>
+            {% for article_url in reading_paths %}
+              {% unless article_url == page.url %}
+                {% assign linked_article = site.pages | where: "url", article_url | first %}
+                {% if linked_article %}
+                <li><a href="{{ linked_article.url }}">{{ linked_article.seo_title | default: linked_article.title | escape }}</a></li>
+                {% endif %}
+              {% endunless %}
+            {% endfor %}
+          </ul>
+        </nav>
+        {% endif %}
 
         {% unless page.hide_references %}
         <section class="references">

@@ -1,0 +1,26 @@
+{
+  "gamma-function": [
+    "/articles/gamma-function-definition-properties.html",
+    "/articles/gamma-functional-equation.html",
+    "/articles/beta-function-gamma.html"
+  ],
+  "orthogonal-polynomials": [
+    "/articles/orthogonal-polynomials.html",
+    "/articles/three-term-recurrence.html",
+    "/articles/christoffel-darboux-formula.html"
+  ],
+  "classical-orthogonal-polynomials": [
+    "/articles/classical-orthogonal-polynomials-rodrigues.html",
+    "/articles/classical-orthogonal-polynomials-differential-equations.html",
+    "/articles/legendre-generating-function.html"
+  ],
+  "complex-analysis": [
+    "/articles/holomorphic-mean-value-formula.html",
+    "/articles/riemann-mapping-theorem-proof.html"
+  ],
+  "differential-equations": [
+    "/articles/classical-orthogonal-polynomials-differential-equations.html",
+    "/articles/chebyshev-cosine-representation.html",
+    "/articles/legendre-polynomials-laplace-equation.html"
+  ]
+}

@@ -212,6 +212,7 @@ a {
   color: #2563a6;
 }
 
+.section-header h1,
 .section-header h2,
 .about-section h2 {
   margin: 0;
@@ -1101,3 +1102,31 @@ button.topic-card {
 
   color: #ffffff;
 }
+
+/* 学習の導線とパンくずリスト */
+.reading-guide {
+  margin: 0 0 36px;
+  padding: 22px 26px;
+  border: 1px solid #d3deeb;
+  border-radius: 10px;
+  background: #ffffff;
+}
+.reading-guide h2 { margin-top: 0; color: #173b6c; }
+.reading-guide a, .guide-links a, .breadcrumbs a {
+  color: #1d4f91;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.article-body .reading-guide { margin-top: 42px; }
+.article-body .reading-guide h2 { margin-top: 0; }
+.breadcrumbs { margin-bottom: 24px; font-size: 0.82rem; }
+.breadcrumbs ol {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 12px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  overflow-wrap: anywhere;
+}
+.breadcrumbs li + li::before { content: "/"; margin-right: 12px; color: #64748b; }
