@@ -113,6 +113,19 @@ $$
 
 となる。
 
+## 具体例：半整数の値を順に求める
+
+ガウス積分から得られる $\Gamma(1/2)=\sqrt\pi$ を出発点にする。関数方程式を2回使えば、
+
+$$
+\Gamma\left(\frac32\right)=\frac12\sqrt\pi,
+\qquad
+\Gamma\left(\frac52\right)=\frac32\Gamma\left(\frac32\right)
+=\frac{3\sqrt\pi}{4}.
+$$
+
+したがって、$\int_0^\infty t^{3/2}e^{-t}\,dt$ も $3\sqrt\pi/4$ と分かる。整数以外でも、引数を1ずつ動かすことで積分値を計算できる。
+
 ## 次の記事
 
 [ガンマ関数の極と留数](/articles/gamma-poles-residues.html)

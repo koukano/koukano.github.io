@@ -134,6 +134,25 @@ $$
 
 のMellin変換そのものである。
 
+## 具体例：指数関数の尺度を変える
+
+$f(x)=e^{-2x}$ とする。$u=2x$ と置換すると、$\operatorname{Re}z>0$ で
+
+$$
+F(z)=\int_0^\infty e^{-2x}x^{z-1}\,dx
+=2^{-z}\int_0^\infty e^{-u}u^{z-1}\,du
+=2^{-z}\Gamma(z).
+$$
+
+例えば $F(1)=1/2$、$F(2)=1/4$ である。任意の $c>0$ では縦線上のガンマ関数の指数的減衰により反転の十分条件も満たされ、
+
+$$
+e^{-2x}=\frac1{2\pi i}\int_{c-i\infty}^{c+i\infty}\Gamma(z)(2x)^{-z}\,dz
+\qquad(x>0)
+$$
+
+となる。元の変数の拡大・縮小が、変換後には因子 $2^{-z}$ として現れる。
+
 ## 次の記事
 
 [Mellin–Barnes積分とBarnesの第一補題](/articles/mellin-barnes-first-lemma.html)

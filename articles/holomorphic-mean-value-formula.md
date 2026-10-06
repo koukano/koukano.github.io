@@ -112,6 +112,17 @@ $$
 が示された。
 <div class="proof-end">\(\square\)</div>
 
+## 具体例：2次関数の円周上での平均
+
+$f(z)=z^2$、中心 $a=1$、半径 $r=1/2$ とする。$f$ は整関数なので条件を満たす。円周上では
+
+$$
+f\left(1+\frac12e^{i\theta}\right)
+=1+e^{i\theta}+\frac14e^{2i\theta}.
+$$
+
+$\int_0^{2\pi}e^{ik\theta}d\theta=0$（$k=1,2$）より、その平均は $1=f(1)$ になる。平均するのは複素数値の $f$ 自身であり、絶対値ではない。実際、この例では $|f|=|1+e^{i\theta}/2|^2$ の円周平均は $5/4$ となる。
+
 ## 関連記事
 
 - [リーマンの写像定理の証明](/articles/riemann-mapping-theorem-proof.html)

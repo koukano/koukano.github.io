@@ -70,3 +70,14 @@ $$
 
 
 <div class="proof-end">\(\square\)</div>
+
+## 具体例：Γ(3/2) を倍角公式で求める
+
+倍角公式に $z=1$ を代入すると、
+
+$$
+\Gamma(1)\Gamma\left(\frac32\right)
+=2^{-1}\sqrt\pi\,\Gamma(2).
+$$
+
+$\Gamma(1)=\Gamma(2)=1$ なので、$\Gamma(3/2)=\sqrt\pi/2$ となる。半整数の値が、整数のガンマ関数と $\sqrt\pi$ を使って計算できる例である。

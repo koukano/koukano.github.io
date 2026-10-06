@@ -134,6 +134,16 @@ $$
 
 が得られる。したがって、この余弦表示はチェビシェフ微分方程式と一致する。
 
+## 具体例：余弦の3倍角公式から T₃ を得る
+
+$\cos(3\theta)=4\cos^3\theta-3\cos\theta$ に $x=\cos\theta$ を代入すると、
+
+$$
+T_3(x)=4x^3-3x.
+$$
+
+例えば $x=1/2=\cos(\pi/3)$ では $T_3(1/2)=1/2-3/2=-1$ となり、$\cos(3\cdot\pi/3)=-1$ と一致する。また、零点は $-\sqrt3/2,0,\sqrt3/2$ で、$\cos(3\theta)=0$ から求めても同じ結果になる。
+
 ## 次の記事
 
 [量子力学におけるエルミート多項式](/articles/hermite-polynomials-quantum-mechanics.html)

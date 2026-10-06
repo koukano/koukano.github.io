@@ -148,6 +148,23 @@ $$
 すなわち定理の漸近展開を得る。
 <div class="proof-end">\(\square\)</div>
 
+## 具体例：1 / (1 + t) を含むラプラス積分
+
+$x>0$ に対して $I(x)=\int_0^\infty e^{-xt}/(1+t)\,dt$ を考える。原点付近の展開を、余りを含む恒等式として書くと、
+
+$$
+\frac1{1+t}=1-t+t^2-\frac{t^3}{1+t}.
+$$
+
+$\int_0^\infty e^{-xt}t^n\,dt=n!/x^{n+1}$ を各項に使うと、
+
+$$
+I(x)=\frac1x-\frac1{x^2}+\frac2{x^3}+R(x),
+\qquad |R(x)|\leq\int_0^\infty e^{-xt}t^3\,dt=\frac6{x^4}.
+$$
+
+例えば $x=10$ なら $I(10)$ は $0.092$ と近似でき、誤差は $0.0006$ 以下である。端点付近の係数から、積分の漸近展開が得られる具体例である。
+
 ## 次の記事
 
 [スターリングの公式](/articles/gamma-stirling-formula.html)

@@ -100,6 +100,21 @@ $$
 
 で分母が $0$ になる項が現れる。これは、ガンマ関数が非正整数に極を持つことと対応している。
 
+## 具体例：整数での値と調和数
+
+級数表示で $z=1$ とすると、各括弧内が $0$ なので $\psi(1)=-\gamma$ である。$z=3$ では和が望遠鏡状に消えて、
+
+$$
+\begin{aligned}
+\psi(3)
+&=-\gamma+\lim_{N\to\infty}\sum_{n=0}^N
+\left(\frac1{n+1}-\frac1{n+3}\right)\\
+&=-\gamma+1+\frac12=\frac32-\gamma.
+\end{aligned}
+$$
+
+一般に正整数 $m$ では $\psi(m)=H_{m-1}-\gamma$ となる。対数微分の値が、有限個の逆数の和で表される例である。
+
 ## 次の記事
 
 [ガンマ関数と一般化二項定理](/articles/gamma-generalized-binomial-theorem.html)

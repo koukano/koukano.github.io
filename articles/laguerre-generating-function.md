@@ -105,6 +105,21 @@ $$
 これで示された。
 <div class="proof-end">\(\square\)</div>
 
+## 具体例：α = 0 の母関数を2次まで展開する
+
+$\alpha=0$ とし、$x$ を固定する。幾何級数と指数関数の展開を掛け合わせると、
+
+$$
+\begin{aligned}
+\frac1{1-t}\exp\left(-\frac{xt}{1-t}\right)
+&=(1+t+t^2+O(t^3))\\
+&\quad\cdot\left(1-xt+\left(\frac{x^2}{2}-x\right)t^2+O(t^3)\right)\\
+&=1+(1-x)t+\left(1-2x+\frac{x^2}{2}\right)t^2+O(t^3).
+\end{aligned}
+$$
+
+したがって $L_0^0=1$、$L_1^0=1-x$、$L_2^0=1-2x+x^2/2$ である。この母関数では $t^n$ の係数がそのまま $L_n^0(x)$ になる。
+
 ## 次の記事
 
 [ゲーゲンバウアー多項式の母関数](/articles/gegenbauer-legendre-generating-functions.html)

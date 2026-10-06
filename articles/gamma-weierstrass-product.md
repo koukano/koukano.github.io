@@ -137,6 +137,17 @@ $$
 を得る。
 <div class="proof-end">\(\square\)</div>
 
+## 具体例：z = 1 で無限積を計算する
+
+$z=1$ を代入し、積を $N$ 項で打ち切る。$H_N=\sum_{k=1}^N1/k$ とおくと、
+
+$$
+e^\gamma\prod_{k=1}^N\left(1+\frac1k\right)e^{-1/k}
+=(N+1)e^{\gamma-H_N}.
+$$
+
+ここでは $\prod_{k=1}^N(k+1)/k=N+1$ と約分した。$H_N-\log N\to\gamma$ より右辺は $1$ に収束し、$1/\Gamma(1)=1$ と一致する。指数因子を除いた積は $N+1$ と発散するため、その補正の役割も分かる。
+
 ## 次の記事
 
 [ガンマ関数の関数方程式](/articles/gamma-functional-equation.html)

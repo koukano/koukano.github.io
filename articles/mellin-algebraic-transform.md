@@ -223,6 +223,23 @@ $$
 を得る。
 <div class="proof-end">\(\square\)</div>
 
+## 具体例：2次方程式の正の解を積分する
+
+$\mu=2,p=1$ の正の解は $y(x)=(\sqrt{x^2+4}-x)/2$ である。$z=1$ は収束帯 $0<\operatorname{Re}z<2$ に入るので、本文の公式は
+
+$$
+\int_0^\infty y(x)^2\,dx
+=\frac{\Gamma(1)\Gamma(1/2)}{\Gamma(5/2)}=\frac43
+$$
+
+を与える。直接にも、$x=y^{-1}-y$、$dx=-(y^{-2}+1)dy$ と置換できる。$x:0\to\infty$ に対し $y:1\to0$ なので、
+
+$$
+\int_0^\infty y(x)^2\,dx=\int_0^1(1+y^2)\,dy=\frac43.
+$$
+
+積分しているのは解 $y$ 自身ではなく、定義に従った $y^\mu=y^2$ である。
+
 ## 関連記事
 
 - [代数方程式の解の回転対称性](/articles/mellin-algebraic-equation.html)

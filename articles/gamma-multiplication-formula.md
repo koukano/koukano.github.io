@@ -101,6 +101,18 @@ $$
 
 <div class="proof-end">\(\square\)</div>
 
+## 具体例：3個のガンマ関数を1つにまとめる
+
+乗法公式で $m=3$、$z=1/3$ とおくと、
+
+$$
+\Gamma\left(\frac13\right)\Gamma\left(\frac23\right)\Gamma(1)
+=(2\pi)^{(3-1)/2}3^{1/2-1}\Gamma(1)
+=\frac{2\pi}{\sqrt3}.
+$$
+
+引数が $1/3$ ずつずれた3つの因子が、引数 $3z=1$ のガンマ関数にまとまった。$\Gamma(1)=1$ を使えば、反射公式で得られる積の値とも一致する。
+
 ## 次の記事
 
 [ルジャンドルの倍角公式](/articles/legendre-duplication-formula.html)

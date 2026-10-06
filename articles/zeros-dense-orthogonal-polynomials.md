@@ -145,6 +145,22 @@ $$
 
 この証明ではワイエルシュトラスの一様近似定理を有限区間上で用いている。そのため、直交区間が無限区間の場合には、この結論をそのまま適用することはできない。
 
+## 具体例：チェビシェフ多項式の零点が区間を埋める
+
+重み $w(x)=1/\sqrt{1-x^2}$ に対応する $T_n(x)=\cos(n\arccos x)$ の零点は
+
+$$
+x_{k,n}=\cos\frac{(2k-1)\pi}{2n},\qquad k=1,\ldots,n.
+$$
+
+任意の $x=\cos\theta\in[-1,1]$ に対し、$\theta$ に最も近い零点の角度は距離 $\pi/(2n)$ 以下にある。$|\cos u-\cos v|\leq|u-v|$ だから、
+
+$$
+\min_{1\leq k\leq n}|x-x_{k,n}|\leq\frac{\pi}{2n}\longrightarrow0.
+$$
+
+よって、どんな小さな開部分区間にも、十分大きな次数では零点が入る。ただし零点は $x$ の座標では等間隔ではなく、端点付近に密に並ぶ。
+
 ## 関連記事
 
 - [異なる次数の直交多項式の零点の分離](/articles/zeros-distribution-orthogonal-polynomials.html)

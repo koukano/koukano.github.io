@@ -77,6 +77,17 @@ $$
 
 <div class="proof-end">\(\square\)</div>
 
+## 具体例：半整数の係数をガンマ関数で計算する
+
+$p=1/2$、$n=2$ の場合を考える。本文の公式の右辺は
+
+$$
+\frac{\Gamma(5/2)}{2!\,\Gamma(1/2)}
+=\frac{3\sqrt\pi/4}{2\sqrt\pi}=\frac38.
+$$
+
+左辺も $(-1)^2\binom{-1/2}{2}=(-1/2)(-3/2)/2=3/8$ で一致する。この値は $(1+x)^{-1/2}=1-x/2+3x^2/8+\cdots$ の2次の係数に当たる。
+
 ## 次の記事
 
 [Mellin変換とMellin反転公式](/articles/mellin-transform-inversion.html)

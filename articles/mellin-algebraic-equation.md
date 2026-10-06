@@ -103,6 +103,23 @@ $$
 よって $\widetilde y$ も解である。
 <div class="proof-end">\(\square\)</div>
 
+## 具体例：2次方程式の2つの解を結びつける
+
+$\mu=2,p=1$ とすると方程式は $y^2+xy-1=0$ である。実数 $x$ に対して
+
+$$
+y_+(x)=\frac{-x+\sqrt{x^2+4}}2,
+\qquad y_-(x)=\frac{-x-\sqrt{x^2+4}}2.
+$$
+
+ここでは $\varepsilon=-1$ なので、定理の $k=1$ の変換は $-y_+(-x)$ である。実際に代入すると
+
+$$
+-y_+(-x)=-\frac{x+\sqrt{x^2+4}}2=y_-(x).
+$$
+
+この対称性は、同じ $x$ で単に解の符号を変える操作ではなく、引数も $-x$ に変える操作である。
+
 ## 次の記事
 
 [代数方程式の解のMellin変換](/articles/mellin-algebraic-transform.html)

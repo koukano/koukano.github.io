@@ -106,6 +106,24 @@ $$
 さらに分母には $z+n$ が1次で現れ、分子は $z=-n$ で正則かつ $0$ でない。したがって $z=-n$ は単純極である。
 <div class="proof-end">\(\square\)</div>
 
+## 具体例：z = −2 における留数
+
+関数方程式を3回使うと、$z=-2$ の近くで
+
+$$
+\Gamma(z)=\frac{\Gamma(z+3)}{z(z+1)(z+2)}.
+$$
+
+分子は $z=-2$ で $\Gamma(1)=1$ なので、
+
+$$
+\operatorname*{Res}_{z=-2}\Gamma(z)
+=\lim_{z\to-2}(z+2)\Gamma(z)
+=\frac{1}{(-2)(-1)}=\frac12.
+$$
+
+つまり $\Gamma(z)=1/[2(z+2)]+O(1)$ である。一般式 $(-1)^n/n!$ の $n=2$ の場合を、極を作る因子から直接確認できた。
+
 ## 次の記事
 
 [オイラーの反射公式](/articles/gamma-reflection-hankel.html)

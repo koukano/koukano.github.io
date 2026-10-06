@@ -151,6 +151,25 @@ $$
 を得る。
 <div class="proof-end">\(\square\)</div>
 
+## 具体例：B(2, 3) を2通りで計算する
+
+定義の積分を直接展開すると、
+
+$$
+B(2,3)=\int_0^1 t(1-t)^2\,dt
+=\left[\frac{t^2}{2}-\frac{2t^3}{3}+\frac{t^4}{4}\right]_0^1
+=\frac1{12}.
+$$
+
+一方、ガンマ関数との関係を用いると、
+
+$$
+\frac{\Gamma(2)\Gamma(3)}{\Gamma(5)}
+=\frac{1!\,2!}{4!}=\frac1{12}.
+$$
+
+同じ値を得るが、整数の引数では後者を階乗の計算に置き換えられる。
+
 ## 次の記事
 
 [ベータ関数のポッホハマー積分表示](/articles/beta-pochhammer-contour.html)

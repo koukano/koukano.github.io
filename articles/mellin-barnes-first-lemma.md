@@ -276,6 +276,25 @@ $$
 
 を分離するように選ぶ。スターリングの公式により縦方向の減衰を評価でき、上の変形を正当化できる範囲で補題が成立する。
 
+## 具体例：4つのパラメータをすべて1/2にする
+
+$a=b=c=d=1/2$ とし、積分路を虚軸に下から上へとる。左側の極は $-1/2,-3/2,\ldots$、右側の極は $1/2,3/2,\ldots$ なので、極を正しく分離している。補題から、
+
+$$
+\frac1{2\pi i}\int_{-i\infty}^{i\infty}
+\Gamma\left(\frac12+s\right)^2\Gamma\left(\frac12-s\right)^2\,ds
+=\frac{\Gamma(1)^4}{\Gamma(2)}=1.
+$$
+
+$s=it$ とし、反射公式を使えばガンマ関数の対の積は $\pi/\cosh(\pi t)$ になる。したがって左辺は
+
+$$
+\frac\pi2\int_{-\infty}^\infty\frac{dt}{\cosh^2(\pi t)}
+=\frac12[\tanh(\pi t)]_{-\infty}^\infty=1
+$$
+
+となり、実積分としても検算できる。
+
 ## 関連記事
 
 - [Mellin変換とMellin反転公式](/articles/mellin-transform-inversion.html)

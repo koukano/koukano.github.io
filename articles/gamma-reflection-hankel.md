@@ -124,6 +124,17 @@ $$
 \sqrt{\pi}.
 $$
 
+## 具体例：3分の1と3分の2のガンマ関数の積
+
+反射公式に $z=1/3$ を代入する。$\sin(\pi/3)=\sqrt3/2$ だから、
+
+$$
+\Gamma\left(\frac13\right)\Gamma\left(\frac23\right)
+=\frac{\pi}{\sin(\pi/3)}=\frac{2\pi}{\sqrt3}.
+$$
+
+個々の値を先に求めなくても、積はこの形に決まる。さらにベータ関数との関係から、$B(1/3,2/3)=2\pi/\sqrt3$ も得られる。
+
 ## 次の記事
 
 [ガンマ関数のハンケル型積分表示](/articles/gamma-hankel-integral.html)
