@@ -5,17 +5,22 @@ seo_title: "ポッホハマー積分とは？ベータ関数の解析接続"
 description: "ベータ関数のポッホハマー積分表示を、分岐点0・1と積分路の取り方、解析接続との関係を含めて解説します。"
 category: "gamma-function"
 category_label: "ガンマ関数"
+references:
+  - "Harry Hochstadt, <cite>The Functions of Mathematical Physics</cite>, Wiley-Interscience, 1971."
+  - 'NIST, <a href="https://dlmf.nist.gov/5.12#E12">Digital Library of Mathematical Functions: Beta Function: Pochhammer’s Integral</a>.'
 ---
 
 ベータ積分は最初、$\operatorname{Re}x>0$、$\operatorname{Re}y>0$ で定義される。分岐点 $0$ と $1$ のまわりを回るポッホハマー型積分路を使うと、複素積分による解析接続が得られる。
 
-基点 $P\in(0,1)$ をとり、そこで
+基点 $P\in(0,1)$ をとり、そこで実対数を用いた値
 
 $$
-t^{x-1}(1-t)^{y-1}>0
+t^{x-1}(1-t)^{y-1}
+=\exp\{(x-1)\log t+(y-1)\log(1-t)\}
+\qquad(0<t<1)
 $$
 
-となる主値から解析接続を始める。積分路 $C$ は、$P$ から出発して
+から解析接続を始める。$x,y$ が実数ならばこの値は正だが、一般の複素パラメータでは正値とは限らない。積分路 $C$ は、$P$ から出発して
 
 $$
 1+\;\longrightarrow\;0+\;\longrightarrow\;1-\;\longrightarrow\;0-
@@ -45,7 +50,7 @@ $$
 
 が成り立つ。
 
-したがって、
+したがって、$x,y\notin\mathbb Z$ では分母が零にならないので、
 
 $$
 B(x,y)
@@ -120,7 +125,7 @@ $$
 
 を得る。
 
-この等式を解析接続することで、ポッホハマー積分表示として一般の複素パラメータへ拡張できる。
+この等式は解析接続によって一般の複素パラメータへ拡張できる。整数パラメータでは分母が零になるため、商の式への直接代入はできない。ベータ関数が正則な点では極限を取り、極では有理型関数の恒等式として解釈する。
 <div class="proof-end">\(\square\)</div>
 
 ## 次の記事

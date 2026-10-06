@@ -5,6 +5,9 @@ seo_title: "ゲーゲンバウアー多項式の母関数｜公式と導出"
 description: "ゲーゲンバウアー多項式 C_n^λ(x) の母関数 (1-2xt+t²)^(-λ) を3項間漸化式から導きます。"
 category: "classical-orthogonal-polynomials"
 category_label: "古典的直交多項式"
+references:
+  - "Harry Hochstadt, <cite>The Functions of Mathematical Physics</cite>, Wiley-Interscience, 1971."
+  - 'NIST, <a href="https://dlmf.nist.gov/18.12#E4">Digital Library of Mathematical Functions: Generating Functions: Ultraspherical</a>.'
 ---
 
 ゲーゲンバウアー多項式の3項間漸化式から母関数を導く。
@@ -12,6 +15,8 @@ category_label: "古典的直交多項式"
 <div class="math-box theorem-box">
 
 <div class="math-box-title">定理：ゲーゲンバウアー多項式の母関数（Generating Function for Gegenbauer Polynomials）</div>
+
+$x\in[-1,1]$、$|t|<1$ とする。左辺は $t=0$ で値 $1$ をとる正則な分枝を用いる。このとき、
 
 $$
 \frac{1}{(1-2xt+t^2)^\lambda}
@@ -49,7 +54,7 @@ $$
 
 とおく。
 
-漸化式に $t^n$ を掛けて $n\geq0$ について和をとり、初期値
+$C_{-1}^\lambda=0$ と定め、漸化式に $t^n$ を掛けて $n\geq0$ について和をとり、初期値
 
 $$
 C_0^\lambda(x)=1,

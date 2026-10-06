@@ -5,6 +5,9 @@ seo_title: "Mellin変換とは？定義とMellin反転公式"
 description: "Mellin変換の定義とMellin反転公式を、ガンマ関数やMellin–Barnes積分とのつながりを含めて整理します。"
 category: "gamma-function"
 category_label: "ガンマ関数"
+references:
+  - "Harry Hochstadt, <cite>The Functions of Mathematical Physics</cite>, Wiley-Interscience, 1971."
+  - 'NIST, <a href="https://dlmf.nist.gov/2.5#i">Digital Library of Mathematical Functions: Mellin Transform Methods</a>.'
 ---
 
 Mellin変換は、正の実軸上の関数を複素変数の関数へ移す積分変換である。ガンマ関数そのものもMellin変換として現れ、Mellin–Barnes積分を考えるための基礎になる。
@@ -36,7 +39,15 @@ $$
 
 <div class="math-box-title">Mellin反転公式（Mellin Inversion Formula）</div>
 
-適切な条件のもとで、
+例えば、ある実数 $c$ に対して
+
+$$
+\int_0^\infty |f(x)|x^{c-1}\,dx<\infty,
+\qquad
+\int_{-\infty}^{\infty}|F(c+it)|\,dt<\infty
+$$
+
+が成り立つとする。このとき、$f$ の連続点 $x>0$ で、
 
 $$
 f(x)
@@ -46,7 +57,7 @@ f(x)
 F(z)x^{-z}\,dz
 $$
 
-が成り立つ。積分路は $\operatorname{Re}z=c$ という縦線である。
+が成り立つ。積分路は $\operatorname{Re}z=c$ という縦線を下から上へ進む。これは十分条件の一例であり、単にMellin変換の積分が存在することだけで反転公式が常に成り立つわけではない。
 
 </div>
 
@@ -102,11 +113,11 @@ $$
 f(e^u)e^{\sigma u}
 $$
 
-のフーリエ変換になっている。したがってフーリエ反転公式を適用し、$x=e^u$ へ戻すとMellin反転公式が得られる。
+のフーリエ変換になっている。上の十分条件では $g(u)=f(e^u)e^{cu}$ とそのフーリエ変換がともに $L^1(\mathbb R)$ に属する。したがって連続点でフーリエ反転公式を適用し、$x=e^u$ へ戻すとMellin反転公式が得られる。
 
 ## 4. ガンマ関数との関係
 
-オイラー積分
+$\operatorname{Re}z>0$ におけるオイラー積分
 
 $$
 \Gamma(z)

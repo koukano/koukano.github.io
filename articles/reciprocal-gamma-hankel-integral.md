@@ -5,6 +5,9 @@ seo_title: "逆ガンマ関数のハンケル積分表示｜1/Γ(z) の公式"
 description: "逆ガンマ関数 1/Γ(z) のハンケル積分表示を、積分路と分枝の取り方を含めて数式で整理します。"
 category: "gamma-function"
 category_label: "ガンマ関数"
+references:
+  - "Harry Hochstadt, <cite>The Functions of Mathematical Physics</cite>, Wiley-Interscience, 1971."
+  - 'NIST, <a href="https://dlmf.nist.gov/5.9#E2">Digital Library of Mathematical Functions: Gamma Function: Hankel’s Loop Integral</a>.'
 ---
 
 逆ガンマ関数 $1/\Gamma(z)$ は、ハンケル型積分によって直接表すことができる。
@@ -13,7 +16,7 @@ category_label: "ガンマ関数"
 
 <div class="math-box-title">定理：逆ガンマ関数のハンケル表示（Hankel Representation of the Reciprocal Gamma Function）</div>
 
-ハンケル型積分路 $H$ を前の記事と同じ向きにとると、
+ハンケル型積分路 $H$ は、正の実軸の下側から原点へ進み、原点を時計回りに回って上側から $+\infty$ へ戻る向きにとる。$(-s)^{-z}$ は $-\pi<\arg(-s)<\pi$ の分枝を用いる。原点を回る円の半径を正の値に固定すれば、すべての $z\in\mathbb C$ に対して、
 
 $$
 \frac1{\Gamma(z)}
@@ -29,7 +32,7 @@ $$
 
 ## 証明
 
-前の記事のハンケル型積分表示で $z$ を $1-z$ に置き換えると、
+まず $0<\operatorname{Re}z<1$ で示す。この範囲では原点の小円の半径を $0$ に近づけてもその寄与が消える。前の記事のハンケル型積分表示で $z$ を $1-z$ に置き換えると、
 
 $$
 \Gamma(1-z)
@@ -90,6 +93,8 @@ e^{-s}(-s)^{-z}\,ds
 $$
 
 を得る。
+
+一般の $z$ に対しては、小円の半径を正の値に固定する。積分路の変形によりその半径を変えても積分値は変わらず、無限遠では $e^{-s}$ が減衰するため、この積分は $z$ の整関数を定める。逆ガンマ関数も整関数なので、一致の定理によって上の等式は複素平面全体へ拡張される。各実軸部分を別々に積分してから小円の半径を $0$ にする操作は、$\operatorname{Re}z\geq1$ ではそのまま行えない。
 <div class="proof-end">\(\square\)</div>
 
 ## 次の記事

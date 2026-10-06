@@ -55,7 +55,7 @@ $$
 $y(t)$ は
 
 $$
-y(t)^\mu+t,y(t)^p-1=0
+y(t)^\mu+ty(t)^p-1=0
 $$
 
 を満たす。
@@ -95,7 +95,7 @@ $$
 \widetilde y(x)^\mu
 +x\widetilde y(x)^p-1
 =
-y(t)^\mu+t,y(t)^p-1
+y(t)^\mu+ty(t)^p-1
 =
 0.
 $$

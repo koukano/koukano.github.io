@@ -352,7 +352,7 @@ a {
     transform 0.2s;
 }
 
-.article-item:last-child {
+.article-link:last-child .article-item {
   border-bottom: none;
 }
 

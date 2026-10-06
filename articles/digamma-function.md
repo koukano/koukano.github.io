@@ -73,6 +73,8 @@ $$
 
 <div class="math-box-title">ディガンマ関数の級数表示（Series Representation of the Digamma Function）</div>
 
+$z\notin\{0,-1,-2,\ldots\}$ に対して、
+
 $$
 \psi(z)
 =

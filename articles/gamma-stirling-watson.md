@@ -30,7 +30,7 @@ I(x)
 \int_0^\infty e^{-xt}f(t)\,dt
 $$
 
-が十分大きな $x>0$ に対して収束するとする。
+について、ある $x_0>0$ で $\int_0^\infty e^{-x_0t}|f(t)|\,dt<\infty$ とする。この条件のもとで $I(x)$ はすべての $x\geq x_0$ に対して絶対収束する。
 
 このとき $x\to+\infty$ で、
 
@@ -82,7 +82,15 @@ $$
 
 と分ける。
 
-後半は $e^{-x\delta}$ を含むため、$x\to\infty$ で任意のべき $x^{-M}$ より速く減衰する。
+$x\geq x_0$ のとき、後半は
+
+$$
+\left|\int_\delta^\infty e^{-xt}f(t)\,dt\right|
+\leq e^{-(x-x_0)\delta}
+\int_\delta^\infty e^{-x_0t}|f(t)|\,dt
+$$
+
+と評価できる。したがって、$x\to\infty$ で任意のべき $x^{-M}$ より速く減衰する。
 
 前半に有限項の展開を代入すると、
 
@@ -114,7 +122,7 @@ $$
 \Gamma(n+\lambda)
 $$
 
-に収束する。
+に収束する。さらに $\int_{x\delta}^{\infty}e^{-u}u^{n+\lambda-1}\,du$ は指数的に小さくなるため、上限を $\infty$ に置き換える誤差は任意の逆べきより速く減衰する。
 
 また剰余項は $R_N(t)=o(t^{N+\lambda-1})$ を用いることで、
 

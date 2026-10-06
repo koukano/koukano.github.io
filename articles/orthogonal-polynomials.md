@@ -107,7 +107,7 @@ $$
 
 <div class="math-box-title">定義：直交（Orthogonality）</div>
 
-$0$ ではない $f,g\in V$ に対して、
+$f,g\in V$ に対して、
 
 $$
 \langle f,g\rangle=0
@@ -206,7 +206,7 @@ $$
 \langle\phi_i,\phi_j\rangle=\delta_{ij}
 $$
 
-を満たすとき、${\phi_n(x)}_{n=0}^{\infty}$ を正規直交多項式系という。
+を満たすとき、$\{\phi_n(x)\}_{n=0}^{\infty}$ を正規直交多項式系という。
 
 </div>
 
