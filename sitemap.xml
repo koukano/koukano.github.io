@@ -15,9 +15,11 @@ permalink: /sitemap.xml
 {% assign sitemap_pages = site.pages | sort: "url" %}
 {% for p in sitemap_pages %}
   {% if p.url contains "/articles/" %}
+  {% unless p.redirect_to %}
   <url>
     <loc>https://koukano.github.io{{ p.url | xml_escape }}</loc>
   </url>
+  {% endunless %}
   {% endif %}
 {% endfor %}
 </urlset>

@@ -21,17 +21,9 @@
   "hypergeometric-function": [
     "/articles/hypergeometric-differential-equation.html",
     "/articles/hypergeometric-power-series.html",
-    "/articles/hypergeometric-laurent-singularities.html",
-    "/articles/hypergeometric-regular-singular-points.html",
-    "/articles/hypergeometric-indicial-equation.html",
     "/articles/hypergeometric-frobenius-solutions.html",
-    "/articles/hypergeometric-singularity-at-infinity.html",
-    "/articles/hypergeometric-three-singularities.html",
     "/articles/hypergeometric-linear-systems.html",
-    "/articles/hypergeometric-matrix-series-solutions.html",
-    "/articles/hypergeometric-matrix-singularities.html",
-    "/articles/hypergeometric-system-elimination.html",
-    "/articles/hypergeometric-partial-fractions.html"
+    "/articles/hypergeometric-system-elimination.html"
   ],
   "differential-equations": [
     "/articles/classical-orthogonal-polynomials-differential-equations.html",

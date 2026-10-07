@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, follow">
+  {% assign destination = page.redirect_to | prepend: "https://koukano.github.io" %}
+  <link rel="canonical" href="{{ destination | split: '#' | first | escape }}">
+  <meta http-equiv="refresh" content="0; url={{ destination | escape }}">
+  <title>{{ page.title | escape }} | 複素解析 Note</title>
+</head>
+<body>
+  <main>
+    <h1>{{ page.title | escape }}</h1>
+    <p>この内容は、関連する内容とまとめた記事でお読みいただけます。</p>
+    <p><a href="{{ page.redirect_to | escape }}">記事の該当する節へ進む</a></p>
+  </main>
+</body>
+</html>
