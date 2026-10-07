@@ -18,6 +18,9 @@
     "/articles/holomorphic-mean-value-formula.html",
     "/articles/riemann-mapping-theorem-proof.html"
   ],
+  "hypergeometric-function": [
+    "/articles/hypergeometric-differential-equation.html"
+  ],
   "differential-equations": [
     "/articles/classical-orthogonal-polynomials-differential-equations.html",
     "/articles/chebyshev-cosine-representation.html",
