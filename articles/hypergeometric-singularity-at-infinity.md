@@ -9,7 +9,7 @@ references:
   - "Harry Hochstadt, <cite>The Functions of Mathematical Physics</cite>, Wiley-Interscience, 1971."
 ---
 
-2階方程式 $y''+P(x)y'+Q(x)y=0$ で $x=1/t$ と変換し、$Y(t)=y(1/t)$ と書く。ノートの変換後の方程式は
+2階方程式 $y''+P(x)y'+Q(x)y=0$ で $x=1/t$ と変換し、$Y(t)=y(1/t)$ と書く。変換後の方程式は
 
 $$
 Y''+\left(\frac2t-\frac{P(1/t)}{t^2}\right)Y'
@@ -28,7 +28,7 @@ $$
 \frac{Q(1/t)}{t^2}
 $$
 
-が正則であることである。ノートでは、これを $P(x)$ が無限遠で少なくとも1位、$Q(x)$ が少なくとも2位の零点を持つという形でも述べている。
+が正則であることである。これは、$P(x)$ が無限遠で少なくとも1位、$Q(x)$ が少なくとも2位の零点を持つという条件でも表せる。
 
 </div>
 
@@ -39,5 +39,3 @@ $$
 [3つの確定特異点とフックスの関係式 →](/articles/hypergeometric-three-singularities.html)
 
 [全体の目次](/articles/hypergeometric-differential-equation.html)
-
-出典ノート：『超幾何方程式.pdf』3ページ。

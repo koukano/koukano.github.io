@@ -9,7 +9,7 @@ references:
   - "Harry Hochstadt, <cite>The Functions of Mathematical Physics</cite>, Wiley-Interscience, 1971."
 ---
 
-ノートの第4-2節では、前節の方法を2階微分方程式に適用する。$X=(y,u)^{\mathsf T}$、係数行列を
+線形系から2階微分方程式を導いてみよう。$X=(y,u)^{\mathsf T}$、係数行列を
 
 $$
 A(z)=\begin{pmatrix}a(z)&b(z)\\c(z)&d(z)\end{pmatrix}
@@ -23,7 +23,7 @@ zy'=ay+bu,
 zu'=cy+du.
 $$
 
-第1式から $u$ を消去する。ノートでは、$b(z)\neq0$ として
+第1式から $u$ を消去する。$b(z)\neq0$ として
 
 $$
 u=\frac{zy'-ay}{b}
@@ -55,7 +55,7 @@ y''+\frac{\mathcal P(z)}z y'
 +\frac{\mathcal Q(z)}{z^2}y=0,
 $$
 
-ただし、ノートの係数をまとめる記号を $\mathcal P,\mathcal Q$ として、
+ただし、係数をまとめる記号を $\mathcal P,\mathcal Q$ として、
 
 $$
 \mathcal P(z)=\frac{b-ab-zb'-bd}{b},
@@ -74,5 +74,3 @@ $$
 [部分分数と無限遠の条件：係数の相殺に注意 →](/articles/hypergeometric-partial-fractions.html)
 
 [全体の目次](/articles/hypergeometric-differential-equation.html)
-
-出典ノート：『超幾何方程式.pdf』8〜9（バツの範囲を除外）ページ。

@@ -2,7 +2,7 @@
 layout: article
 title: "線形系の無限遠点と3つの特異点の変換"
 seo_title: "線形系の無限遠点と3つの特異点の変換｜超幾何関数"
-description: "線形系のz=1/tによる変換と、0・1・aから0・1・∞への1次分数変換をノートに沿って整理します。"
+description: "線形系のz=1/tによる変換と、0・1・aから0・1・∞への1次分数変換を整理します。"
 category: "hypergeometric-function"
 category_label: "超幾何関数"
 references:
@@ -19,7 +19,7 @@ $$
 \frac{dX}{dt}=-\frac1t A(1/t)X.
 $$
 
-ノートでは、$z=0$ のほかに $z=\infty$ も確定特異点となる場合を調べ、$A$ が定数行列となる形を述べている。
+$z=0$ のほかに $z=\infty$ も確定特異点となる場合を調べよう。ここでは、$A$ が定数行列となる形を考える。
 
 </div>
 
@@ -31,7 +31,7 @@ $$
 \frac{dX}{dz}=\frac{A(z)}{z(z-1)(z-a)}X
 $$
 
-と書く。無限遠が確定特異点でない場合について、ノートでは
+と書く。無限遠が確定特異点でない場合には、
 
 $$
 A(z)=A_0+A_1z
@@ -52,5 +52,3 @@ $$
 [2成分の線形系から2階微分方程式を導く →](/articles/hypergeometric-system-elimination.html)
 
 [全体の目次](/articles/hypergeometric-differential-equation.html)
-
-出典ノート：『超幾何方程式.pdf』6〜7ページ。

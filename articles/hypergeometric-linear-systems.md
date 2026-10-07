@@ -13,7 +13,7 @@ references:
 
 <div class="math-box-title">定義：確定特異点を持つ線形系（Linear System）</div>
 
-ノートの第4-1節では、行列による方程式
+行列による方程式
 
 $$
 \frac{dX}{dz}=\frac1z A(z)X
@@ -26,7 +26,7 @@ A(z)=\sum_{k=0}^{\infty}A_kz^k
 =A_0+A_1z+A_2z^2+\cdots
 $$
 
-と展開する。ノートでは、特異点が消えないように $A_0\neq0$ と仮定している。
+と展開する。特異点が消えないように $A_0\neq0$ と仮定している。
 
 </div>
 
@@ -59,5 +59,3 @@ $\mu+k$ が $A_0$ の固有値でなければ、$((\mu+k)I-A_0)$ は逆行列を
 [線形系の級数解と係数ベクトルの漸化式 →](/articles/hypergeometric-matrix-series-solutions.html)
 
 [全体の目次](/articles/hypergeometric-differential-equation.html)
-
-出典ノート：『超幾何方程式.pdf』5〜6ページ。

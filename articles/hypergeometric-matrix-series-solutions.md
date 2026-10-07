@@ -58,7 +58,7 @@ $$
 X_1=((\mu+1)I-A_0)^{-1}A_1X_0.
 $$
 
-同様に、各 $k\geq1$ についてこの条件が成り立つ場合、$X_k$ を順に求めることができる。ノートでは、この係数決定に続いて級数の収束領域を検討している。
+同様に、各 $k\geq1$ についてこの条件が成り立つ場合、$X_k$ を順に求めることができる。
 
 ## 続けて読む
 
@@ -67,5 +67,3 @@ $$
 [線形系の無限遠点と3つの特異点の変換 →](/articles/hypergeometric-matrix-singularities.html)
 
 [全体の目次](/articles/hypergeometric-differential-equation.html)
-
-出典ノート：『超幾何方程式.pdf』5〜6ページ。

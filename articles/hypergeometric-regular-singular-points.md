@@ -14,7 +14,7 @@ references:
 
 <div class="math-box-title">定義：確定特異点（Regular Singular Point）</div>
 
-ノートでは、2階線形微分方程式
+2階線形微分方程式
 
 $$
 y''+P(x)y'+Q(x)y=0
@@ -26,8 +26,6 @@ $$
 
 有限の確定特異点の近傍では、変数を平行移動して $c=0$ とする。無限遠点を調べる場合は $x=1/t$ と変換する。
 
-判定条件の表現は、参考文献の NIST DLMF §2.7(i) と照合している。
-
 ## 続けて読む
 
 [← ローラン展開と特異点：極・留数・真性特異点](/articles/hypergeometric-laurent-singularities.html)
@@ -35,5 +33,3 @@ $$
 [特性方程式と特性指数の導出 →](/articles/hypergeometric-indicial-equation.html)
 
 [全体の目次](/articles/hypergeometric-differential-equation.html)
-
-出典ノート：『超幾何方程式.pdf』1〜2ページ。

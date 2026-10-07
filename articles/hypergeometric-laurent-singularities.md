@@ -53,5 +53,3 @@ $$
 [2階線形微分方程式の確定特異点 →](/articles/hypergeometric-regular-singular-points.html)
 
 [全体の目次](/articles/hypergeometric-differential-equation.html)
-
-出典ノート：『超幾何方程式.pdf』1ページ。

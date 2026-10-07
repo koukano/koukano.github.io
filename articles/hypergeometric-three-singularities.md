@@ -9,7 +9,7 @@ references:
   - "Harry Hochstadt, <cite>The Functions of Mathematical Physics</cite>, Wiley-Interscience, 1971."
 ---
 
-ノートでは、3つの確定特異点を1次分数変換で $0,1,\infty$ に移す。
+3つの確定特異点を1次分数変換で $0,1,\infty$ に移す。
 
 2階方程式を
 
@@ -23,7 +23,7 @@ $$
 
 <div class="math-box-title">命題：0・1・∞を扱う2階方程式の係数</div>
 
-ノートに記載された係数の形を、定数の記号を分けて書けば、
+係数の形を、定数の記号を分けて書けば、
 
 $$
 P(x)=\frac{ax+b}{x(1-x)},
@@ -37,7 +37,7 @@ $$
 
 <div class="math-box-title">定理：フックスの関係式（Fuchs Relation）</div>
 
-ノートに記載されたフックスの定理は、上の型の方程式について、$0,1,\infty$ における特性指数の総和が $1$ になるというものである。
+上の型の方程式では、$0,1,\infty$ における特性指数の総和が $1$ になる。
 
 </div>
 
@@ -48,5 +48,3 @@ $$
 [確定特異点を持つ線形系と固有値 →](/articles/hypergeometric-linear-systems.html)
 
 [全体の目次](/articles/hypergeometric-differential-equation.html)
-
-出典ノート：『超幾何方程式.pdf』4ページ。

@@ -18,7 +18,7 @@ Q(x)&=q_{-2}x^{-2}+q_{-1}x^{-1}+q_0+\cdots
 \end{aligned}
 $$
 
-と展開し、$y=x^{\alpha}u$ とおく。ノートの微分計算を整理すると、
+と展開し、$y=x^{\alpha}u$ とおく。微分すると、
 
 $$
 \begin{aligned}
@@ -45,7 +45,7 @@ $$
 \alpha(\alpha-1)+p_{-1}\alpha+q_{-2}=0.
 $$
 
-これを特性方程式とし、その根を**特性指数**という。2つの根を $\alpha,\beta$ と書けば、ノートの解と係数の関係は
+これを特性方程式とし、その根を**特性指数**という。2つの根を $\alpha,\beta$ と書けば、根と係数の関係から
 
 $$
 \alpha+\beta=1-p_{-1}
@@ -62,5 +62,3 @@ $$
 [フロベニウス法：漸化式・整数差・対数解 →](/articles/hypergeometric-frobenius-solutions.html)
 
 [全体の目次](/articles/hypergeometric-differential-equation.html)
-
-出典ノート：『超幾何方程式.pdf』2〜3ページ。
