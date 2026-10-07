@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+{% assign identity = site.data.academic %}
+{% assign page_description = page.description | default: identity.description %}
+{% capture page_title %}{% unless page.home %}{{ page.title }} | {% endunless %}{{ identity.name }}{% endcapture %}
+{% assign canonical_url = identity.url | append: page.url %}
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page_title | strip | escape }}</title>
+  <meta name="description" content="{{ page_description | escape }}">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="{{ canonical_url | escape }}">
+  <link rel="stylesheet" href="/css/academic.css?v=20261008">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:site_name" content="{{ identity.name | escape }}">
+  <meta property="og:title" content="{{ page_title | strip | escape }}">
+  <meta property="og:description" content="{{ page_description | escape }}">
+  <meta property="og:url" content="{{ canonical_url | escape }}">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{{ page_title | strip | escape }}">
+  <meta name="twitter:description" content="{{ page_description | escape }}">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "{{ identity.url }}/#website",
+    "name": {{ identity.name | jsonify }},
+    "url": {{ identity.url | append: "/" | jsonify }},
+    "inLanguage": "ja",
+    "description": {{ identity.description | jsonify }}
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">本文へ移動</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="wordmark" href="/" lang="en">{{ identity.name | escape }}</a>
+      <nav class="main-nav" aria-label="メインナビゲーション">
+        <a href="/"{% if page.home %} aria-current="page"{% endif %}>Home</a>
+        <a href="/about/"{% if page.url == '/about/' %} aria-current="page"{% endif %}>About</a>
+        <a href="/#mathematics">Mathematics</a>
+        <a href="/#philosophy">Philosophy</a>
+        <a href="/#articles">Articles</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main-content" tabindex="-1">
+    {{ content }}
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p class="footer-name" lang="en">{{ identity.name | escape }}</p>
+        <p class="footer-note">数学と哲学を中心に、学びと考察を記録する。</p>
+      </div>
+      <nav class="footer-nav" aria-label="フッターナビゲーション">
+        <a href="/">Home</a>
+        <a href="/about/">About</a>
+        <a href="/#mathematics">Mathematics</a>
+        <a href="/#philosophy">Philosophy</a>
+        <a href="{{ identity.github | escape }}">GitHub</a>
+      </nav>
+      <p class="copyright">© {{ site.time | date: "%Y" }} {{ identity.name | escape }}</p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,3 +1,4 @@
 # 作業指示は公開サイトのコンテンツに含めない。
 exclude:
   - AGENTS.md
+  - MAINTENANCE.md

@@ -1,0 +1,107 @@
+/* Top page and About only. Existing mathematical pages retain style.css. */
+:root { --ink: #243449; --navy: #173b6c; --muted: #526176; --line: #dce3eb; --paper: #f6f8fb; }
+* { box-sizing: border-box; }
+html { scroll-padding-top: 2rem; }
+body { margin: 0; background: #fff; color: var(--ink); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif; font-size: 16px; line-height: 1.9; }
+a { color: var(--navy); text-decoration-thickness: 1px; text-underline-offset: .25em; }
+a:hover { text-decoration: underline; }
+a:focus-visible, summary:focus-visible { outline: 3px solid #326bb0; outline-offset: 5px; border-radius: 2px; }
+p { margin: 0 0 1.2rem; }
+h1, h2, h3 { color: var(--navy); line-height: 1.5; font-weight: 600; }
+h2 { margin: 0 0 .7rem; font-size: clamp(1.5rem, 2.6vw, 2rem); }
+h3 { margin: 0 0 .9rem; font-size: 1.15rem; }
+.container { width: min(1120px, calc(100% - 80px)); margin-inline: auto; }
+.skip-link { position: absolute; top: 8px; left: 16px; z-index: 10; padding: 8px 16px; background: #fff; transform: translateY(-180%); }
+.skip-link:focus { transform: translateY(0); }
+.site-header { border-bottom: 1px solid var(--line); }
+.header-inner { display: flex; align-items: center; justify-content: space-between; gap: 24px; min-height: 92px; padding-block: 15px; }
+.wordmark { font-family: Georgia, "Times New Roman", serif; font-size: 1.28rem; font-weight: 600; line-height: 1.4; text-decoration: none; }
+.main-nav { display: flex; flex-wrap: wrap; gap: 4px 22px; }
+.main-nav a { display: inline-flex; align-items: center; min-height: 44px; font-size: .88rem; text-decoration: none; }
+.main-nav a[aria-current="page"] { text-decoration: underline; }
+.hero { padding: 100px 0 94px; max-width: 1000px; }
+.eyebrow { margin: 0 0 13px; color: var(--navy); font-size: .75rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; }
+.hero h1 { margin: 0 0 27px; font-family: Georgia, "Times New Roman", serif; font-size: clamp(2.7rem, 5.5vw, 4.75rem); letter-spacing: -.035em; line-height: 1.14; font-weight: 400; }
+.hero-catch { font-family: "Yu Mincho", "Hiragino Mincho ProN", Georgia, serif; font-size: clamp(1.2rem, 2.6vw, 1.7rem); line-height: 1.8; color: var(--navy); margin-bottom: 23px; }
+.hero-intro { color: var(--muted); max-width: 780px; font-size: .98rem; }
+.hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 20px 30px; margin-top: 34px; }
+.button { display: inline-flex; align-items: center; justify-content: center; gap: 24px; background: var(--navy); color: #fff; padding: 13px 24px; border: 1px solid var(--navy); border-radius: 3px; text-decoration: none; font-size: .9rem; }
+.button:hover { background: #102e54; }
+.text-link { display: inline-flex; align-items: center; gap: 12px; min-height: 44px; font-size: .88rem; font-weight: 600; text-decoration: none; }
+.section { position: relative; padding: 68px 0 76px; border-top: 1px solid var(--line); }
+.section-heading { margin-bottom: 30px; }
+.section-heading > p:last-child { color: var(--muted); font-size: .94rem; margin-bottom: 0; }
+.section-heading-row { display: flex; align-items: end; justify-content: space-between; gap: 20px; }
+.about-section { display: grid; grid-template-columns: 1fr 2fr; gap: 60px; }
+.about-copy { max-width: 680px; }
+.about-copy p { font-size: .98rem; }
+.anchor-alias { position: absolute; top: 0; }
+.subject-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; }
+.subject-card { padding: 27px 26px; border: 1px solid var(--line); border-top: 2px solid var(--navy); border-radius: 3px; }
+.subject-number { color: var(--muted); font-size: .68rem; letter-spacing: .03em; }
+.subject-card h3 a { text-decoration: none; }
+.subject-card p:not(.subject-number) { color: var(--muted); font-size: .9rem; }
+.subject-links { margin: 0; padding: 0; list-style: none; }
+.subject-links a { display: flex; justify-content: space-between; align-items: center; min-height: 44px; font-size: .88rem; text-decoration: none; border-bottom: 1px solid var(--line); }
+.subject-pending { border-top-color: var(--line); }
+.status { color: var(--muted); font-size: .8rem; }
+.philosophy-section { display: grid; grid-template-columns: 1fr 2fr; gap: 60px; }
+.philosophy-empty { background: var(--paper); border-left: 2px solid var(--navy); padding: 28px 32px; }
+.philosophy-empty p { font-size: .94rem; }
+.interest-list { display: flex; flex-wrap: wrap; gap: 6px 20px; list-style: none; padding: 0; margin: 0; color: var(--muted); font-size: .83rem; }
+.philosophy-section .article-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.article-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 30px; }
+.article-card { min-width: 0; padding-top: 20px; border-top: 1px solid var(--line); }
+.article-meta { display: flex; flex-wrap: wrap; gap: 2px 14px; color: var(--muted); font-size: .72rem; margin-bottom: 12px; }
+.article-card h3 { font-size: 1.03rem; line-height: 1.8; overflow-wrap: anywhere; }
+.article-card h3 a { text-decoration: none; }
+.article-card p { color: var(--muted); font-size: .87rem; }
+.small-note { color: var(--muted); font-size: .75rem; margin: 30px 0 0; }
+.archive-list { border-top: 1px solid var(--line); }
+.archive-group { border-bottom: 1px solid var(--line); }
+.archive-group summary { cursor: pointer; padding: 17px 10px; color: var(--navy); font-size: .96rem; }
+.archive-count { color: var(--muted); margin-left: 15px; font-size: .78rem; }
+.archive-group ul { margin: 0 0 24px; padding-left: 34px; }
+.archive-group li { padding: 6px 0; font-size: .9rem; }
+.archive-group a { display: inline-block; padding-block: 4px; }
+.site-footer { background: var(--paper); border-top: 1px solid var(--line); padding: 40px 0 28px; }
+.footer-inner { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px 30px; }
+.footer-name { font-family: Georgia, "Times New Roman", serif; color: var(--navy); font-size: 1.15rem; margin: 0 0 8px; }
+.footer-note, .copyright { font-size: .75rem; color: var(--muted); margin-bottom: 0; }
+.footer-nav { display: flex; flex-wrap: wrap; gap: 5px 22px; align-items: start; }
+.footer-nav a { font-size: .8rem; min-height: 44px; display: inline-flex; align-items: center; text-decoration: none; }
+.copyright { flex-basis: 100%; }
+.mobile-break { display: none; }
+.profile-page { max-width: 800px; padding-block: 70px 80px; }
+.profile-page h1 { font-size: 2.2rem; margin: 0 0 20px; }
+.profile-lead { color: var(--muted); font-family: "Yu Mincho", Georgia, serif; font-size: 1.2rem; }
+.profile-section { margin-top: 40px; padding-top: 30px; border-top: 1px solid var(--line); }
+.profile-section h2 { font-size: 1.4rem; }
+@media (max-width: 1000px) {
+  .header-inner { flex-direction: column; align-items: flex-start; gap: 10px; padding-block: 20px 10px; }
+  .subject-grid, .article-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .about-section, .philosophy-section { grid-template-columns: 1fr 2fr; gap: 30px; }
+}
+@media (max-width: 640px) {
+  .container { width: calc(100% - 40px); }
+  .header-inner { gap: 8px; padding-block: 18px 8px; }
+  .wordmark { font-size: 1.12rem; }
+  .main-nav { width: 100%; gap: 0 16px; }
+  .main-nav a { font-size: .77rem; }
+  .hero { padding: 57px 0 52px; }
+  .hero h1 { font-size: clamp(2.35rem, 10vw, 3.3rem); margin-bottom: 23px; }
+  .hero-catch { font-size: 1.17rem; }
+  .hero-intro { font-size: .9rem; }
+  .hero-actions { gap: 12px 20px; }
+  .section { padding: 44px 0 48px; }
+  .about-section, .philosophy-section { display: block; }
+  .subject-grid, .article-grid, .philosophy-section .article-grid { grid-template-columns: 1fr; gap: 20px; }
+  .subject-card { padding: 23px; }
+  .philosophy-empty { padding: 22px; }
+  .section-heading-row { align-items: flex-start; flex-direction: column; gap: 5px; }
+  .footer-inner { flex-direction: column; }
+  .footer-nav { gap: 3px 18px; }
+  .mobile-break { display: inline; }
+  .desktop-break { display: none; }
+  .profile-page { padding-block: 45px 55px; }
+}

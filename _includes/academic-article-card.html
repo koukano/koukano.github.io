@@ -1,0 +1,15 @@
+{% assign article = include.article %}
+{% assign article_date = article.last_modified_at | default: article.updated | default: article.date | default: site.data.article_updates[article.url] %}
+<article class="article-card">
+  <div class="article-meta">
+    <span>{{ article.category_label | default: article.category | default: "記事" | escape }}</span>
+    {% if article_date %}
+    <span>{% if article.last_modified_at or article.updated or site.data.article_updates[article.url] %}更新{% else %}公開{% endif %}
+      <time datetime="{{ article_date | date: '%Y-%m-%d' }}">{{ article_date | date: "%Y.%m.%d" }}</time>
+    </span>
+    {% endif %}
+  </div>
+  <h3><a href="{{ article.url | relative_url }}">{{ article.title | escape }}</a></h3>
+  {% if article.description %}<p>{{ article.description | escape }}</p>{% endif %}
+  <a class="text-link" href="{{ article.url | relative_url }}" aria-label="{{ article.title | escape }}を読む">記事を読む <span aria-hidden="true">→</span></a>
+</article>
