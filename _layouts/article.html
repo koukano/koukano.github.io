@@ -98,7 +98,7 @@
   {% endif %}
 
   <!-- CSS -->
-  <link rel="stylesheet" href="/css/style.css?v=dccd335ce569">
+  <link rel="stylesheet" href="/css/style.css?v=6ff5b1dc42f4">
 
 
   <!-- ==============================
@@ -216,7 +216,7 @@
 
       <!-- 記事本文 -->
 
-      <div class="article-body">
+      <div class="article-body{% if page.category == 'hypergeometric-function' %} hypergeometric-body{% endif %}">
 
         {{ content }}
 
