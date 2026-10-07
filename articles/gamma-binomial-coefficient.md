@@ -11,7 +11,7 @@ category_label: "ガンマ関数"
 
 <div class="math-box-title">定理：ガンマ関数による二項係数（Binomial Coefficients in Terms of the Gamma Function）</div>
 
-$p\notin\{0,-1,-2,\ldots\}$ とし、$n=0,1,2,\ldots$ とする。このとき、
+$p\notin\lbrace 0,-1,-2,\ldots\rbrace $ とし、$n=0,1,2,\ldots$ とする。このとき、
 
 $$
 (-1)^n
@@ -86,7 +86,13 @@ $$
 =\frac{3\sqrt\pi/4}{2\sqrt\pi}=\frac38.
 $$
 
-左辺も $(-1)^2\binom{-1/2}{2}=(-1/2)(-3/2)/2=3/8$ で一致する。この値は $(1+x)^{-1/2}=1-x/2+3x^2/8+\cdots$ の2次の係数に当たる。
+左辺も
+
+$$
+(-1)^2\binom{-1/2}{2}=\frac{(-1/2)(-3/2)}{2}=\frac38
+$$
+
+で一致する。この値は $(1+x)^{-1/2}=1-x/2+3x^2/8+\cdots$ の2次の係数に当たる。
 
 ## 次の記事
 

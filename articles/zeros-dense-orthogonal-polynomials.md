@@ -153,7 +153,7 @@ $$
 x_{k,n}=\cos\frac{(2k-1)\pi}{2n},\qquad k=1,\ldots,n.
 $$
 
-任意の $x=\cos\theta\in[-1,1]$ に対し、$\theta$ に最も近い零点の角度は距離 $\pi/(2n)$ 以下にある。$|\cos u-\cos v|\leq|u-v|$ だから、
+任意の $x=\cos\theta\in[-1,1]$ に対し、$\theta$ に最も近い零点の角度は距離 $\pi/(2n)$ 以下にある。$\vert \cos u-\cos v\vert \leq\vert u-v\vert $ だから、
 
 $$
 \min_{1\leq k\leq n}|x-x_{k,n}|\leq\frac{\pi}{2n}\longrightarrow0.

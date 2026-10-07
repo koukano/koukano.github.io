@@ -11,7 +11,7 @@ category_label: "ガンマ関数"
 
 <div class="math-box-title">定理：ルジャンドルの倍角公式（Legendre's Duplication Formula）</div>
 
-$2z\notin\{0,-1,-2,\ldots\}$ のとき、
+$2z\notin\lbrace 0,-1,-2,\ldots\rbrace $ のとき、
 
 $$
 \Gamma(z)

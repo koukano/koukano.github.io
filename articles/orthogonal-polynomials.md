@@ -206,7 +206,7 @@ $$
 \langle\phi_i,\phi_j\rangle=\delta_{ij}
 $$
 
-を満たすとき、$\{\phi_n(x)\}_{n=0}^{\infty}$ を正規直交多項式系という。
+を満たすとき、$\lbrace \phi_n(x)\rbrace _{n=0}^{\infty}$ を正規直交多項式系という。
 
 </div>
 

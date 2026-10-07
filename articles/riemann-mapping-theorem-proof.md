@@ -296,7 +296,7 @@ $$
 0<d<\infty.
 $$
 
-上限の定義から、$\mathcal{H}$ の関数列 $\{h_n\}$ で
+上限の定義から、$\mathcal{H}$ の関数列 $\lbrace h_n\rbrace $ で
 
 $$
 h_n'(a)\longrightarrow d
@@ -603,13 +603,19 @@ $$
 
 ## 具体例：上半平面を単位円板へ写す
 
-$D=\{z:\operatorname{Im}z>0\}$ に対して、
+$D=\lbrace z:\operatorname{Im}z>0\rbrace $ に対して、
 
 $$
 w(z)=\frac{z-i}{z+i}
 $$
 
-を考える。分母の零点 $-i$ は領域外で、$|z+i|^2-|z-i|^2=4\operatorname{Im}z>0$ だから $|w(z)|<1$ である。逆写像は $z=i(1+w)/(1-w)$ で、$|w|<1$ なら
+を考える。分母の零点 $-i$ は領域外で、
+
+$$
+\vert z+i\vert ^2-\vert z-i\vert ^2=4\operatorname{Im}z>0
+$$
+
+だから $\vert w(z)\vert <1$ である。逆写像は $z=i(1+w)/(1-w)$ で、$\vert w\vert <1$ なら
 
 $$
 \operatorname{Im}z=\frac{1-|w|^2}{|1-w|^2}>0.

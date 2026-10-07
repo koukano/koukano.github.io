@@ -1130,3 +1130,39 @@ button.topic-card {
   overflow-wrap: anywhere;
 }
 .breadcrumbs li + li::before { content: "/"; margin-right: 12px; color: #64748b; }
+
+/* キーボード操作とページ内リンク */
+:focus-visible {
+  outline: 3px solid #1d4f91;
+  outline-offset: 3px;
+}
+.skip-link {
+  position: fixed;
+  top: 8px;
+  left: 8px;
+  z-index: 200;
+  padding: 10px 16px;
+  background: #ffffff;
+  color: #173b6c;
+  transform: translateY(-150%);
+}
+.skip-link:focus { transform: translateY(0); }
+main:focus { outline: none; }
+section[id], .article-body [id] { scroll-margin-top: 84px; }
+.article-link { display: block; }
+.article-link:focus-visible { outline-offset: -3px; }
+.article-item > div:first-child { min-width: 0; }
+.article-header h1, .article-item h3, .math-box-title {
+  overflow-wrap: anywhere;
+}
+.nav a { display: inline-block; padding: 8px 0; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { transition: none !important; }
+}
+
+@media (max-width: 480px) {
+  .logo { font-size: 1.05rem; }
+  .nav { gap: 8px; }
+}

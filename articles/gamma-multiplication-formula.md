@@ -11,7 +11,7 @@ category_label: "ガンマ関数"
 
 <div class="math-box-title">定理：ガウスの乗法公式（Gauss's Multiplication Formula）</div>
 
-正整数 $m$ に対して、$mz\notin\{0,-1,-2,\ldots\}$ のとき、
+正整数 $m$ に対して、$mz\notin\lbrace 0,-1,-2,\ldots\rbrace $ のとき、
 
 $$
 \prod_{k=0}^{m-1}
