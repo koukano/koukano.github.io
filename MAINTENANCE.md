@@ -1,11 +1,14 @@
 # 個人学術サイトのトップページ運用
 
 - サイト名・説明・GitHub URLは `_data/academic.json` で変更する。
-- トップページとAboutだけが `_layouts/academic.html` と `css/academic.css` を使用する。
+- トップページ、About、哲学・心理学の一覧と記事が `_layouts/academic.html` と `css/academic.css` を使用する。読書記事は、親レイアウトをacademicとする `_layouts/reading.html` を使用する。
 - 既存数学記事・分野別一覧は、従来のレイアウト・CSS・数式表示・URLを維持する。
 - 数学記事は削除・移動せず、従来どおり `articles/*.md` に追加する。
 - トップページの「記事を探す」は記事のMarkdownメタデータからビルド時に自動生成する。転送用ページは除外する。
-- 哲学記事を `articles/` に追加する場合は `category: philosophy`、`category_label: 哲学` を指定する。哲学本文には `layout: academic` を使用できる（数学用レイアウトの参考文献を流用しない）。本文の先頭にh1で記事名を置く。
+- 哲学・心理学記事は `articles/` に追加し、`category: philosophy`、`category_label: 哲学・心理学` を指定する。心理学記事には `subject: psychology`、`subject_label: 心理学` を追加する。subjectがない既存のphilosophy記事は哲学に分類され、本文・URLは維持される。
+- 読書記事には `layout: reading`、`article: true` を指定する。h1・パンくずはレイアウトが出力するため、本文はh2から始める。参考文献はMarkdown本文に記載する。`book_author` は書籍著者の表示であり、Web記事のauthorとして扱わない。
+- `/philosophy/` とトップページの哲学・心理学欄は `_includes/philosophy-article-groups.html` で自動生成する。`/#philosophy` の既存アンカーは維持する。
+- 現在の個人サイト名はNoetica。名称・説明・キャッチコピーは `_data/academic.json` に集約する。「複素解析 Note」の名称・数学用レイアウトは変更しない。
 - 記事には `title`、`description`、`category`、`category_label` を記載する。
 - 新規記事には実際の公開日 `date: YYYY-MM-DD` を記載する。更新時は実際の更新日 `last_modified_at: YYYY-MM-DD` を更新する。これだけで「最近公開・更新した記事」に反映される。
 - 日付の優先順位は `last_modified_at` → `updated` → `date` → `_data/article_updates.json`。

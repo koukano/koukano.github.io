@@ -1,0 +1,18 @@
+---
+layout: academic
+title: 哲学・心理学
+description: "Noeticaの哲学・心理学の記事一覧。哲学の思想・概念と心理学の理論を、読書を通じて体系的に学ぶ。"
+permalink: /philosophy/
+---
+{% assign philosophy_articles = site.pages | where: "category", "philosophy" | where_exp: "p", "p.redirect_to == nil" | sort: "title" %}
+<div class="container profile-page reading-index">
+  <nav class="reading-breadcrumbs" aria-label="パンくずリスト">
+    <ol><li><a href="/">{{ site.data.academic.name | escape }}</a></li><li aria-current="page">哲学・心理学</li></ol>
+  </nav>
+  <p class="eyebrow" lang="en">Philosophy · Psychology</p>
+  <h1>哲学・心理学</h1>
+  <p class="profile-lead">書籍を読み、理論を学び、考えるための記事。</p>
+  <h2 class="reading-index-title">分野別の記事一覧</h2>
+  {% include philosophy-article-groups.html articles=philosophy_articles %}
+  <a class="text-link" href="/#philosophy">← Homeの哲学・心理学へ</a>
+</div>

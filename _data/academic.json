@@ -1,6 +1,7 @@
 {
-  "name": "Personal Academic Notes",
-  "description": "青山学院大学大学院で数学を学ぶ個人の学術Webサイト。複素解析・特殊関数・微分方程式の数学ノートと、哲学・心理学の読書や考察を記録します。",
+  "name": "Noetica",
+  "description": "数学・哲学・心理学を中心に、学んだ知識や思索を体系的に記録する個人サイト。",
   "url": "https://koukano.github.io",
-  "github": "https://github.com/koukano"
+  "github": "https://github.com/koukano",
+  "catchphrase": "知ることから、考えることへ。"
 }

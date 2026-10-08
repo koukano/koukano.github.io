@@ -8,10 +8,10 @@ home: true
 {% assign recent_articles = ranked_articles | split: ";;" | sort | reverse %}
 <div class="container">
   <section class="hero" aria-labelledby="home-title">
-    <p class="eyebrow" lang="en">Mathematics · Philosophy · Reading</p>
+    <p class="eyebrow" lang="en">Mathematics · Philosophy · Psychology</p>
     <h1 id="home-title" lang="en">{{ site.data.academic.name | escape }}</h1>
-    <p class="hero-catch">数学と哲学を中心に、<br class="mobile-break">学びと考察を記録する。</p>
-    <p class="hero-intro">大学院で学ぶ数学、哲学や心理学の読書、そこから生まれる問い。<br class="desktop-break">知識を整理し、理解を深めていくための個人の学術ノートです。</p>
+    <p class="hero-catch">{{ site.data.academic.catchphrase | escape }}</p>
+    <p class="hero-intro">{{ site.data.academic.description | escape }}</p>
     <div class="hero-actions">
       <a class="button" href="#mathematics">数学のノートを読む <span aria-hidden="true">→</span></a>
       <a class="text-link" href="#about">運営者について <span aria-hidden="true">↓</span></a>
@@ -78,23 +78,15 @@ home: true
 
   <section id="philosophy" class="section philosophy-section" aria-labelledby="philosophy-title">
     <div class="section-heading">
-      <p class="eyebrow" lang="en">Philosophy</p>
-      <h2 id="philosophy-title">哲学の読書と考察</h2>
+      <p class="eyebrow" lang="en">Philosophy · Psychology</p>
+      <h2 id="philosophy-title"><a href="/philosophy/">哲学・心理学</a></h2>
       <p>書籍を読み、思想に触れ、自分の言葉で考える。</p>
     </div>
     {% assign philosophy_articles = academic_articles | where: "category", "philosophy" %}
-    {% if philosophy_articles.size > 0 %}
-    <div class="article-grid">
-      {% for article in philosophy_articles %}{% include academic-article-card.html article=article %}{% endfor %}
+    <div class="philosophy-groups">
+      {% include philosophy-article-groups.html articles=philosophy_articles %}
+      <a class="text-link" href="/philosophy/">哲学・心理学の記事一覧 <span aria-hidden="true">→</span></a>
     </div>
-    {% else %}
-    <div class="philosophy-empty">
-      <p>哲学の記事は、これから少しずつ掲載していく予定です。哲学者の思想や書籍の解説、哲学的概念、読書を通じた自分自身の考察を扱います。</p>
-      <ul class="interest-list" aria-label="今後扱う予定のテーマ">
-        <li>哲学者の思想</li><li>哲学書の解説</li><li>哲学的概念</li><li>自分自身の考察</li>
-      </ul>
-    </div>
-    {% endif %}
   </section>
 
   <section id="recent-articles" class="section" aria-labelledby="recent-title">
@@ -125,7 +117,7 @@ home: true
     <div class="archive-list">
       {% for category in article_categories %}
       <details class="archive-group">
-        <summary>{{ category.name | default: "記事" | escape }} <span class="archive-count">{{ category.items.size }}記事</span></summary>
+        <summary>{% if category.name == "哲学" %}哲学・心理学{% else %}{{ category.name | default: "記事" | escape }}{% endif %} <span class="archive-count">{{ category.items.size }}記事</span></summary>
         <ul>
           {% for article in category.items %}
           <li><a href="{{ article.url | relative_url }}">{{ article.title | escape }}</a></li>

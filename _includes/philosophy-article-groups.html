@@ -1,0 +1,22 @@
+{% assign philosophy_items = include.articles | where_exp: "p", "p.subject != 'psychology'" %}
+{% assign psychology_items = include.articles | where: "subject", "psychology" %}
+<section class="reading-subgroup" aria-labelledby="philosophy-group-title">
+  <h3 id="philosophy-group-title">哲学</h3>
+  {% if philosophy_items.size > 0 %}
+  <div class="article-grid">
+    {% for article in philosophy_items %}{% include academic-article-card.html article=article subgroup=true %}{% endfor %}
+  </div>
+  {% else %}
+  <p class="small-note">哲学の記事は今後掲載予定である。</p>
+  {% endif %}
+</section>
+<section class="reading-subgroup" aria-labelledby="psychology-group-title">
+  <h3 id="psychology-group-title">心理学</h3>
+  {% if psychology_items.size > 0 %}
+  <div class="article-grid">
+    {% for article in psychology_items %}{% include academic-article-card.html article=article subgroup=true %}{% endfor %}
+  </div>
+  {% else %}
+  <p class="small-note">心理学の記事は今後掲載予定である。</p>
+  {% endif %}
+</section>

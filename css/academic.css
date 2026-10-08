@@ -105,3 +105,44 @@ h3 { margin: 0 0 .9rem; font-size: 1.15rem; }
   .desktop-break { display: none; }
   .profile-page { padding-block: 45px 55px; }
 }
+
+/* Reading pages share the personal site's colors and typography. */
+.section-heading h2 a { text-decoration: none; }
+.reading-subgroup { margin-bottom: 30px; }
+.reading-subgroup > h3 { margin-bottom: 18px; }
+.reading-subgroup .small-note { margin-top: 0; }
+.article-card h4 { color: var(--navy); font-size: 1.03rem; font-weight: 600; line-height: 1.8; margin: 0 0 .9rem; overflow-wrap: anywhere; }
+.article-card h4 a { text-decoration: none; }
+.reading-page { max-width: 880px; padding-block: 45px 75px; }
+.reading-breadcrumbs { color: var(--muted); font-size: .78rem; margin-bottom: 30px; }
+.reading-breadcrumbs ol { display: flex; flex-wrap: wrap; gap: 5px 12px; padding: 0; margin: 0; list-style: none; }
+.reading-breadcrumbs li { overflow-wrap: anywhere; }
+.reading-breadcrumbs li + li::before { content: "/"; margin-right: 12px; color: var(--muted); }
+.reading-header { border-bottom: 1px solid var(--line); padding-bottom: 28px; margin-bottom: 35px; }
+.reading-header h1 { font-family: "Yu Mincho", Georgia, serif; font-size: clamp(1.6rem, 3.2vw, 2.35rem); margin: 0 0 20px; overflow-wrap: anywhere; }
+.reading-meta { font-size: .85rem; color: var(--muted); margin-bottom: .35rem; }
+.reading-body { line-height: 2; overflow-wrap: anywhere; }
+.reading-body h2 { margin: 65px 0 25px; border-left: 4px solid var(--navy); padding-left: 16px; font-size: 1.65rem; }
+.reading-body h3 { margin: 48px 0 22px; font-size: 1.3rem; }
+.reading-body h4 { margin: 30px 0 16px; color: var(--navy); font-size: 1.05rem; }
+.reading-body p { margin-bottom: 24px; }
+.reading-body li { margin-bottom: 8px; }
+.reading-body strong { color: var(--navy); }
+.reading-toc, .reading-note, .reading-body blockquote { background: var(--paper); border-left: 3px solid var(--navy); padding: 22px 26px; margin: 28px 0; border-radius: 3px; }
+.reading-toc p, .reading-note p, .reading-body blockquote p { margin-bottom: 0; }
+.reading-toc ol { margin: 14px 0 0; padding-left: 24px; }
+.reading-toc ul { padding-left: 20px; margin-top: 10px; }
+.reading-note { font-size: .88rem; color: var(--muted); }
+.reading-body table { width: 100%; table-layout: fixed; border-collapse: collapse; margin: 28px 0; font-size: .9rem; }
+.reading-body th, .reading-body td { text-align: left; border: 1px solid var(--line); padding: 12px 14px; vertical-align: top; overflow-wrap: anywhere; }
+.reading-body th { background: var(--paper); color: var(--navy); }
+.reading-index-title { margin-top: 40px; font-size: 1.3rem; }
+.reading-index .article-grid { grid-template-columns: 1fr; }
+@media (max-width: 640px) {
+  .reading-page { padding-block: 30px 45px; }
+  .reading-header { margin-bottom: 25px; }
+  .reading-body h2 { font-size: 1.35rem; margin-top: 45px; padding-left: 12px; }
+  .reading-body h3 { font-size: 1.15rem; margin-top: 35px; }
+  .reading-toc, .reading-note, .reading-body blockquote { padding: 18px; }
+  .reading-body th, .reading-body td { padding: 9px 7px; font-size: .8rem; }
+}

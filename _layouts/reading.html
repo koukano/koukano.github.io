@@ -1,0 +1,22 @@
+---
+layout: academic
+---
+<div class="container reading-page">
+  <nav class="reading-breadcrumbs" aria-label="パンくずリスト">
+    <ol>
+      <li><a href="/">{{ site.data.academic.name | escape }}</a></li>
+      <li><a href="/philosophy/">哲学・心理学</a></li>
+      <li aria-current="page">{{ page.title | escape }}</li>
+    </ol>
+  </nav>
+  <article>
+    <header class="reading-header">
+      <p class="eyebrow">{{ page.subject_label | default: "哲学" | escape }}</p>
+      <h1>{{ page.title | escape }}</h1>
+      {% if page.book_author %}<p class="reading-meta">書籍著者：{{ page.book_author | escape }}</p>{% endif %}
+      <p class="reading-meta">公開日：<time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%Y年%m月%d日" }}</time></p>
+    </header>
+    <div class="reading-body">{{ content }}</div>
+  </article>
+  <a class="text-link" href="/philosophy/">← 哲学・心理学の記事一覧へ</a>
+</div>
