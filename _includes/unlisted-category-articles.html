@@ -1,0 +1,19 @@
+{% assign category_articles = site.pages | where: "category", include.category | sort: "title" %}
+{% for article in category_articles %}
+  {% if article.url contains "/articles/" %}
+    {% unless article.redirect_to %}
+      {% unless page.content contains article.url %}
+        <a href="{{ article.url | relative_url | escape }}" class="article-link">
+          <div class="article-item">
+            <div>
+              <span class="article-category">{{ article.category_label | escape }}</span>
+              <h3>{{ article.title | escape }}</h3>
+              {% if article.description %}<p>{{ article.description | escape }}</p>{% endif %}
+            </div>
+            <span class="article-arrow" aria-hidden="true">→</span>
+          </div>
+        </a>
+      {% endunless %}
+    {% endunless %}
+  {% endif %}
+{% endfor %}
